@@ -1,0 +1,82 @@
+{
+    "has_precipitation": false,
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 0,
+        "sky_color": 0,
+        "foliage_color": 3193611,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:white_ash"
+            },
+            "probability": 0.006
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:canyon",
+            "minecraft:cave_extra_underground",
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [
+            "moon:biome_blending/white",
+            "moon:stone_scatter/calcite",
+            "moon:stone_scatter/trim/diorite"
+        ],
+        [],
+        [
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [],
+        [],
+        [
+            "moon:surface_details/trees/birch",
+            "moon:surface_details/vegetation/dead_coral/few",
+            "moon:surface_details/vegetation/side_coral_fans/all",
+            "moon:surface_details/rock/iron"
+        ],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:stray",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 2
+            },
+            {
+                "type": "minecraft:skeleton",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            },
+            {
+                "type": "minecraft:silverfish",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 3
+            }
+        ]
+    },
+    "spawn_costs": {}
+}

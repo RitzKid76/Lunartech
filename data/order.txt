@@ -1,0 +1,158 @@
+[Start the world]
+
+
+
+get wood
+
+make wood tools
+
+get cobblestone
+
+make cobblestone tools
+
+get coal and iron
+
+make furnace
+
+cook iron
+
+get iron pickaxe
+
+get food
+
+get extra wood
+
+go mining
+
+get copper, redstone, gold, and lapis
+
+make a basic house
+
+cook ores
+
+make basic food farm
+
+get more wood
+
+make animal pen
+
+go exploring
+
+get sugar cane
+
+kill wild animals
+
+get more wood
+
+expand base
+
+big mining trip
+
+get lots of iron, few diamonds, cobbled deepslate
+
+cook ores
+
+[make industrial crafter] - (cauldron, copper block)
+
+go exploring
+
+mine clay, gravel, and sand
+
+make bricks and glass
+
+[craft coal generator] - (furnace, 8 brick blocks)
+
+get lots of wood
+
+feed coal generator
+
+[craft coke oven bricks] - (X sand, X clay balls, X cobbled deepslate)
+
+[craft coke oven] - (smoker, 64 coke oven bricks)
+
+start making coal coke
+
+go mining for coal and iron
+
+cook ores
+
+go exploring for lava
+
+make nether portal
+
+save some lava buckets
+
+[craft molten forge] - (X ?)
+
+[craft steel in molten forge] - (X coal coke, X iron ingots)
+
+[craft metal press] - (X ?)
+
+[craft steel sheets in metal press] - (steel ingot, fuel)
+
+[craft automation upgrade] - (X steel sheets, 1 hopper, X ?)
+
+automate some of the machines into a chest
+
+
+
+- Checkpoint -
+
+full iron armor
+full iron tools
+diamond pickaxe
+nether access
+small animal pen
+growing food
+growing sugar cane
+32 logs
+128 dirt
+64 cobblestone
+32 cobbled deepslate
+32 sand
+32 clay balls
+16 iron
+64 coal
+32 redstone
+16 lapis
+16 copper
+4 gold
+1 diamond
+
+
+
+go mining for copper and iron
+
+cook ores
+
+[craft pump jack] - (X ?)
+
+start getting crude oil
+
+[craft refinery] - (X ?)
+
+refine oil into plastic and rubber
+
+start grind for rocket
+
+grind for coal
+
+refine lots of crude oil
+
+make rocket fuel, plastic, and rubber
+
+[craft launch pad] - (X ?)
+
+[craft rocket teir 1] - (X ?)
+
+start getting ready for moon expedition
+
+[craft air compressor] - (X ?)
+
+start filling up air canisters
+
+[craft space suit] - (X ?)
+
+pack everything in inventory
+
+go to da moon

@@ -1,0 +1,37 @@
+{
+    "feature": "mars:surface_details/trees/gray_mushroom",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 1
+        },
+        {
+            "type": "minecraft:noise_threshold_count",
+            "noise_level": -0.8,
+            "below_noise": 5,
+            "above_noise": 10
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "block_predicate_filter",
+            "predicate": {
+                "type": "matching_blocks",
+                "offset": [
+                    0,
+                    -1,
+                    0
+                ],
+                "blocks": "#mars:martian_soil"
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

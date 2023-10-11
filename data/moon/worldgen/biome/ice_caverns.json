@@ -1,0 +1,97 @@
+{
+    "has_precipitation": false,
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 5599613,
+        "sky_color": 5599613,
+        "foliage_color": 3193611,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:white_ash"
+            },
+            "probability": 0.02
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:canyon",
+            "minecraft:cave_extra_underground",
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [
+            "moon:surface_details/mineral_pool"
+        ],
+        [            
+            "moon:surface_details/cave_ice_spikes/base"
+        ],
+        [
+            "moon:stone_scatter/trim/mud",
+            "moon:stone_scatter/trim/mud_lava_border",
+            "moon:stone_scatter/trim/black_coal"
+        ],
+        [],
+        [
+            "moon:surface_details/cave_ice_spikes/ice_replace",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [
+            "moon:stone_type/basalt",
+            "moon:surface_details/cave_ice_spikes/ice_replace",
+            "moon:surface_details/patch/obsidian_lava"
+        ],
+        [],
+        [
+            "moon:surface_details/lights/blue",
+            "moon:surface_details/cave_ice_spikes/blue_ice",
+            "moon:surface_details/cave_ice_spikes/icicle",
+            "moon:surface_details/cave_ice_spikes/ice_lights"
+        ],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:stray",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 2
+            },
+            {
+                "type": "minecraft:skeleton",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            },
+            {
+                "type": "minecraft:creeper",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            },
+            {
+                "type": "minecraft:zombie",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 2
+            }
+        ]
+    },
+    "spawn_costs": {}
+}

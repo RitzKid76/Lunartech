@@ -1,0 +1,16 @@
+{
+  "feature": "moon:surface_details/vegetation/side_coral_fans/east",
+  "placement": [
+      {
+          "type": "count",
+          "count": 10
+      },
+      {
+          "type": "minecraft:in_square"
+      },
+      {
+          "type": "heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+      }
+  ]
+}

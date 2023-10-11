@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "nbt": "{SelectedItem:{tag:{has_fuel:1}}}"
+          }
+        }
+      }
+    },
+    "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+      "function": "items:triggers/holding/has_fuel"
+    }
+  }

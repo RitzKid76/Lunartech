@@ -1,0 +1,107 @@
+{
+    "feature": "moon:surface_details/trees/magenta_mushroom/thick",
+    "placement": [
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:noise_threshold_count",
+            "noise_level": -0.8,
+            "below_noise": 5,
+            "above_noise": 10
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "block_predicate_filter",
+            "predicate": {
+                "type": "all_of",
+                "predicates": [
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": "#moon:lunar_soil"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "blocks": "#lunartech:air"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            1,
+                            0,
+                            1
+                        ],
+                        "blocks": "#lunartech:air"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "blocks": "#lunartech:air"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            -1,
+                            0,
+                            1
+                        ],
+                        "blocks": "#lunartech:air"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            -1,
+                            0,
+                            0
+                        ],
+                        "blocks": "#lunartech:air"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            -1,
+                            0,
+                            -1
+                        ],
+                        "blocks": "#lunartech:air"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "blocks": "#lunartech:air"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            1,
+                            0,
+                            -1
+                        ],
+                        "blocks": "#lunartech:air"
+                    }
+                ]
+            }
+        }
+    ]
+}

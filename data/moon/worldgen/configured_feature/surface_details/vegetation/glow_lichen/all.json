@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "moon:surface_details/vegetation/glow_lichen/north",
+                "chance": 0.25
+            },
+            {
+                "feature": "moon:surface_details/vegetation/glow_lichen/east",
+                "chance": 0.25
+            },
+            {
+                "feature": "moon:surface_details/vegetation/glow_lichen/south",
+                "chance": 0.25
+            },
+            {
+                "feature": "moon:surface_details/vegetation/glow_lichen/west",
+                "chance": 0.25
+            }
+        ],
+        "default": "lunartech:none"
+    }
+}

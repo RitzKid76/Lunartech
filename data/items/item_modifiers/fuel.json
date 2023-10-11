@@ -1,0 +1,41 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        [
+          {
+            "nbt":"SelectedItem.tag.default_name",
+            "entity":"@s",
+            "color": "#FFFFFF",
+            "italic": false
+          },
+          {
+            "text": " - ",
+            "color": "#FFFFFF",
+            "italic": false
+          },
+          {
+            "nbt": "fuel",
+            "storage": "items:modifiers",
+            "color": "#FFFFFF",
+            "italic": false
+          }
+        ]
+      ]
+    },
+    {
+        "function":"copy_nbt",
+        "source":{
+            "type":"storage",
+            "source":"items:modifiers"
+        },
+        "ops":[
+            {
+                "source":"fuel",
+                "target":"fuel",
+                "op":"replace"
+            }
+        ]
+    }
+]

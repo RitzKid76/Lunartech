@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Moon Rock\",\"color\":\"#B5ADA8\",\"italic\":false}'},CustomModelData:10000001,moon_rock:1,float:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Moon Casing\",\"color\":\"#827C78\",\"italic\":false}'},CustomModelData:10000072,moon_casing:1,float:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+        "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "data": {
+                        "Name": "minecraft:light",
+                        "Properties": {
+                            "level": "15"
+                        }
+                    },
+                    "weight": 1
+                },
+                {
+                    "data": {
+                        "Name": "minecraft:light",
+                        "Properties": {
+                            "level": "12"
+                        }
+                    },
+                    "weight": 1
+                },
+                {
+                    "data": {
+                        "Name": "minecraft:light",
+                        "Properties": {
+                            "level": "9"
+                        }
+                    },
+                    "weight": 1
+                },
+                {
+                    "data": {
+                        "Name": "minecraft:light",
+                        "Properties": {
+                            "level": "6"
+                        }
+                    },
+                    "weight": 1
+                }
+            ]
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#lunartech:air"
+            }
+        }
+    ]
+}

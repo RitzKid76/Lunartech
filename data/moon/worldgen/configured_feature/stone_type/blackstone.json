@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "targets": [
+            {
+                "target": {
+                    "tag": "moon:generation/stone_type_can_replace",
+                    "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                    "Name": "minecraft:blackstone"
+                }
+            }
+        ],
+        "size": 64,
+        "discard_chance_on_air_exposure": 0
+    }
+}

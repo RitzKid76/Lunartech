@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "tries": 40,
+        "xz_spread": 7,
+        "y_spread": 1,
+        "feature": {
+            "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                    "offset": [
+                        0,
+                        -1,
+                        0
+                    ],
+                    "to_place": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                            {
+                                "data": {
+                                    "Name": "minecraft:stone"
+                                },
+                                "weight": 2
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:cobblestone"
+                                },
+                                "weight": 2
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:tuff"
+                                },
+                                "weight": 2
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:andesite"
+                                },
+                                "weight": 3
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:coal_ore"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": "#moon:lunar_surface"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

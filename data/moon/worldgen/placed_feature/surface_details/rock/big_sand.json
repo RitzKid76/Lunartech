@@ -1,0 +1,107 @@
+{
+    "feature": "moon:surface_details/rock/big_sand",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 3
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "absolute": 40
+                },
+                "max_inclusive": {
+                    "absolute": 128
+                }
+            }
+        },
+        {
+            "type": "block_predicate_filter",
+            "predicate": {
+                "type": "all_of",
+                "predicates": [
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            0,
+                            4,
+                            0
+                        ],
+                        "blocks": "#lunartech:air"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            0,
+                            1,
+                            0
+                        ],
+                        "blocks": "#moon:lunar_surface"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": "#moon:lunar_surface"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            0,
+                            -3,
+                            0
+                        ],
+                        "blocks": "#moon:lunar_surface"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            3,
+                            0,
+                            0
+                        ],
+                        "blocks": "#moon:lunar_surface"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            -3,
+                            0,
+                            0
+                        ],
+                        "blocks": "#moon:lunar_surface"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            0,
+                            0,
+                            3
+                        ],
+                        "blocks": "#moon:lunar_surface"
+                    },
+                    {
+                        "type": "matching_blocks",
+                        "offset": [
+                            0,
+                            0,
+                            -3
+                        ],
+                        "blocks": "#moon:lunar_surface"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_concrete_powder",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Gray Lunar Dust\",\"color\":\"#FFFFFF\",\"italic\":false}'},gray_lunar_dust:1,float:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "moon:moon"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_concrete_powder",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition":"minecraft:inverted",
+              "term":{
+                "condition":"minecraft:location_check",
+                "predicate": {
+                  "dimension": "moon:moon"
+                }
+              }
+            } 
+          ]
+        }
+      ]
+    }
+  ]
+}

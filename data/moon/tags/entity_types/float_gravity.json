@@ -1,0 +1,22 @@
+{
+    "values":[
+        "minecraft:item",
+        "minecraft:tnt",
+        "minecraft:snowball",
+        "minecraft:ender_pearl",
+        "minecraft:egg",
+        "minecraft:experience_bottle",
+        "minecraft:falling_block",
+        "minecraft:potion",
+        "minecraft:trident",
+        "minecraft:experience_orb",
+        "minecraft:minecart",
+        "minecraft:chest_minecart",
+        "minecraft:furnace_minecart",
+        "minecraft:tnt_minecart",
+        "minecraft:hopper_minecart",
+        "minecraft:spawner_minecart",
+        "minecraft:command_block_minecart",
+        "minecraft:boat"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "has_precipitation": false,
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 0,
+        "sky_color": 0,
+        "foliage_color": 3193611,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:warped_spore"
+            },
+            "probability": 0.02
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:canyon",
+            "minecraft:cave_extra_underground",
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [
+            "moon:biome_blending/light_gray",
+            "moon:stone_scatter/trim/andesite"
+        ],
+        [],
+        [
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [],
+        [
+            "moon:surface_details/patch/clay"
+        ],
+        [
+            "moon:surface_details/vegetation/dead_coral/many",
+            "moon:surface_details/trees/blue_mushroom/all",
+            "moon:surface_details/rock/lapis",
+            "moon:surface_details/vegetation/side_coral_fans/all",
+            "moon:surface_details/vegetation/glow_lichen/all"
+        ],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:spider",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            },
+            {
+                "type": "minecraft:cave_spider",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            },
+            {
+                "type": "minecraft:creeper",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            }
+        ]
+    },
+    "spawn_costs": {}
+}

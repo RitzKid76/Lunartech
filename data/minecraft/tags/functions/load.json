@@ -1,0 +1,11 @@
+{
+    "values": [
+        "extras:init",
+        "items:init",
+        "moon:init",
+        "mars:init",
+        "rocket:init",
+        "machines:init",
+        "lunartech:init"
+    ]
+}

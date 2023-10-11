@@ -1,0 +1,27 @@
+{
+  "feature": "moon:surface_details/patch/obsidian_lava",
+  "placement": [
+    {
+      "count": 256,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "uniform",
+        "max_inclusive": {
+          "absolute": -54
+        },
+        "min_inclusive": {
+          "absolute": -64
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

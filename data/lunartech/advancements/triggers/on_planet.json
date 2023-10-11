@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "entity": "this",
+                        "condition": "minecraft:reference",
+                        "name": "lunartech:on_planet"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+        "function": "lunartech:triggers/on_planet"
+    }
+}

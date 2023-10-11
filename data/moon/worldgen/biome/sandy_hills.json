@@ -1,0 +1,72 @@
+{
+    "has_precipitation": false,
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 0,
+        "sky_color": 0,
+        "foliage_color": 3193611,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:white_ash"
+            },
+            "probability": 0.01
+        }
+    },
+    "carvers": {
+        "air": []
+    },
+    "features": [
+        [],
+        [],
+        [
+            "moon:surface_details/rock/big_sand"
+        ],
+        [],
+        [
+            "moon:biome_blending/white",
+            "moon:stone_scatter/trim/sandstone",
+            "moon:stone_scatter/quartz"
+        ],
+        [],
+        [
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [],
+        [],
+        [
+            "moon:surface_details/vegetation/dead_coral/few",
+            "moon:surface_details/vegetation/dead_bush/many"
+        ],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:husk",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 2
+            },
+            {
+                "type": "minecraft:skeleton",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            }
+        ]
+    },
+    "spawn_costs": {}
+}

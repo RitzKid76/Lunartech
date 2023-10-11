@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{bottle_of_kerosene:1}"
+          }
+        }
+      }
+    },
+    "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+      "function": "items:triggers/custom_foods/bottle_of_kerosene"
+    }
+  }

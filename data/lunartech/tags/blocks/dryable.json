@@ -1,0 +1,30 @@
+{
+    "values":[
+        "#minecraft:saplings",
+        "#minecraft:flowers",
+        "#minecraft:leaves",
+        "#minecraft:crops",
+        "minecraft:cactus",
+        "minecraft:sugar_cane",
+        "minecraft:sea_pickle",
+        "minecraft:crimson_fungus",
+        "minecraft:warped_fungus",
+        "minecraft:bamboo",
+        "minecraft:bamboo_sapling",
+        "minecraft:big_dripleaf",
+        "minecraft:small_dripleaf",
+        "minecraft:cocoa",
+        "minecraft:nether_wart",
+        "minecraft:moss_carpet",
+        "minecraft:fire",
+        "minecraft:spore_blossom",
+        "minecraft:grass",
+        "minecraft:fern", 
+        "minecraft:vine",
+        "minecraft:sunflower",
+        "minecraft:tall_grass",
+        "minecraft:large_fern",
+        "minecraft:sweet_berry_bush",
+        "minecraft:water"
+    ]
+}

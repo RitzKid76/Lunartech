@@ -1,0 +1,62 @@
+{
+    "has_precipitation": false,
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 0,
+        "sky_color": 0,
+        "foliage_color": 3193611,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:ash"
+            },
+            "probability": 0.01
+        }
+    },
+    "carvers": {
+        "air": []
+    },
+    "features": [
+        [],
+        [],
+        [
+            "moon:surface_details/rock/big_basalt"
+        ],
+        [],
+        [
+            "moon:biome_blending/gray",
+            "moon:stone_scatter/trim/basalt"
+        ],
+        [],
+        [
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [],
+        [],
+        [],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:zombie",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            }
+        ]
+    },
+    "spawn_costs": {}
+}

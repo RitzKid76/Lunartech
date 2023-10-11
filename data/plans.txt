@@ -1,0 +1,77 @@
+lunartech
+    worldgen changes ?
+    
+machines
+    quarry
+        upgrades
+    biosphere
+        base orange sphere
+        regulates climate
+        upgrages
+            size
+                base 9
+                each aditional -> +5
+            gravity
+                purple sphere
+                returns everything to overworld gravity
+            radiation
+                pink sphere
+                takes shield which takes lead
+            oxygen
+                blue sphere
+                takes air canister
+            automatic oxygen production
+                can hold up to 512 oxygen cells
+                made with saplings, iron, and glass
+        protects against meteors
+    power system
+        leads as cables
+        solar panels
+    generator
+        water condenser/recycler updrade (consumes 10% of water instead)
+        requires some form of fuel unit input to run
+    pulverizer
+        can convert ice into cubes more efficiently                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+    nuclear reactor
+        creates radiation (green radiation bubble like oxegenator?)
+            random tick like dry in all dimensions inside radius
+        far more efficient than standard generator
+        water condenser/recycler updrade (consumes 10% of water instead)
+        temperature monitor
+            blows up when temps are too high (large fireball explosion)
+            can take ice to drop temp below water cooling threshold
+
+mars
+    worldgen
+        needs enough materials to be able to play pack from planet
+    gameplay
+        too hot
+            insulated space suit
+        radiation
+            lead radiation protection lining
+        
+moon
+    worldgen
+        needs enough materials to be able to play pack from planet
+    gameplay
+        too cold
+            insulated suit
+    
+
+rocket
+    tiers
+        worst
+            blows up in atmosphere after flying away from you for one way trip
+    parachutes
+        player and cockpit
+
+items
+    magnet
+    motor
+    gear
+    ice cubes
+        10 ice cubes -> 1 air canister (5m)
+        blue ice -> 9 ice cubes
+        packed ice -> 1 ice cube
+
+gas vents ?

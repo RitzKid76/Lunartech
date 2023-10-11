@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "moon:surface_details/trees/magenta_mushroom/thick",
+                "chance": 0.33
+            },
+            {
+                "feature": "moon:surface_details/trees/magenta_mushroom/branch",
+                "chance": 0.33
+            },
+            {
+                "feature": "moon:surface_details/trees/magenta_mushroom/straight",
+                "chance": 0.33
+            }
+        ],
+        "default": "lunartech:none"
+    }
+}

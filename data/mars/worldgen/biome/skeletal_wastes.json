@@ -1,0 +1,67 @@
+{
+    "has_precipitation": false,
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 12235163,
+        "sky_color": 12235163,
+        "foliage_color": 3193611,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:falling_dust",
+                "value": {
+                    "Name": "minecraft:sand"
+                }
+            },
+            "probability": 0.01
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:canyon",
+            "minecraft:cave_extra_underground",
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [
+            "mars:biome_blending/sand",
+            "mars:stone_scatter/trim/soul_sand",
+            "mars:stone_scatter/sandstone"
+        ],
+        [],
+        [
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [],
+        [],
+        [
+            "mars:surface_details/vegetation/dead_bush/few",
+            "mars:surface_details/trees/bone",
+            "mars:surface_details/skulls",
+            "mars:surface_details/vegetation/side_coral_fans/north",
+            "mars:surface_details/vegetation/side_coral_fans/east",
+            "mars:surface_details/vegetation/side_coral_fans/south",
+            "mars:surface_details/vegetation/side_coral_fans/west" 
+        ],
+        []
+    ],
+    "spawners": {},
+    "spawn_costs": {}
+}

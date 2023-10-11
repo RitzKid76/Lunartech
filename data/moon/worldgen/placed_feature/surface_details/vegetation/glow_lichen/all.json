@@ -1,0 +1,9 @@
+{
+    "feature": "moon:surface_details/vegetation/glow_lichen/all",
+    "placement": [
+        {
+            "type": "count",
+            "count": 10
+        }
+    ]
+}

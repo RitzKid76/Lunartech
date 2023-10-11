@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{apple_pie:1}"
+          }
+        }
+      }
+    },
+    "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+      "function": "items:triggers/custom_foods/apple_pie"
+    }
+  }

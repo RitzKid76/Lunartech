@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+        "ignore_vines": true,
+        "force_dirt": true,
+        "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:netherrack"
+            }
+        },
+        "minimum_size": {
+            "middle_size": 4,
+            "upper_size": 5,
+            "limit": 4,
+            "upper_limit": 6,
+            "lower_size": 3,
+            "type": "minecraft:three_layers_feature_size"
+        },
+        "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:crimson_hyphae"
+            }
+        },
+        "trunk_placer": {
+            "base_height": 5,
+            "height_rand_a": 1,
+            "height_rand_b": 3,
+            "type": "minecraft:forking_trunk_placer"
+        },
+        "foliage_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:red_glazed_terracotta"
+            }
+        },
+        "foliage_placer": {
+            "type": "minecraft:fancy_foliage_placer",
+            "radius": 2,
+            "offset": 3,
+            "height": 3
+        },
+        "decorators": [
+            {
+                "type": "minecraft:attached_to_leaves",
+                "probability": 1,
+                "exclusion_radius_xz": 1,
+                "exclusion_radius_y": 1,
+                "required_empty_blocks": 1,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:weeping_vines",
+                        "Properties": {
+                            "age": "25"
+                        }
+                    }
+                },
+                "directions": [
+                    "down"
+                ]
+            }
+        ]
+    }
+}

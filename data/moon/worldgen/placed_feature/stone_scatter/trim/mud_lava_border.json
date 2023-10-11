@@ -1,0 +1,33 @@
+{
+    "feature": "moon:stone_scatter/trim/mud_lava_border",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 200
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "absolute": -55
+            }
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:obsidian"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

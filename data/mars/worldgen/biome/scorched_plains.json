@@ -1,0 +1,68 @@
+{
+    "has_precipitation": false,
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 11033686,
+        "sky_color": 11033686,
+        "foliage_color": 3193611,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:falling_dust",
+                "value": {
+                    "Name": "minecraft:red_concrete_powder"
+                }
+            },
+            "probability": 0.01
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:canyon",
+            "minecraft:cave_extra_underground",
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [
+            "mars:surface_details/lava_geode"
+        ],
+        [],
+        [
+            "mars:biome_blending/red",
+            "mars:stone_scatter/trim/red_nether",
+            "mars:stone_scatter/nether"
+        ],
+        [],
+        [
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [],
+        [
+            "mars:surface_details/patch/magma"
+        ],
+        [
+            "mars:surface_details/rock/redstone",
+            "mars:surface_details/vegetation/dead_bush/few",
+            "mars:surface_details/trees/lava_mushroom",
+            "mars:surface_details/vegetation/crimson_roots"
+        ],
+        []
+    ],
+    "spawners": {},
+    "spawn_costs": {}
+}

@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_concrete_powder",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Light Mineral Dust\",\"color\":\"#FFFFFF\",\"italic\":false}'},light_mineral_dust:1,float:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_concrete_powder",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition":"minecraft:inverted",
+              "term":{
+                "condition":"minecraft:reference",
+                "name": "lunartech:on_planet"
+              }
+            } 
+          ]
+        }
+      ]
+    }
+  ]
+}

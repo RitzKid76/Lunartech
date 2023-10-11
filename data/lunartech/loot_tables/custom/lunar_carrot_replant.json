@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Lunar Carrot\",\"color\":\"#CC960E\",\"italic\":false}',Lore:['{\"text\":\"2 Hunger Points\",\"color\":\"#A0A0A0\",\"italic\":false}','{\"text\":\"Night Vision - 0:30\",\"color\":\"#6877A0\",\"italic\":false}']},CustomModelData:10000001,float:1,lunar_carrot:1,LoreSlot:2}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Lunar Carrot Seeds\",\"color\":\"#AF9D83\",\"italic\":false}',Lore:['{\"text\":\"Must be planted on lunar soil!\",\"color\":\"#A0A0A0\",\"italic\":false}']},CustomModelData:10000019,lunar_carrot_seeds:1,float:1,EntityTag:{id:\"minecraft:armor_stand\",Invisible:1b,Tags:[\"spawn\",\"spawnlunarcarrot\"]}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

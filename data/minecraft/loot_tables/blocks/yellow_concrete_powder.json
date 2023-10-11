@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_concrete_powder",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Yellow Martian Dust\",\"color\":\"#FFFFFF\",\"italic\":false}'},yellow_martian_dust:1,float:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "mars:mars"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_concrete_powder",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition":"minecraft:inverted",
+              "term":{
+                "condition":"minecraft:location_check",
+                "predicate": {
+                  "dimension": "mars:mars"
+                }
+              }
+            } 
+          ]
+        }
+      ]
+    }
+  ]
+}

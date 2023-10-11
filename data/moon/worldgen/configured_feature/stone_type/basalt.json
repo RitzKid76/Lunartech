@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "targets": [
+            {
+                "target": {
+                    "tag": "moon:generation/cave_biome_can_replace",
+                    "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                    "Name": "minecraft:smooth_basalt"
+                }
+            }
+        ],
+        "size": 64,
+        "discard_chance_on_air_exposure": 0
+    }
+}

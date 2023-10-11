@@ -1,0 +1,22 @@
+{
+    "values":[
+        "#moon:lunar_soil",
+        "minecraft:stone",
+        "minecraft:cobblestone",
+        "minecraft:calcite",
+        "minecraft:black_concrete",
+        "minecraft:blackstone",
+        "minecraft:smooth_basalt",
+        "minecraft:cobbled_deepslate",
+        "minecraft:tuff",
+        "minecraft:andesite",
+        "minecraft:light_gray_concrete",
+        "minecraft:diorite",
+        "minecraft:dripstone_block",
+        "minecraft:smooth_quartz",
+        "minecraft:smooth_sandstone",
+        "minecraft:deepslate",
+        "minecraft:deepslate_coal_ore",
+        "minecraft:mud"
+    ]
+  }

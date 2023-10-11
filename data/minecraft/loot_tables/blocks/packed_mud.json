@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:packed_mud",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Martian Clay\",\"color\":\"#FFFFFF\",\"italic\":false}'},martian_clay:1,float:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "mars:mars"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:packed_mud",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition":"minecraft:inverted",
+              "term":{
+                "condition":"minecraft:location_check",
+                "predicate": {
+                  "dimension": "mars:mars"
+                }
+              }
+            } 
+          ]
+        }
+      ]
+    }
+  ]
+}

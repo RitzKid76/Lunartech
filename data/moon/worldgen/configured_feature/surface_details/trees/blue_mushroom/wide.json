@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": true,
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:light_gray_concrete_powder"
+      }
+    },
+    "minimum_size": {
+      "middle_size": 1,
+      "upper_size": 2,
+      "limit": 1,
+      "upper_limit": 1,
+      "lower_size": 0,
+      "type": "minecraft:three_layers_feature_size"
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:mushroom_stem"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:bending_trunk_placer",
+      "bend_length": 4,
+      "base_height": 8,
+      "height_rand_a": 1,
+      "height_rand_b": 4,
+      "min_height_for_leaves": 10
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:light_blue_terracotta"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:blue_terracotta"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "radius": 3,
+      "offset": 2,
+      "height": 2
+    },
+    "decorators": []
+  }
+}

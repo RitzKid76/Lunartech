@@ -1,0 +1,97 @@
+{
+  "type": "mars:mars_type",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+
+        {
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.5
+          },
+          "biome": "mars:martian_wastes"
+        },
+        {
+          "parameters": {
+            "erosion": 1.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 1.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          },
+          "biome": "mars:arid_valley"
+        },
+        {
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 1.0,
+            "humidity": 0.0,
+            "continentalness": 0.2
+          },
+          "biome": "mars:scorched_plains"
+        },
+        {
+          "parameters": {
+            "erosion": 1.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 1.0,
+            "humidity": 0.1,
+            "continentalness": 0.0
+          },
+          "biome": "mars:skeletal_wastes"
+        },
+        {
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.3,
+            "continentalness": 1.0
+          },
+          "biome": "mars:whispering_peaks"
+        },
+        {
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.5,
+            "humidity": 0.3,
+            "continentalness": 0.0
+          },
+          "biome": "mars:sunny_meadows"
+        },
+        {
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 1.0
+          },
+          "biome": "mars:baked_savanna"
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "settings": "mars:mars_terrain",
+    "type": "minecraft:noise"
+  }
+}

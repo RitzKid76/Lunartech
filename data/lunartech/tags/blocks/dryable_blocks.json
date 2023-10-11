@@ -1,0 +1,20 @@
+{
+    "values":[
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt",
+        "minecraft:podzol",
+        "minecraft:rooted_dirt",
+        "minecraft:dirt_path",
+        "minecraft:farmland",
+        "minecraft:mycelium",
+        "minecraft:moss_block",
+        "minecraft:melon",
+        "minecraft:pumpkin",
+        "minecraft:jack_o_lantern",
+        "minecraft:carved_pumpkin",
+        "minecraft:hay_block",
+        "#minecraft:wart_blocks",
+        "minecraft:muddy_mangrove_roots"
+    ]
+  }

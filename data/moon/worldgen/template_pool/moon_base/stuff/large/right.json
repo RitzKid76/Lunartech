@@ -1,0 +1,51 @@
+{
+  "name": "moon:moon_base/stuff/large/right",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "moon:moon_base/rooms/stuff/large/storage/right",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "moon:moon_base/rooms/stuff/large/lab/right",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "moon:moon_base/rooms/stuff/large/crystal/right",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "moon:moon_base/rooms/stuff/large/freezer/right",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "moon:moon_base/rooms/stuff/large/library/right",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

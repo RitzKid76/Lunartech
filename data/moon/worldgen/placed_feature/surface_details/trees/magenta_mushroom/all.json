@@ -1,0 +1,9 @@
+{
+    "feature": "moon:surface_details/trees/magenta_mushroom/all",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 20
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "tries": 100,
+        "xz_spread": 7,
+        "y_spread": 1,
+        "feature": {
+            "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                    "to_place": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                            {
+                                "data":{
+                                    "Name":"minecraft:light",
+                                    "Properties": {
+                                        "level": "2"
+                                    }
+                                },
+                                "weight":10
+                            },
+                            {
+                                "data":{
+                                    "Name":"minecraft:light",
+                                    "Properties": {
+                                        "level": "4"
+                                    }
+                                },
+                                "weight":6
+                            },
+                            {
+                                "data":{
+                                    "Name":"minecraft:light",
+                                    "Properties": {
+                                        "level": "6"
+                                    }
+                                },
+                                "weight":1
+                            }
+                        ]
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": "#lunartech:air"
+                            },
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": "minecraft:yellow_concrete_powder",
+                                "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

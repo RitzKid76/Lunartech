@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "tries": 200,
+        "xz_spread": 4,
+        "y_spread": 0,
+        "feature": {
+            "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                    "offset": [
+                        0,
+                        -1,
+                        0
+                    ],
+                    "to_place": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                            {
+                                "data": {
+                                    "Name": "minecraft:yellow_concrete_powder"
+                                },
+                                "weight": 250
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:yellow_concrete"
+                                },
+                                "weight": 80
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:raw_gold_block"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": "#mars:martian_surface"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

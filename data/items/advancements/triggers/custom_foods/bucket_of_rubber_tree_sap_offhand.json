@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "nbt": "{bucket_of_rubber_tree_sap:1}"
+            }
+          }
+        },
+        "item": {
+          "nbt": "{bucket_of_rubber_tree_sap:1}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "items:triggers/custom_foods/bucket_of_rubber_tree_sap_offhand"
+  }
+}

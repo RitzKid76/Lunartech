@@ -1,0 +1,31 @@
+{
+    "feature": "moon:surface_details/rock/redstone",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 4
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "block_predicate_filter",
+            "predicate": {
+                "type": "matching_blocks",
+                "offset": [
+                    0,  
+                    -1,
+                    0
+                ],
+                "blocks": "#moon:lunar_surface"
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

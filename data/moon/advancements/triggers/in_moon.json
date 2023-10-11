@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "entity": "this",
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "location": {
+                                "dimension": "moon:moon"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+        "function": "moon:triggers/in_moon"
+    }
+}

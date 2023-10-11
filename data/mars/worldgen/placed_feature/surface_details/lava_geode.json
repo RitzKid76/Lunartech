@@ -1,0 +1,99 @@
+{
+  "feature": "mars:surface_details/lava_geode",
+  "placement": [
+      {
+          "type": "minecraft:rarity_filter",
+          "chance": 3
+      },
+      {
+          "type": "minecraft:in_square"
+      },
+      {
+          "type": "heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+      },
+      {
+          "type": "block_predicate_filter",
+          "predicate": {
+              "type": "all_of",
+              "predicates": [
+                {
+                "type": "matching_blocks",
+                "offset": [
+                    -3,  
+                    0,
+                    0
+                ],
+                "blocks": "#lunartech:air"
+              },
+              {
+                "type": "matching_blocks",
+                "offset": [
+                    3,  
+                    0,
+                    0
+                ],
+                "blocks": "#lunartech:air"
+              },
+              {
+                "type": "matching_blocks",
+                "offset": [
+                    0,  
+                    0,
+                    -3
+                ],
+                "blocks": "#lunartech:air"
+              },
+              {
+                "type": "matching_blocks",
+                "offset": [
+                    0,  
+                    0,
+                    3
+                ],
+                "blocks": "#lunartech:air"
+              },
+              {
+                "type": "matching_blocks",
+                "offset": [
+                    5,  
+                    -1,
+                    0
+                ],
+                "blocks": "#mars:generation/lava_geode_floor"
+              },
+              {
+                "type": "matching_blocks",
+                "offset": [
+                    -5,  
+                    -1,
+                    0
+                ],
+                "blocks": "#mars:generation/lava_geode_floor"
+              },
+              {
+                "type": "matching_blocks",
+                "offset": [
+                    0,  
+                    -1,
+                    5
+                ],
+                "blocks": "#mars:generation/lava_geode_floor"
+              },
+              {
+                "type": "matching_blocks",
+                "offset": [
+                    0,  
+                    -1,
+                    -5
+                ],
+                "blocks": "#mars:generation/lava_geode_floor"
+              }
+            ]
+          }
+      },
+      {
+          "type": "minecraft:biome"
+      }
+  ]
+}

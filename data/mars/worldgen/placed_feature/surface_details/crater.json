@@ -1,0 +1,19 @@
+{
+  "feature": "mars:surface_details/crater",
+  "placement": [
+      {
+          "type": "minecraft:rarity_filter",
+          "chance": 30
+      },
+      {
+          "type": "minecraft:in_square"
+      },
+      {
+          "type": "heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+      },
+      {
+          "type": "minecraft:biome"
+      }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "feature": "mars:surface_details/lights/blue",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 100
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "block_predicate_filter",
+            "predicate": {
+                "type": "matching_blocks",
+                "blocks": "#mars:generation/mineral_dust",
+                "offset": [
+                    0,
+                    -1,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

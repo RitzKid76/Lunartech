@@ -1,0 +1,32 @@
+{
+    "feature": "moon:biome_blending/gravel",
+    "placement": [
+        {
+            "type": "minecraft:noise_threshold_count",
+            "noise_level": -0.8,
+            "below_noise": 5,
+            "above_noise": 10
+        },
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+                "type": "uniform",
+                "value": {
+                    "min_inclusive": -8,
+                    "max_inclusive": 8
+                }
+            },
+            "y_spread": {
+                "type": "uniform",
+                "value": {
+                    "min_inclusive": -8,
+                    "max_inclusive": 8
+                }
+            }
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        }
+    ]
+}

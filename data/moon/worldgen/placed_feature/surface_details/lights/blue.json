@@ -1,0 +1,27 @@
+{
+    "feature": "moon:surface_details/lights/blue",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 80
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "uniform",
+                "min_inclusive": {
+                    "absolute": -64
+                },
+                "max_inclusive": {
+                    "absolute": 0
+                }
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

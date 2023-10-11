@@ -1,0 +1,65 @@
+{
+    "has_precipitation": false,
+    "category": "none",
+    "temperature": 1,
+    "temperature_modifyer": "none",
+    "downfall": 0,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 11374189,
+        "sky_color": 11374189,
+        "foliage_color": 3193611,
+        "water_color": 3757759,
+        "water_fog_color": 3757759,
+        "grass_color": 5884220,
+        "grass_color_modifier": "none",
+        "particle": {
+            "options": {
+                "type": "minecraft:falling_dust",
+                "value": {
+                    "Name": "minecraft:red_sand"
+                }
+            },
+            "probability": 0.01
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:canyon",
+            "minecraft:cave_extra_underground",
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [
+            "mars:surface_details/crater"
+        ],
+        [],
+        [
+            "mars:biome_blending/red_sand",
+            "mars:stone_scatter/red_sandstone"
+        ],
+        [],
+        [
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small"
+        ],
+        [],
+        [],
+        [
+            "mars:surface_details/vegetation/dead_bush/few",
+            "mars:surface_details/spikes/few",
+            "mars:surface_details/trees/acacia",
+            "mars:surface_details/rock/terracotta"
+        ],
+        []
+    ],
+    "spawners": {},
+    "spawn_costs": {}
+}

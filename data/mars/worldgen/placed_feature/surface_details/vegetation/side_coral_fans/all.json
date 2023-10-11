@@ -1,0 +1,9 @@
+{
+    "feature": "mars:surface_details/vegetation/side_coral_fans/all",
+    "placement": [
+        {
+            "type": "count",
+            "count": 10
+        }
+    ]
+}

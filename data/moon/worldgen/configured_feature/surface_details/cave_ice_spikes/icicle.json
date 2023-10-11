@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:block_column",
+    "config": {
+        "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "#lunartech:air"
+        },
+        "direction": "down",
+        "layers": [
+            {
+                "height": {
+                    "type": "minecraft:uniform",
+                    "value": {
+                        "max_inclusive": 5,
+                        "min_inclusive": 1
+                    }
+                },
+                "provider": {
+                    "type": "weighted_state_provider",
+                    "entries": [
+                        {
+                            "data": {
+                                "Name": "minecraft:packed_ice"
+                            },
+                            "weight": 7
+                        },
+                        {
+                            "data": {
+                                "Name": "minecraft:blue_ice"
+                            },
+                            "weight": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "prioritize_tip": false
+    }
+}
