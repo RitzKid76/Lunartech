@@ -1,1 +1,4 @@
 milk bucket removes radiation display
+block loot tables
+    survives explosion
+    random sequence
