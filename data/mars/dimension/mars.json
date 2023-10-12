@@ -3,7 +3,6 @@
   "generator": {
     "biome_source": {
       "biomes": [
-
         {
           "parameters": {
             "erosion": 0.0,
