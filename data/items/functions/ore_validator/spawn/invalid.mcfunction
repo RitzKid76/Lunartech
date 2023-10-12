@@ -2,5 +2,7 @@
 #as @s
 #at @s
 
-$loot spawn ~ ~ ~ loot blocks/$(id)
+$summon item ~ ~ ~ {Item:{id:"$(id)",Count:1b}}
 kill @s
+
+return 0

@@ -4,3 +4,5 @@
 
 $function items:spawn/$(item)
 kill @s
+
+return 1
