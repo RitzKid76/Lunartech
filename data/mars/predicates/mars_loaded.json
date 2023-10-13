@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+        "type": "score",
+        "score": "lunartech.boolean",
+        "target": {
+            "type": "minecraft:fixed",
+            "name": "in_mars"
+        }
+    },
+    "range": 1
+}

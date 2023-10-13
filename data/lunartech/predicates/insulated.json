@@ -22,11 +22,8 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{Tags:[\"machines.in_biosphere\"]}"
-      }
+      "condition": "minecraft:reference",
+      "name": "machines:in_biosphere"
     }
   ]
 }

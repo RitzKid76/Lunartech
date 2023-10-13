@@ -2,16 +2,12 @@
     "condition": "any_of",
     "terms": [
         {
-            "condition": "location_check",
-            "predicate": {
-                "dimension": "moon:moon"
-            }
+            "condition": "minecraft:reference",
+            "name": "moon:in_moon"
         },
         {
-            "condition": "location_check",
-            "predicate": {
-                "dimension": "mars:mars"
-            }
+            "condition": "minecraft:reference",
+            "name": "mars:in_mars"
         }
     ]
 }

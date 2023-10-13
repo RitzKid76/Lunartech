@@ -2,4 +2,4 @@
 #as SERVER
 #at SERVER
 
-execute if score in_mars lunartech.boolean matches 1 run function mars:tick
+execute if predicate mars:mars_loaded run function mars:tick
