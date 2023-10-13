@@ -6,12 +6,8 @@
                 "player": [
                     {
                         "entity": "this",
-                        "condition": "minecraft:entity_properties",
-                        "predicate": {
-                            "location": {
-                                "dimension": "moon:moon"
-                            }
-                        }
+                        "condition": "minecraft:reference",
+                        "name": "moon:in_moon"
                     }
                 ]
             }

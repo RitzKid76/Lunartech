@@ -1,5 +1,5 @@
 #from ../main
-#as @e[tag=machines.machines.snapped_item]
+#as @e[tag=machines.snapped_item]
 #at @s
 
 data merge entity @s {NoGravity:0b}

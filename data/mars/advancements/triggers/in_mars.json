@@ -6,12 +6,8 @@
                 "player": [
                     {
                         "entity": "this",
-                        "condition": "minecraft:entity_properties",
-                        "predicate": {
-                            "location": {
-                                "dimension": "mars:mars"
-                            }
-                        }
+                        "condition": "minecraft:reference",
+                        "name": "mars:in_mars"
                     }
                 ]
             }

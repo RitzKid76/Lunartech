@@ -1,5 +1,5 @@
 #from .:tick
 #as SERVER
-#at @a[nbt={"Dimension":"moon:moon"},sort=random,limit=1]
+#at SERVER
 
-execute as @e[type=!player,tag=!moon.gravity,distance=..200] run function moon:effects/gravity/entity
+execute as @e[predicate=moon:moon_entity,tag=!moon.gravity] run function moon:effects/gravity/entity

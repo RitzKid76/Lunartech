@@ -1,6 +1,5 @@
 lunartech
     worldgen changes ?
-    predicate based gravity (@e[predicate=DIMENSION])
     
 machines
     quarry
