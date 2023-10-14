@@ -1,1 +1,1 @@
-function items:spawn/black_rubber_ball
+function items:spawn/black_rubber_ball {count:1}
