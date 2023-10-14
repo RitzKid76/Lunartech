@@ -16,7 +16,7 @@ $summon item ~ ~ ~ {\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
-                    "lunartech.placeable",\
+                    "objects.placeable",\
                     "lunar_crop",\
                     "blue_lunar_mushroom_spore"\
                 ]\

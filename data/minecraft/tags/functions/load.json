@@ -6,6 +6,7 @@
         "mars:init",
         "rocket:init",
         "machines:init",
+        "objects:init",
         "lunartech:init"
     ]
 }
