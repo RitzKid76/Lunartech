@@ -1,8 +1,8 @@
-summon item ~ ~ ~ {\
+$summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\
         id:"minecraft:yellow_concrete_powder",\
-        Count:1b,\
+        Count:$(count)b,\
         tag:{\
             display:{\
                 Name:'{\
