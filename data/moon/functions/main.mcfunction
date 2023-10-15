@@ -2,4 +2,4 @@
 #as SERVER
 #at SERVER
 
-execute if score in_moon lunartech.boolean matches 1 run function moon:tick
+execute if predicate moon:moon_loaded run function moon:tick

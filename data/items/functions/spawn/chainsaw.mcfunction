@@ -1,8 +1,8 @@
-summon item ~ ~ ~ {\
+$summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\
         id:"minecraft:command_block",\
-        Count:1b,\
+        Count:$(count)b,\
         tag:{\
             display:{\
                 Name:'{\
@@ -25,4 +25,4 @@ summon item ~ ~ ~ {\
         }\
     }\
 }
-execute as @e[nbt={Item:{tag:{non_stackable:1}}}] run function items:modifiers/non_stackable
+execute as @e[predicate=items:tag/non_stackable] run function items:modifiers/non_stackable

@@ -1,8 +1,8 @@
-summon item ~ ~ ~ {\
+$summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\
         id:"minecraft:feather",\
-        Count:1b,\
+        Count:$(count)b,\
         tag:{\
             display:{\
                 Name:'{\

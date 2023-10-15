@@ -4,5 +4,5 @@
 
 schedule function lunartech:timer/6t 6t
 
-execute at @a[nbt={"Dimension":"moon:moon"},sort=random,limit=1] as @e[type=#lunartech:float_gravity,distance=..200] run function moon:effects/gravity/float
-execute as @e[type=item,nbt={Item:{tag:{float:1}}}] run function moon:effects/gravity/float
+execute as @e[predicate=moon:in_moon,type=#lunartech:float_gravity] run function moon:effects/gravity/float
+execute as @e[predicate=items:tag/float] run function moon:effects/gravity/float
