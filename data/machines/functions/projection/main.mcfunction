@@ -2,7 +2,7 @@
 #as @s
 #at @s
 
-execute anchored eyes run function lunartech:raycast/start {steps:50,size:0.1}
+execute anchored eyes run function lunartech:raycast/start {steps:500,size:0.01}
 
 $execute at @e[predicate=lunartech:raycast/found_block] run function machines:$(projection)/projection
 
