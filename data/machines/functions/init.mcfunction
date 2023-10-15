@@ -1,6 +1,4 @@
 #from SERVER
-#as SERVER
-#at SERVER
 
 scoreboard objectives add machines.item_count dummy
 scoreboard objectives add machines.machine_radius dummy

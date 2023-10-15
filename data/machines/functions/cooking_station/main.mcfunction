@@ -1,6 +1,4 @@
 #from ../main
-#as @e[tag=machines.cooking_station]
-#at @s
 
 execute if function machines:cooking_station/break/condition run function machines:cooking_station/break/main
 

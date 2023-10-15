@@ -1,6 +1,4 @@
 #from ../main
-#as @e[tag=machines.industrial_crafter]
-#at @s
 
 execute if function machines:industrial_crafter/break/condition run function machines:industrial_crafter/break/main
 

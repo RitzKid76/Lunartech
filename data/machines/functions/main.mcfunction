@@ -1,6 +1,4 @@
 #from SERVER
-#as SERVER
-#at SERVER
 
 execute as @e[predicate=machines:projection/is] run function machines:projection/clean
 

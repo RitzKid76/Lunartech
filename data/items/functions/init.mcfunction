@@ -1,6 +1,4 @@
 #from SERVER
-#as SERVER
-#at SERVER
 
 scoreboard objectives add items.fuel dummy
 

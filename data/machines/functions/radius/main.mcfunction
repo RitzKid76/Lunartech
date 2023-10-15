@@ -1,6 +1,4 @@
 #from
-#as @s
-#at @s
 
 $data modify storage machines:radius R set value $(R)
 $data modify storage machines:radius G set value $(G)
