@@ -11,7 +11,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ore_validator:1,item:ice_cubes}"
+                            "tag": "{ore_validator:1,loot:\"uranium/fortune0\"}"
                         }
                     ],
                     "conditions": [
