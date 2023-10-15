@@ -6,12 +6,12 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:green_glazed_terracotta",
+                    "name": "minecraft:command_block",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ore_validator:1,loot:\"uranium/fortune0\"}"
+                            "tag": "{CustomModelData:10020001,ore_validator:1,valid:\"minecraft:green_glazed_terracotta\",true:\"uranium/base\",false:\"uranium/false\"}"
                         }
                     ],
                     "conditions": [
@@ -26,7 +26,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:green_glazed_terracotta",
+                    "name": "minecraft:stone",
                     "weight": 1,
                     "conditions": [
                         {
@@ -44,5 +44,5 @@
             ]
         }
     ],
-    "random_sequence": "minecraft:blocks/green_glazed_terracotta"
+    "random_sequence": "minecraft:blocks/stone"
 }

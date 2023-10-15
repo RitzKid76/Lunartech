@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Raw Lead\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:10009122,raw_lead:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Raw Lead\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:10009122,raw_lead:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
