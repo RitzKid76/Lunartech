@@ -1,6 +1,4 @@
 #from adv ./triggers/holding/machine
-#as adv player
-#at @s
 
 advancement revoke @s only items:triggers/holding/machine
 

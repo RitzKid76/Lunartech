@@ -1,6 +1,4 @@
 #from ../main
-#as @e[tag=placeable]
-#at @s
 
 execute if entity @s[tag=normal_crop]
 execute if entity @s[tag=lunar_crop] run function lunartech:placeable/lunar_crop/main

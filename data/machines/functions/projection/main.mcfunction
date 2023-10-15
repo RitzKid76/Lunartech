@@ -1,6 +1,4 @@
 #from items:triggers/holding/machine
-#as @s
-#at @s
 
 execute anchored eyes run function lunartech:raycast/start {steps:50,size:0.1}
 

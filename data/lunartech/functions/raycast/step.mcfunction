@@ -1,6 +1,4 @@
 #from ./start -> self
-#as @e[predicate=lunartech:raycast]
-#at @s
 
 scoreboard players remove @s lunartech.raycast 1
 
