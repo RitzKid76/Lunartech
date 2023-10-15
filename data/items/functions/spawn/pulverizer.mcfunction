@@ -1,0 +1,31 @@
+$summon item ~ ~ ~ {\
+    Tags:["items.restrict"],\
+    Item:{\
+        id:"minecraft:armor_stand",\
+        Count:$(count)b,\
+        tag:{\
+            display:{\
+                Name:'{\
+                    "text":"Pulverizer",\
+                    "color":"#FFFFFF",\
+                    "italic":false\
+                }'\
+            },\
+            CustomModelData:10000002,\
+            pulverizer:1,\
+            default_name: "Pulverizer",\
+            machine:1,\
+            fuel:512,\
+            has_fuel:1,\
+            non_stackable:1,\
+            projection:"pulverizer",\
+            EntityTag:{\    
+                Invisible:1b,\
+                Tags:[\
+                    "machines.machine",\
+                    "machines.pulverizer"\
+                ]\
+            }\
+        }\
+    }\
+}

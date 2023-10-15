@@ -4,4 +4,4 @@
 
 schedule function lunartech:timer/10t 10t
 
-function machines:machine_place
+function machines:place/item
