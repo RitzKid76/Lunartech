@@ -1,6 +1,4 @@
 #from ./main
-#as @s
-#at @s
 
 execute positioned ~ ~.5 ~ run function items:spawn/machine_output {id:"minecraft:crafting_table",count:1}
 execute positioned ~ ~.5 ~ run function items:spawn/machine_output {id:"minecraft:campfire",count:1}

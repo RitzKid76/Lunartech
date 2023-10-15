@@ -1,6 +1,4 @@
 #from ../main
-#as @e[tag=rubber_ball]
-#at @s
 
 execute if entity @s[tag=white] run function lunartech:placeable/rubber_ball/white
 execute if entity @s[tag=orange] run function lunartech:placeable/rubber_ball/orange

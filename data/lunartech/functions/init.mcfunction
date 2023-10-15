@@ -1,6 +1,4 @@
 #from SERVER
-#as SERVER
-#at SERVER
 
 function lunartech:timer/init
 

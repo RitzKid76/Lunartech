@@ -1,6 +1,4 @@
 #from ../main
-#as @e[tag=machines.cooking_station]
-#at @s
 
 kill @s
 setblock ~ ~ ~ air destroy

@@ -1,6 +1,4 @@
 #from .:triggers/holding/chainsaw
-#as adv player
-#at @s
 
 execute store result score @e[predicate=items:tag/chainsaw_mined,distance=0,limit=1] items.fuel run data get entity @s SelectedItem.tag.fuel 1
 

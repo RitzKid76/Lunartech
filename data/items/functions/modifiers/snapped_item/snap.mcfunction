@@ -1,6 +1,4 @@
 #from ./MACHINE/main
-#as @e[tag=machines.MACHINE]
-#at @s
 
 execute as @e[type=item,predicate=!items:tag/snapped_item,distance=...7] run tp @s ~ ~.1 ~
 execute as @e[type=item,predicate=!items:tag/snapped_item,distance=...7] run data merge entity @s {Motion:[0d, 0d, 0d],NoGravity:1b}

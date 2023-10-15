@@ -1,6 +1,4 @@
 #from .:timers/5s
-#as @s
-#at @s
 
 execute store result storage lunartech:effects radiation.damage int 0.033333 run scoreboard players get @s lunartech.radiation
 execute store result score damage lunartech.radiation run data get storage lunartech:effects radiation.damage
