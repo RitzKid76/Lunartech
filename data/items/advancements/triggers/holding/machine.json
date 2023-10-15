@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{SelectedItem:{tag:{machine:1}}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+  [
+    "requirement"
+  ]
+],
+"rewards": {
+    "function": "items:triggers/holding/machine"
+  }
+}

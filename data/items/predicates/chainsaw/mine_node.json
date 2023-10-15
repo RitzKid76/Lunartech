@@ -2,6 +2,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
+        "type": "minecraft:marker",
         "nbt": "{Tags:[\"items.chainsaw.mine_node\"]}"
     }
 }
