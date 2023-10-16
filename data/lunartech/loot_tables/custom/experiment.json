@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{item:\"uranium_dust\",count:64,CustomModelData:10020001,loot_spawner:1}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{item:\"coal_dust\",count:16,CustomModelData:10020001,loot_spawner:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

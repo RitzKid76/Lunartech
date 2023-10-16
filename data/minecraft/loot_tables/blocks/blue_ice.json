@@ -11,15 +11,92 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Ice Cubes\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:10001001,ice_cubes:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
-            },
+              "tag": "{item:\"ice_cubes\",count:3,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3.0,
-                "max": 8.0,
-                "type": "minecraft:uniform"
-              }
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"ice_cubes\",count:4,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"ice_cubes\",count:5,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"ice_cubes\",count:6,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"ice_cubes\",count:7,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"ice_cubes\",count:8,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [

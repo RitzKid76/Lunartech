@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:yellow_concrete_powder",
+          "name": "minecraft:command_block",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Yellow Martian Dust\",\"color\":\"#FFFFFF\",\"italic\":false}'},yellow_martian_dust:1,float:1}"
+              "tag": "{item:\"yellow_martian_dust\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [

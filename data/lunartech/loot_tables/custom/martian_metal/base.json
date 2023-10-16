@@ -11,11 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Raw Martian Metal\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:10009182,raw_martian_metal:1,float:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 1
+              "tag": "{item:\"raw_martian_metal\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ]
         }

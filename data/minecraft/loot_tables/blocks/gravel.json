@@ -84,11 +84,11 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:gravel",
+              "name": "minecraft:command_block",
               "functions": [
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Lunar Gravel\",\"color\":\"#FFFFFF\",\"italic\":false}'},lunar_gravel:1,float:1}"
+                  "tag": "{item:\"lunar_gravel\",count:1,CustomModelData:10020001,loot_spawner:1}"
                 }
               ],
               "conditions": [
@@ -134,11 +134,11 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:gravel",
+                  "name": "minecraft:command_block",
                   "functions": [
                     {
                       "function": "minecraft:set_nbt",
-                      "tag": "{display:{Name:'{\"text\":\"Lunar Gravel\",\"color\":\"#FFFFFF\",\"italic\":false}'},lunar_gravel:1,float:1}"
+                      "tag": "{item:\"lunar_gravel\",count:1,CustomModelData:10020001,loot_spawner:1}"
                     }
                   ]
                 }
@@ -168,11 +168,11 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:gravel",
+              "name": "minecraft:command_block",
               "functions": [
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Martian Gravel\",\"color\":\"#FFFFFF\",\"italic\":false}'},martian_gravel:1,float:1}"
+                  "tag": "{item:\"martian_gravel\",count:1,CustomModelData:10020001,loot_spawner:1}"
                 }
               ],
               "conditions": [
@@ -218,11 +218,11 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:gravel",
+                  "name": "minecraft:command_block",
                   "functions": [
                     {
                       "function": "minecraft:set_nbt",
-                      "tag": "{display:{Name:'{\"text\":\"Martian Gravel\",\"color\":\"#FFFFFF\",\"italic\":false}'},martian_gravel:1,float:1}"
+                      "tag": "{item:\"martian_gravel\",count:1,CustomModelData:10020001,loot_spawner:1}"
                     }
                   ]
                 }
