@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:sand",
+          "name": "minecraft:command_block",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Lunar Sand\",\"color\":\"#FFFFFF\",\"italic\":false}'},lunar_sand:1,float:1}"
+              "tag": "{item:\"lunar_sand\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [
@@ -28,12 +28,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sand",
+          "name": "minecraft:command_block",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Light Martian Sand\",\"color\":\"#FFFFFF\",\"italic\":false}'},light_martian_sand:1,float:1}"
+              "tag": "{item:\"light_martian_sand\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [

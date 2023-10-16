@@ -4,12 +4,8 @@
         {
             "condition": "minecraft:inverted",
             "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "type": "minecraft:item",
-                    "nbt": "{Tags:[\"items.restrict\"]}"
-                }
+                "condition": "minecraft:reference",
+                "name": "items:entity_tag/restrict"
             }
         },
         {

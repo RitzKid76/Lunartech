@@ -11,11 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Raw Uranium\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:10009172,raw_uranium:1,radioactive:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 1
+              "tag": "{item:\"raw_uranium\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ]
         },
@@ -26,11 +22,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Raw Uranium\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:10009172,raw_uranium:1,radioactive:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 2
+              "tag": "{item:\"raw_uranium\",count:2,CustomModelData:10020001,loot_spawner:1}"
             }
           ]
         },
@@ -41,11 +33,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Raw Uranium\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:10009172,raw_uranium:1,radioactive:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 3
+              "tag": "{item:\"raw_uranium\",count:3,CustomModelData:10020001,loot_spawner:1}"
             }
           ]
         }

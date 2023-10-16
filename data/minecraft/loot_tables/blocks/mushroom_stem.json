@@ -58,10 +58,8 @@
               "condition": "minecraft:survives_explosion"
             },
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "dimension": "moon:moon"
-              }
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
             }
           ]
         },
@@ -96,20 +94,36 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:command_block",
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"mushroom_bark\",count:1,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
             },
             {
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Mushroom Bark\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:10000001,mushroom_bark:1}"
+              "tag": "{item:\"mushroom_bark\",count:2,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [
