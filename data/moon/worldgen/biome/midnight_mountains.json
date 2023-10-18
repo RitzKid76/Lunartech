@@ -38,7 +38,12 @@
             "moon:stone_scatter/trim/black_concrete",
             "moon:stone_scatter/black_concrete"
         ],
-        [],
+        [
+            "moon:ore/space_rock",
+            "moon:ore/spaceship_debris",
+            "moon:ore/lunar_metal",
+            "moon:ore/nebulite"
+        ],
         [
             "minecraft:ore_coal_upper",
             "minecraft:ore_coal_lower",

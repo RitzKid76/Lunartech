@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+      "targets": [
+          {
+              "target": {
+                  "tag": "moon:lunar_surface",
+                  "predicate_type": "minecraft:tag_match"
+              },
+              "state": {
+                  "Name": "minecraft:light_gray_glazed_terracotta"
+              }
+          }
+      ],
+      "size": 4,
+      "discard_chance_on_air_exposure": 0.75
+  }
+}

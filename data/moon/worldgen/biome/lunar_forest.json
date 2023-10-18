@@ -37,7 +37,12 @@
             "moon:biome_blending/light_gray",
             "moon:stone_scatter/trim/andesite"
         ],
-        [],
+        [
+            "moon:ore/space_rock",
+            "moon:ore/spaceship_debris",
+            "moon:ore/lunar_metal",
+            "moon:ore/nebulite"
+        ],
         [
             "minecraft:ore_coal_upper",
             "minecraft:ore_coal_lower",

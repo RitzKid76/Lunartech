@@ -42,7 +42,12 @@
             "moon:stone_scatter/trim/mud_lava_border",
             "moon:stone_scatter/trim/black_coal"
         ],
-        [],
+        [
+            "moon:ore/space_rock",
+            "moon:ore/spaceship_debris",
+            "moon:ore/lunar_metal",
+            "moon:ore/nebulite"
+        ],
         [
             "moon:surface_details/cave_ice_spikes/ice_replace",
             "minecraft:ore_coal_upper",
