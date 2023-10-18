@@ -7,6 +7,7 @@
         "minecraft:pointed_dripstone",
         "minecraft:glow_lichen",
         "#minecraft:ice",
-        "minecraft:dripstone_block"
+        "minecraft:dripstone_block",
+        "minecraft:lava"
     ]
 }
