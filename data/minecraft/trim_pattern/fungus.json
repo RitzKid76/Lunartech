@@ -1,7 +1,7 @@
 {
-  "asset_id": "minecraft:space_suit",
+  "asset_id": "minecraft:fungus",
   "description": {
-    "text": "Space Suit"
+    "text": "Fungus"
   },
   "template_item": "minecraft:structure_void"
 }
