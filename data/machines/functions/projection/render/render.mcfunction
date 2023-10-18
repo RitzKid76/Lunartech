@@ -1,3 +1,5 @@
+#from ./main
+
 $summon item_display ~ ~ ~ {\
     item:{\
         id:"minecraft:armor_stand",\
