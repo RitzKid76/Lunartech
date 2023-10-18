@@ -22,8 +22,8 @@ $summon item ~ ~ ~ {\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
-                    "machines.machine",\
-                    "machines.pulverizer"\
+                    "machines.spawn_machine",\
+                    "machines.spawn_pulverizer"\
                 ]\
             }\
         }\
