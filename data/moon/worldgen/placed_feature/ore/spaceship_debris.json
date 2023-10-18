@@ -2,7 +2,7 @@
     "feature":"moon:ore/spaceship_debris",
     "placement":[
         {
-          "count": 10,
+          "count": 7,
           "type": "minecraft:count"
           },
           {

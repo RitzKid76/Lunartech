@@ -7,19 +7,19 @@
                 "entries": [
                     {
                         "data": {
-                            "Name": "minecraft:dead_brain_coral_block"
+                            "Name": "minecraft:gray_glazed_terracotta"
                         },
-                        "weight": 16
+                        "weight": 4
                     },
                     {
                         "data": {
-                            "Name": "minecraft:tuff"
+                            "Name": "minecraft:smooth_basalt"
                         },
-                        "weight": 3
+                        "weight": 2
                     },
                     {
                         "data": {
-                            "Name": "minecraft:iron_ore"
+                            "Name": "minecraft:cobbled_deepslate"
                         },
                         "weight": 1
                     }
@@ -30,19 +30,19 @@
                 "entries": [
                     {
                         "data": {
-                            "Name": "minecraft:dead_brain_coral_block"
+                            "Name": "minecraft:gray_glazed_terracotta"
                         },
-                        "weight": 16
+                        "weight": 4
                     },
                     {
                         "data": {
-                            "Name": "minecraft:tuff"
+                            "Name": "minecraft:smooth_basalt"
                         },
-                        "weight": 3
+                        "weight": 2
                     },
                     {
                         "data": {
-                            "Name": "minecraft:iron_ore"
+                            "Name": "minecraft:cobbled_deepslate"
                         },
                         "weight": 1
                     }
@@ -53,31 +53,19 @@
                 "entries": [
                     {
                         "data": {
-                            "Name": "minecraft:cobblestone"
-                        },
-                        "weight": 2
-                    },
-                    {
-                        "data": {
-                            "Name": "minecraft:stone"
+                            "Name": "minecraft:gray_glazed_terracotta"
                         },
                         "weight": 1
                     },
                     {
                         "data": {
-                            "Name": "minecraft:andesite"
+                            "Name": "minecraft:smooth_basalt"
                         },
-                        "weight": 2
+                        "weight": 3
                     },
                     {
                         "data": {
-                            "Name": "minecraft:iron_ore"
-                        },
-                        "weight": 1
-                    },
-                    {
-                        "data": {
-                            "Name": "minecraft:gravel"
+                            "Name": "minecraft:cobbled_deepslate"
                         },
                         "weight": 1
                     }
@@ -88,19 +76,19 @@
                 "entries": [
                     {
                         "data": {
-                            "Name": "minecraft:dead_brain_coral_block"
+                            "Name": "minecraft:gray_glazed_terracotta"
                         },
-                        "weight": 16
+                        "weight": 1
                     },
                     {
                         "data": {
-                            "Name": "minecraft:tuff"
+                            "Name": "minecraft:smooth_basalt"
                         },
-                        "weight": 3
+                        "weight": 2
                     },
                     {
                         "data": {
-                            "Name": "minecraft:iron_ore"
+                            "Name": "minecraft:cobbled_deepslate"
                         },
                         "weight": 1
                     }
@@ -111,31 +99,19 @@
                 "entries": [
                     {
                         "data": {
-                            "Name": "minecraft:cobblestone"
-                        },
-                        "weight": 2
-                    },
-                    {
-                        "data": {
-                            "Name": "minecraft:stone"
+                            "Name": "minecraft:gray_glazed_terracotta"
                         },
                         "weight": 1
                     },
                     {
                         "data": {
-                            "Name": "minecraft:andesite"
+                            "Name": "minecraft:smooth_basalt"
                         },
                         "weight": 2
                     },
                     {
                         "data": {
-                            "Name": "minecraft:iron_ore"
-                        },
-                        "weight": 1
-                    },
-                    {
-                        "data": {
-                            "Name": "minecraft:gravel"
+                            "Name": "minecraft:cobbled_deepslate"
                         },
                         "weight": 1
                     }
@@ -143,17 +119,17 @@
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:cobblestone"
+                    "Name": "minecraft:smooth_basalt"
                 }
             ],
             "cannot_replace": "#moon:generation/cannot_replace",
             "invalid_blocks": "#minecraft:geode_invalid_blocks"
         },
         "layers": {
-            "filling": 0.8,
+            "filling": 0.01,
             "inner_layer": 2.2,
-            "middle_layer": 3.2,
-            "outer_layer": 4.2
+            "middle_layer": 2.7,
+            "outer_layer": 3.5
         },
         "crack": {
             "generate_crack_chance": 0,
@@ -162,31 +138,31 @@
         },
         "noise_multiplier": 0.05,
         "use_potential_placements_chance": 0.35,
-        "use_alternate_layer0_chance": 0.4,
+        "use_alternate_layer0_chance": 0.25,
         "placements_require_layer0_alternate": true,
         "outer_wall_distance": {
             "type": "minecraft:uniform",
             "value": {
                 "min_inclusive": 1,
-                "max_inclusive": 4
+                "max_inclusive": 1
             }
         },
         "distribution_points": {
             "type": "minecraft:uniform",
             "value": {
                 "min_inclusive": 1,
-                "max_inclusive": 2
+                "max_inclusive": 1
             }
         },
         "point_offset": {
             "type": "minecraft:uniform",
             "value": {
                 "min_inclusive": 1,
-                "max_inclusive": 2
+                "max_inclusive": 1
             }
         },
-        "min_gen_offset": -16,
-        "max_gen_offset": 16,
+        "min_gen_offset": -32,
+        "max_gen_offset": 4,
         "invalid_blocks_threshold": 1
     }
 }

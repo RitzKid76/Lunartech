@@ -1,5 +1,5 @@
 {
-    "feature": "moon:ore/nebulite",
+    "feature": "moon:ore/lead",
     "placement": [
       {
         "count": 1,
@@ -11,10 +11,10 @@
       {
         "height": {
           "min_inclusive": {
-            "above_bottom": -64
+            "above_bottom": -40
           },
           "max_inclusive": {
-            "absolute": -40
+            "absolute": -5
           },
           "type": "minecraft:uniform"
         },
