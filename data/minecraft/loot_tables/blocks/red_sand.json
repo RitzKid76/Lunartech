@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_sand",
+          "name": "minecraft:command_block",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Martian Sand\",\"color\":\"#FFFFFF\",\"italic\":false}'},martian_sand:1,float:1}"
+              "tag": "{item:\"martian_sand\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [

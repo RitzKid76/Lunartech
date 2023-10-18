@@ -11,15 +11,27 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Ice Cubes\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:10001001,ice_cubes:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+              "tag": "{item:\"ice_cubes\",count:1,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
             },
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"ice_cubes\",count:2,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [

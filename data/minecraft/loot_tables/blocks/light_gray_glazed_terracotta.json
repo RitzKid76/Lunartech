@@ -31,7 +31,7 @@
                     "functions": [
                         {
                           "function": "minecraft:set_nbt",
-                          "tag": "{display:{Name:'{\"text\":\"Spaceship Debris\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:999999999,spaceship_debris:1,float:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+                          "tag": "{item:\"spaceship_debris\",count:1,CustomModelData:10020001,loot_spawner:1}"
                         }
                     ],
                     "conditions": [

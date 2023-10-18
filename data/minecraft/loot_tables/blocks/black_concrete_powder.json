@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:black_concrete_powder",
+          "name": "minecraft:command_block",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Black Lunar Dust\",\"color\":\"#FFFFFF\",\"italic\":false}'},black_lunar_dust:1,float:1}"
+              "tag": "{item:\"black_lunar_dust\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [
