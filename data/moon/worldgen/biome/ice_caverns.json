@@ -35,8 +35,7 @@
             "moon:surface_details/mineral_pool"
         ],
         [            
-            "moon:surface_details/cave_ice_spikes/base",
-            "moon:ore/ice_lapis"
+            "moon:surface_details/cave_ice_spikes/base"
         ],
         [
             "moon:stone_scatter/trim/mud",
