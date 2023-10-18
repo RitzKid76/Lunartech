@@ -37,5 +37,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/brown_concrete_powder"
 }

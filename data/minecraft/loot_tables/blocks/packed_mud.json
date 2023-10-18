@@ -37,5 +37,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/packed_mud"
 }

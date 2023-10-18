@@ -1,5 +1,4 @@
 block loot tables
     survives explosion
-    random sequence
     reference replacement
         tool

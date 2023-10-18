@@ -142,5 +142,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/mushroom_stem"
 }

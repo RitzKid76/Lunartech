@@ -7,7 +7,6 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:command_block",
-                    "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -19,15 +18,14 @@
                             "condition": "minecraft:survives_explosion"
                         },
                         {
-                          "condition": "minecraft:reference",
-                          "name": "lunartech:on_planet"
+                            "condition": "minecraft:reference",
+                            "name": "lunartech:on_planet"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stone",
-                    "weight": 1,
+                    "name": "minecraft:green_glazed_terracotta",
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"
@@ -44,5 +42,5 @@
             ]
         }
     ],
-    "random_sequence": "minecraft:blocks/stone"
+    "random_sequence": "minecraft:blocks/green_glazed_terracotta"
 }

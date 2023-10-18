@@ -37,5 +37,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/orange_concrete_powder"
 }
