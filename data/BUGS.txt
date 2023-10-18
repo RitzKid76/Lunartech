@@ -1,9 +1,7 @@
-milk bucket pauses radiation
 block loot tables
     survives explosion
     random sequence
     reference replacement
         tool
 predicates
-    gravity dimension check
     items:modifiers
