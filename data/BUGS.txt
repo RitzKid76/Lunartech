@@ -3,5 +3,3 @@ block loot tables
     random sequence
     reference replacement
         tool
-predicates
-    items:modifiers
