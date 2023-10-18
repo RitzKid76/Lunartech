@@ -49,7 +49,9 @@
             "moon:ore/spaceship_debris",
             "moon:ore/lunar_metal",
             "moon:ore/nebulite",
-            "moon:ore/lead"
+            "moon:ore/lead",
+            "minecraft:ore_diamond_medium",
+            "minecraft:ore_diamond_buried"
         ],
         [
             "moon:stone_type/basalt",

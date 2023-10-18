@@ -59,7 +59,9 @@
             "minecraft:ore_gold",
             "minecraft:ore_gold_lower",
             "minecraft:ore_lapis",
-            "minecraft:ore_lapis_buried"
+            "minecraft:ore_lapis_buried",
+            "minecraft:ore_diamond_medium",
+            "minecraft:ore_diamond_buried"
         ],
         [],
         [],
