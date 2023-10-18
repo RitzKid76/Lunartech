@@ -106,10 +106,8 @@
                   }
                 },
                 {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "moon:moon"
-                  }
+                  "condition": "minecraft:reference",
+                  "name": "moon:in_moon"
                 }
               ]
             },
@@ -148,10 +146,8 @@
                   "condition": "minecraft:survives_explosion"
                 },
                 {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "moon:moon"
-                  }
+                  "condition": "minecraft:reference",
+                  "name": "moon:in_moon"
                 }
               ]
             }
@@ -190,10 +186,8 @@
                   }
                 },
                 {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mars:mars"
-                  }
+                  "condition": "minecraft:reference",
+                  "name": "mars:in_mars"
                 }
               ]
             },

@@ -10,11 +10,11 @@
     }
   },
   "requirements": [
-  [
-    "requirement"
-  ]
-],
-"rewards": {
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
     "function": "items:triggers/holding/machine"
   }
 }

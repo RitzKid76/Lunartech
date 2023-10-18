@@ -1,9 +1,8 @@
-milk bucket removes radiation display
+milk bucket pauses radiation
 block loot tables
     survives explosion
     random sequence
     reference replacement
-        location check
         tool
 predicates
     gravity dimension check
