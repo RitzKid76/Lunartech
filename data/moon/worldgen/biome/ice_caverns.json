@@ -48,7 +48,8 @@
             "moon:ore/space_rock",
             "moon:ore/spaceship_debris",
             "moon:ore/lunar_metal",
-            "moon:ore/nebulite"
+            "moon:ore/nebulite",
+            "moon:ore/lead"
         ],
         [
             "moon:stone_type/basalt",
