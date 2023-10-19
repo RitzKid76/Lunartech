@@ -12,10 +12,10 @@ $summon item ~ ~ ~ {\
                 }'\
             },\
             CustomModelData:10000001,\
-            pulverizer:1,\
+            metal_press:1,\
             default_name: "Metal Press",\
             machine:1,\
-            fuel:512,\
+            fuel:256,\
             has_fuel:1,\
             non_stackable:1,\
             projection: {\
