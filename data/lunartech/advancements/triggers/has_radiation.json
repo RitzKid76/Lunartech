@@ -6,13 +6,8 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "effects": {
-                "minecraft:luck": {}
-              }
-            }
+            "condition": "minecraft:reference",
+            "name": "lunartech:has_radiation"
           }
         ]
       }

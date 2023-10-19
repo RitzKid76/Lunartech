@@ -30,14 +30,13 @@
                     ],
                     "conditions": [
                         {
-                            "condition": "minecraft:match_tool",
-                            "predicate": {
-                                "nbt": "{chainsaw:1}"
-                            }
+                            "condition": "minecraft:reference",
+                            "name": "items:holding/chainsaw"
                         }
                     ]
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/stripped_mangrove_log"
 }

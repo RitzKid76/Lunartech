@@ -1,8 +1,4 @@
-milk bucket removes radiation display
 block loot tables
     survives explosion
-    random sequence
-    reference replacement from location check
-predicates
-    gravity dimension check
-    items:modifiers
+    reference replacement
+        tool

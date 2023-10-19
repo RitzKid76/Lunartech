@@ -18,12 +18,20 @@ $summon item ~ ~ ~ {\
             fuel:512,\
             has_fuel:1,\
             non_stackable:1,\
-            projection:"pulverizer",\
+            projection: {\
+                true:10000002,\
+                false:10020002,\
+                x:0,\
+                y:0,\
+                z:-.5,\
+                scale:3,\
+                name:"pulverizer",\
+            },\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
-                    "machines.machine",\
-                    "machines.pulverizer"\
+                    "machines.spawn_machine",\
+                    "machines.spawn_pulverizer"\
                 ]\
             }\
         }\

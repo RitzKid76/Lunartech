@@ -3,6 +3,6 @@
     "entity": "this",
     "predicate": {
         "type": "minecraft:armor_stand",
-        "nbt": "{Tags:[\"machines.machine\"]}"
+        "nbt": "{Tags:[\"machines.spawn_machine\"]}"
     }
 }

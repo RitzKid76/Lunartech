@@ -16,10 +16,8 @@
           ],
           "conditions": [
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "dimension": "mars:mars"
-              }
+              "condition": "minecraft:reference",
+              "name": "mars:in_mars"
             }
           ]
         },
@@ -31,15 +29,14 @@
             {
               "condition":"minecraft:inverted",
               "term":{
-                "condition":"minecraft:location_check",
-                "predicate": {
-                  "dimension": "mars:mars"
-                }
+                "condition": "minecraft:reference",
+                "name": "mars:in_mars"
               }
             } 
           ]
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/packed_mud"
 }
