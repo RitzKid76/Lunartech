@@ -1,7 +1,7 @@
 #from ./main
 
 function lunartech:raycast/backtrack {size:0.01}
-function lunartech:raycast/snap_facing
+function lunartech:tools/snap_facing
 execute at @s run function lunartech:raycast/invert_y_rotation
 
-$execute at @s align xyz positioned ~.5 ~ ~.5 run function machines:projection/render/main $(projection)
+$execute at @s align xyz positioned ~.5 ~.001 ~.5 run function machines:projection/render/main $(projection)
