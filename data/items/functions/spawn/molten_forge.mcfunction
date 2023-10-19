@@ -6,32 +6,32 @@ $summon item ~ ~ ~ {\
         tag:{\
             display:{\
                 Name:'{\
-                    "text":"Metal Press",\
+                    "text":"Molten Forge",\
                     "color":"#FFFFFF",\
                     "italic":false\
                 }'\
             },\
-            CustomModelData:10000001,\
-            metal_press:1,\
-            default_name: "Metal Press",\
+            CustomModelData:10000005,\
+            molten_forge:1,\
+            default_name: "Molten Forge",\
             machine:1,\
-            fuel:256,\
+            fuel:512,\
             has_fuel:1,\
             non_stackable:1,\
             projection: {\
-                true:10000001,\
-                false:10020001,\
-                x:0,\
+                true:10000005,\
+                false:10020005,\
+                x:0.5,\
                 y:0,\
-                z:-1,\
-                scale:4,\
-                name:"metal_press",\
+                z:-1,\  
+                scale:3,\
+                name:"molten_forge",\
             },\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
                     "machines.spawn_machine",\
-                    "machines.spawn_metal_press"\
+                    "machines.spawn_molten_forge"\
                 ]\
             }\
         }\

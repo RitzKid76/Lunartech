@@ -6,32 +6,32 @@ $summon item ~ ~ ~ {\
         tag:{\
             display:{\
                 Name:'{\
-                    "text":"Metal Press",\
+                    "text":"Coke Oven",\
                     "color":"#FFFFFF",\
                     "italic":false\
                 }'\
             },\
-            CustomModelData:10000001,\
-            metal_press:1,\
-            default_name: "Metal Press",\
+            CustomModelData:10000004,\
+            coke_oven:1,\
+            default_name: "Coke Oven",\
             machine:1,\
-            fuel:256,\
+            fuel:512,\
             has_fuel:1,\
             non_stackable:1,\
             projection: {\
-                true:10000001,\
-                false:10020001,\
+                true:10000004,\
+                false:10020004,\
                 x:0,\
                 y:0,\
-                z:-1,\
-                scale:4,\
-                name:"metal_press",\
+                z:-1,\  
+                scale:5,\
+                name:"coke_oven",\
             },\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
                     "machines.spawn_machine",\
-                    "machines.spawn_metal_press"\
+                    "machines.spawn_coke_oven"\
                 ]\
             }\
         }\

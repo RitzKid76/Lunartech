@@ -6,32 +6,32 @@ $summon item ~ ~ ~ {\
         tag:{\
             display:{\
                 Name:'{\
-                    "text":"Metal Press",\
+                    "text":"Coal Generator",\
                     "color":"#FFFFFF",\
                     "italic":false\
                 }'\
             },\
-            CustomModelData:10000001,\
-            metal_press:1,\
-            default_name: "Metal Press",\
+            CustomModelData:10000012,\
+            coal_generator:1,\
+            default_name: "Coal Generator",\
             machine:1,\
             fuel:256,\
             has_fuel:1,\
             non_stackable:1,\
             projection: {\
-                true:10000001,\
-                false:10020001,\
+                true:10000012,\
+                false:10020012,\
                 x:0,\
                 y:0,\
-                z:-1,\
-                scale:4,\
-                name:"metal_press",\
+                z:-.5,\
+                scale:3,\
+                name:"coal_generator",\
             },\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
                     "machines.spawn_machine",\
-                    "machines.spawn_metal_press"\
+                    "machines.spawn_coal_generator"\
                 ]\
             }\
         }\

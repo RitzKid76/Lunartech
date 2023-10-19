@@ -6,32 +6,30 @@ $summon item ~ ~ ~ {\
         tag:{\
             display:{\
                 Name:'{\
-                    "text":"Metal Press",\
+                    "text":"Dark Enchanter",\
                     "color":"#FFFFFF",\
                     "italic":false\
                 }'\
             },\
-            CustomModelData:10000001,\
-            metal_press:1,\
-            default_name: "Metal Press",\
+            CustomModelData:10000011,\
+            dark_enchanter:1,\
+            default_name: "Dark Enchanter",\
             machine:1,\
-            fuel:256,\
-            has_fuel:1,\
             non_stackable:1,\
             projection: {\
-                true:10000001,\
-                false:10020001,\
+                true:10000011,\
+                false:10020011,\
                 x:0,\
                 y:0,\
-                z:-1,\
-                scale:4,\
-                name:"metal_press",\
+                z:-.5,\
+                scale:6,\
+                name:"dark_enchanter",\
             },\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
                     "machines.spawn_machine",\
-                    "machines.spawn_metal_press"\
+                    "machines.spawn_dark_enchanter"\
                 ]\
             }\
         }\
