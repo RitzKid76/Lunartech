@@ -48,3 +48,4 @@ $summon item ~ ~ ~ {\
         }\
     }\
 }
+execute as @e[predicate=items:tag/non_stackable] run function items:modifiers/non_stackable
