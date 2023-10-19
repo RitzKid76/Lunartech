@@ -30,10 +30,22 @@ $summon item ~ ~ ~ {\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
-                    "machines.spawn_machine",\
-                    "machines.spawn_pulverizer"\
+                    "machines.spawn_machine"\
+                ],\
+                ArmorItems:[\
+                    {},\
+                    {},\
+                    {},\
+                    {\
+                        id: "minecraft:command_block",\
+                        Count:1b,\
+                        tag: {\
+                            machine:"pulverizer"\
+                        }\
+                    }\
                 ]\
             }\
         }\
     }\
 }
+execute as @e[predicate=items:tag/non_stackable] run function items:modifiers/non_stackable
