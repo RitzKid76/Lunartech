@@ -1,0 +1,7 @@
+{
+  "asset_id": "minecraft:black_fungus",
+  "description": {
+    "text": "Black Fungus"
+  },
+  "template_item": "minecraft:structure_void"
+}
