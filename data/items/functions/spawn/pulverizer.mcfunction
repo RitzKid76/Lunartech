@@ -40,7 +40,8 @@ $summon item ~ ~ ~ {\
                         id: "minecraft:command_block",\
                         Count:1b,\
                         tag: {\
-                            machine:"pulverizer"\
+                            machine:"pulverizer",\
+                            CustomModelData:10020001\
                         }\
                     }\
                 ]\
