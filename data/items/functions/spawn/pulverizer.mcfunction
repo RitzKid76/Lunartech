@@ -15,7 +15,7 @@ $summon item ~ ~ ~ {\
             pulverizer:1,\
             default_name: "Pulverizer",\
             machine:1,\
-            fuel:512,\
+            fuel:$(fuel),\
             has_fuel:1,\
             non_stackable:1,\
             projection: {\
