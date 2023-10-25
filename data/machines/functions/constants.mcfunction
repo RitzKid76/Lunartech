@@ -1,4 +1,4 @@
 #from ./init
 
 # timeouts
-scoreboard players set #pulverizer machines.timeout 10
+scoreboard players set #pulverizer machines.timeout 200
