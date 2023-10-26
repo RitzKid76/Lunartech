@@ -1,6 +1,7 @@
 #from ./main
 
 loot spawn ~ ~ ~ loot machines:pulverizer
+execute store result entity @e[predicate=items:tag/loot_spawner,sort=nearest,limit=1] Item.tag.fuel int 1 run scoreboard players get @s machines.fuel
 
 kill @e[type=item,nbt={Item:{id:"minecraft:smooth_stone",Count:1b}},sort=nearest,limit=4]
 kill @e[type=item,nbt={Item:{id:"minecraft:polished_andesite",Count:1b}},sort=nearest,limit=2]

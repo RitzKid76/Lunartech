@@ -15,7 +15,7 @@ $summon item ~ ~ ~ {\
             pulverizer:1,\
             default_name: "Pulverizer",\
             machine:1,\
-            fuel:512,\
+            fuel:$(fuel),\
             has_fuel:1,\
             non_stackable:1,\
             projection: {\
@@ -40,7 +40,8 @@ $summon item ~ ~ ~ {\
                         id: "minecraft:command_block",\
                         Count:1b,\
                         tag: {\
-                            machine:"pulverizer"\
+                            machine:"pulverizer",\
+                            CustomModelData:10020001\
                         }\
                     }\
                 ]\
