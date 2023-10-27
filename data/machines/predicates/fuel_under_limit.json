@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+        "type": "minecraft:score",
+        "score": "machines.fuel",
+        "target": {
+            "type": "fixed",
+            "name": "temp_fuel"
+        }
+    },
+    "range": -1
+}

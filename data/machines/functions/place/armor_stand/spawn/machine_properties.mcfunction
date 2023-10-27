@@ -1,6 +1,6 @@
 #from ./can_place
 
-$data merge entity @s {Tags:["machines.machine","machines.$(machine)"],Rotation:[$(rotation)f,0f]}
+$data merge entity @s {Tags:["machines.machine","machines.$(machine)"],Rotation:[$(rotation)f,0f],data:{machine:$(machine)}}
 
 $function machines:place/armor_stand/spawn/$(rotation) {machine:$(machine)}
 
