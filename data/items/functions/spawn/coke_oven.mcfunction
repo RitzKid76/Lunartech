@@ -15,7 +15,7 @@ $summon item ~ ~ ~ {\
             coke_oven:1,\
             default_name: "Coke Oven",\
             machine:1,\
-            fuel:512,\
+            fuel:$(fuel),\
             has_fuel:1,\
             non_stackable:1,\
             projection: {\
@@ -23,17 +23,30 @@ $summon item ~ ~ ~ {\
                 false:10020004,\
                 x:0,\
                 y:0,\
-                z:-1,\  
+                z:-1,\
                 scale:5,\
                 name:"coke_oven",\
             },\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
-                    "machines.spawn_machine",\
-                    "machines.spawn_coke_oven"\
+                    "machines.spawn_machine"\
+                ],\
+                ArmorItems:[\
+                    {},\
+                    {},\
+                    {},\
+                    {\
+                        id: "minecraft:command_block",\
+                        Count:1b,\
+                        tag: {\
+                            machine:"coke_oven",\
+                            CustomModelData:10020001\
+                        }\
+                    }\
                 ]\
             }\
         }\
     }\
 }
+execute as @e[predicate=items:tag/non_stackable] run function items:modifiers/non_stackable
