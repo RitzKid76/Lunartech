@@ -2,7 +2,7 @@
     "condition": "entity_scores",
     "entity": "this",
     "scores": {
-        "machines.timeout": {
+        "machines.process_time": {
             "min": -2147483648,
             "max": 0
         }

@@ -7,7 +7,7 @@
         },
         {
             "condition": "minecraft:reference",
-            "name": "machines:state/timeout_ready"
+            "name": "machines:state/process_time_ready"
         }
     ]
 }
