@@ -1,6 +1,4 @@
 #from adv ./triggers/holding/chainsaw
-#as adv player
-#at @s
 
 advancement revoke @s only items:triggers/holding/chainsaw
 

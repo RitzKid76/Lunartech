@@ -1,8 +1,6 @@
 #from ../main
-#as @s
-#at @s
 
-$function items:spawn/$(item) {count:1}
+$loot spawn ~ ~ ~ loot lunartech:custom/$(true)
 kill @s
 
 return 1

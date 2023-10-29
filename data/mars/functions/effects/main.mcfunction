@@ -1,5 +1,3 @@
 #from .:tick
-#as SERVER
-#at SERVER
 
-execute as @e[predicate=mars:mars_entity,tag=!mars.gravity] run function mars:effects/gravity/entity
+execute as @e[predicate=mars:mars_entity,predicate=!mars:mars_gravity] run function mars:effects/gravity/entity

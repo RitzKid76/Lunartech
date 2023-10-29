@@ -6,20 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:packed_mud",
+          "name": "minecraft:command_block",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Martian Clay\",\"color\":\"#FFFFFF\",\"italic\":false}'},martian_clay:1,float:1}"
+              "tag": "{item:\"martian_clay\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "dimension": "mars:mars"
-              }
+              "condition": "minecraft:reference",
+              "name": "mars:in_mars"
             }
           ]
         },
@@ -31,15 +29,14 @@
             {
               "condition":"minecraft:inverted",
               "term":{
-                "condition":"minecraft:location_check",
-                "predicate": {
-                  "dimension": "mars:mars"
-                }
+                "condition": "minecraft:reference",
+                "name": "mars:in_mars"
               }
             } 
           ]
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/packed_mud"
 }

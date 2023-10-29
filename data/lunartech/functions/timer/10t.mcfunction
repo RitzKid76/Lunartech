@@ -1,7 +1,7 @@
 #from ./init -> self
-#as SERVER
-#at SERVER
 
 schedule function lunartech:timer/10t 10t
 
-function machines:machine_place
+function machines:place/item
+
+execute as @a[predicate=lunartech:has_radiation] at @s run function lunartech:effects/radiation/damage

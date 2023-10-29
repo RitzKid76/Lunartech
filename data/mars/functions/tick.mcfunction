@@ -1,6 +1,4 @@
 #from ./main
-#as SERVER
-#at SERVER
 
 function mars:effects/main
 

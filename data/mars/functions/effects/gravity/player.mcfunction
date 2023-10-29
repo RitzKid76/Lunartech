@@ -1,6 +1,4 @@
 #from ../player
-#as @s
-#at @s
 
 effect give @s slow_falling 2 0 true
 

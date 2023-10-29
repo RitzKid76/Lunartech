@@ -1,6 +1,4 @@
 #from .:triggers/in_moon
-#as @s
-#at @s
 
 effect give @s slow_falling 2 0 true
 effect give @s jump_boost 2 0 true

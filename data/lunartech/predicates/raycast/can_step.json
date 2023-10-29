@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "lunartech.raycast": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "minecraft:reference",
+                "name": "lunartech:raycast/found_block"
+            }
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "lunartech:raycast/entity"
+        }
+    ]
+}

@@ -1,8 +1,6 @@
 #from ../main
-#as @s
-#at @s
 
-$summon item ~ ~ ~ {Item:{id:"$(id)",Count:1b}}
+$loot spawn ~ ~ ~ loot lunartech:custom/$(false)
 kill @s
 
 return 0

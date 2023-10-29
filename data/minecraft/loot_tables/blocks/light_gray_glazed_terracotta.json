@@ -6,6 +6,27 @@
             "entries": [
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{item:\"spaceship_debris\",count:1,CustomModelData:10020001,loot_spawner:1}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "reference",
+                            "name": "lunartech:on_planet"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
                     "name": "minecraft:light_gray_glazed_terracotta"
                 }
             ],
@@ -21,27 +42,7 @@
                     }
                 }
             ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:command_block",
-                    "functions": [
-                        {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{display:{Name:'{\"text\":\"Spaceship Debris\",\"color\":\"#FFFFFF\",\"italic\":false}'},CustomModelData:999999999,spaceship_debris:1,float:1,BlockEntityTag:{id:\"minecraft:command_block\",Command:\"setblock ~ ~ ~ air\",auto:1b}}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "reference",
-                            "name": "lunartech:on_planet"
-                        }
-                    ]
-                }
-            ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/light_gray_glazed_terracotta"
 }

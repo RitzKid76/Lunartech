@@ -1,6 +1,4 @@
 #from ../main
-#as @e[tag=machines.industrial_crafter]
-#at @s
 
 kill @s
 setblock ~ ~ ~ air destroy

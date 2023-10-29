@@ -6,12 +6,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:green_glazed_terracotta",
-                    "weight": 1,
+                    "name": "minecraft:command_block",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ore_validator:1,item:ice_cubes}"
+                            "tag": "{CustomModelData:10020001,ore_validator:1,valid:\"minecraft:green_glazed_terracotta\",true:\"uranium/base\",false:\"uranium/false\"}"
                         }
                     ],
                     "conditions": [
@@ -19,15 +18,14 @@
                             "condition": "minecraft:survives_explosion"
                         },
                         {
-                          "condition": "minecraft:reference",
-                          "name": "lunartech:on_planet"
+                            "condition": "minecraft:reference",
+                            "name": "lunartech:on_planet"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:green_glazed_terracotta",
-                    "weight": 1,
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"

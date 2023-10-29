@@ -1,6 +1,4 @@
 #from adv ./triggers/custom_foods/moon_fruit
-#as adv player
-#at @s
 
 advancement revoke @s only items:triggers/custom_foods/moon_fruit
 

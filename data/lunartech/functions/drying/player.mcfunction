@@ -1,6 +1,4 @@
 #from ./main
-#as @a[nbt={"Dimension":"mars/moon"}]
-#at @s
 
 execute unless entity @e[tag=oxegenator] run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace #lunartech:dryable
 execute unless entity @e[tag=oxegenator] run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 gravel replace #lunartech:dryable_blocks

@@ -1,6 +1,4 @@
 #from
-#as @s
-#at @s
 
 execute if score @s lunartech.radiation matches 300.. run return 1 
 

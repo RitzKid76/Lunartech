@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:light_gray_concrete_powder",
+          "name": "minecraft:command_block",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Light Gray Lunar Dust\",\"color\":\"#FFFFFF\",\"italic\":false}'},light_gray_lunar_dust:1,float:1}"
+              "tag": "{item:\"light_gray_lunar_dust\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [
@@ -19,10 +19,8 @@
               "condition": "minecraft:survives_explosion"
             },
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "dimension": "moon:moon"
-              }
+              "condition": "minecraft:reference",
+              "name": "moon:in_moon"
             }
           ]
         },
@@ -35,17 +33,16 @@
               "condition": "minecraft:survives_explosion"
             },
             {
-              "condition":"minecraft:inverted",
-              "term":{
-                "condition":"minecraft:location_check",
-                "predicate": {
-                  "dimension": "moon:moon"
-                }
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:reference",
+                "name": "moon:in_moon"
               }
-            } 
+            }
           ]
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/light_gray_concrete_powder"
 }

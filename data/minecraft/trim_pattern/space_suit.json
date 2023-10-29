@@ -1,7 +1,7 @@
 {
   "asset_id": "minecraft:space_suit",
   "description": {
-    "text": "Test Trim"
+    "text": "Space Suit"
   },
   "template_item": "minecraft:structure_void"
 }

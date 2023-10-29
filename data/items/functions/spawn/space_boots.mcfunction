@@ -15,7 +15,7 @@ $summon item ~ ~ ~ {\
                 material:"minecraft:iron",\
                 pattern:"minecraft:space_suit"\
             },\
-            CustomModelData:10000004,\
+            CustomModelData:10000001,\
             HideFlags:128,\
             space_helmet:1,\
             insulated:1\

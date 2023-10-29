@@ -1,6 +1,4 @@
 #from adv ./triggers/in_mars
-#as adv player
-#at @s
 
 advancement revoke @s only mars:triggers/in_mars
 

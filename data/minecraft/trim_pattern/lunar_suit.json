@@ -1,0 +1,7 @@
+{
+  "asset_id": "minecraft:lunar_suit",
+  "description": {
+    "text": "Lunar Suit"
+  },
+  "template_item": "minecraft:structure_void"
+}

@@ -1,6 +1,4 @@
 #from ./init -> self
-#as SERVER
-#at SERVER
 
 schedule function lunartech:timer/3t 3t
 
