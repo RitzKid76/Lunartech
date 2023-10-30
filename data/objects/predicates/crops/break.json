@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+        "type": "minecraft:score",
+        "score": "objects.crops",
+        "target": {
+            "type": "minecraft:fixed",
+            "name": "break"
+        }
+    },
+    "range": 1
+}
