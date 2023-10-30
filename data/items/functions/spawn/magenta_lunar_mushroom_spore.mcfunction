@@ -6,13 +6,13 @@ $summon item ~ ~ ~ {\
         tag:{\
             display:{\
                 Name:'{\
-                    "text":"Blue Lunar Mushroom Spore",\
+                    "text":"Magenta Lunar Mushroom Spore",\
                     "color":"#FFFFFF",\
                     "italic":false\
                 }'\
             },\
-            CustomModelData:10001021,\
-            blue_lunar_mushroom_spore:1,\
+            CustomModelData:10001031,\
+            magenta_lunar_mushroom_spore:1,\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
@@ -26,7 +26,7 @@ $summon item ~ ~ ~ {\
                         id: "minecraft:command_block",\
                         Count:1b,\
                         tag: {\
-                            object:"blue_lunar_mushroom_spore",\
+                            object:"magenta_lunar_mushroom_spore",\
                             CustomModelData:10020001\
                         }\
                     }\

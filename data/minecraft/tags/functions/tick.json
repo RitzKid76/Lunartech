@@ -7,6 +7,7 @@
         "mars:main",
         "rocket:main",
         "machines:main",
+        "objects:main",
         "lunartech:main"
     ]
 }
