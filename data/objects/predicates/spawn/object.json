@@ -2,6 +2,6 @@
     "condition": "entity_properties",
     "entity": "this",
     "predicate": {
-        "nbt": "{Tags:[\"objects.placeable\"]}"
+        "nbt": "{Tags:[\"objects.spawn_object\"]}"
     }
 }
