@@ -1,3 +1,3 @@
 #from ./main
 
-execute if predicate objects:crops/is run return run function objects:crops/main with entity @s item.tag
+execute if entity @e[predicate=objects:crops/is] run function objects:crops/main

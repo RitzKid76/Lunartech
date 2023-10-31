@@ -1,6 +1,6 @@
-#from ../main
+#from ../tick/all
 
-$execute unless predicate objects:spawn/$(crop) run return 1
+$execute unless predicate objects:crops/survive/$(crop) run return 1
 
 data modify storage lunartech:tools UUID set from entity @s item.tag.interaction
 data modify storage lunartech:tools command set value "if data entity @s attack run tag @e[predicate=objects:crops/is,sort=nearest,limit=1] add objects.crop_punched"
