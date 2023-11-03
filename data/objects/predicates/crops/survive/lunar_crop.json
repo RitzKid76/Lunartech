@@ -1,0 +1,28 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "tag": "lunartech:air"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "tag": "moon:lunar_soil"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "moon:in_moon"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "objects:magenta_mushroom/thick",
+                "chance": 0.33
+            },
+            {
+                "feature": "objects:magenta_mushroom/branch",
+                "chance": 0.33
+            }
+        ],
+        "default": "objects:magenta_mushroom/straight"
+    }
+}

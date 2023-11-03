@@ -9,5 +9,6 @@ scoreboard objectives remove lunartech.math
 
 function machines:uninstall
 function items:uninstall
+function objects:uninstall
 
 datapack disable "file/LunarTech"

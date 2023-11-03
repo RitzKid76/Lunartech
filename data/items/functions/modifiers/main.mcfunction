@@ -4,3 +4,4 @@ execute if entity @s[predicate=items:tag/float] run function moon:effects/gravit
 
 execute if entity @s[predicate=items:tag/experience] run function items:modifiers/experience
 execute if entity @s[predicate=items:tag/loot_spawner] run function items:modifiers/loot_spawner/main
+execute if entity @s[predicate=items:tag/ore_validator] run function items:ore_validator/main
