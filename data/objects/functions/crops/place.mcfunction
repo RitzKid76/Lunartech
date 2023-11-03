@@ -12,7 +12,8 @@ $summon item_display ~ ~ ~ {\
         Count:1b,\
         tag:{\
             CustomModelData:$(model_data),\
-            crop:$(crop)\
+            crop:$(crop),\
+            growth_chance:$(growth_chance)\
         }\
     },\
     Tags:[\

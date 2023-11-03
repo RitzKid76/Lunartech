@@ -3,7 +3,7 @@
 scoreboard objectives add machines.item_count dummy
 scoreboard objectives add machines.machine_radius dummy
 scoreboard objectives add machines.volume dummy
-scoreboard objectives add machines.timeout dummy
+scoreboard objectives add machines.process_time dummy
 scoreboard objectives add machines.fuel dummy
 function machines:constants
 

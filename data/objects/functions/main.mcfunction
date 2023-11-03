@@ -2,4 +2,4 @@
 
 execute as @e[predicate=objects:spawn/object] at @s run function objects:place/main
 
-execute as @e[predicate=objects:is/object] at @s run function objects:tick
+execute if entity @e[predicate=objects:is/object] run function objects:tick

@@ -15,7 +15,7 @@ $summon item ~ ~ ~ {\
             metal_press:1,\
             default_name: "Metal Press",\
             machine:1,\
-            fuel:256,\
+            fuel:$(fuel),\
             has_fuel:1,\
             non_stackable:1,\
             projection: {\
@@ -30,10 +30,23 @@ $summon item ~ ~ ~ {\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
-                    "machines.spawn_machine",\
-                    "machines.spawn_metal_press"\
+                    "machines.spawn_machine"\
+                ],\
+                ArmorItems:[\
+                    {},\
+                    {},\
+                    {},\
+                    {\
+                        id: "minecraft:command_block",\
+                        Count:1b,\
+                        tag: {\
+                            machine:"metal_press",\
+                            CustomModelData:10020001\
+                        }\
+                    }\
                 ]\
             }\
         }\
     }\
 }
+execute as @e[predicate=items:tag/non_stackable] run function items:modifiers/non_stackable

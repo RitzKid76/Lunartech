@@ -19,6 +19,10 @@
                     "tag": "moon:lunar_soil"
                 }
             }
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "moon:in_moon"
         }
     ]
 }
