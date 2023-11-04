@@ -1,5 +1,6 @@
 #from ../entity
 
-execute if entity @s[nbt={Size:0}] run return run data merge entity @s {AbsorptionAmount:3}
-execute if entity @s[nbt={Size:1}] run return run data merge entity @s {AbsorptionAmount:12}
-execute if entity @s[nbt={Size:3}] run return run data merge entity @s {AbsorptionAmount:48}
+data merge entity @s[nbt={Size:0}] {AbsorptionAmount:3}
+data merge entity @s[nbt={Size:1}] {AbsorptionAmount:12}
+data merge entity @s[nbt={Size:3}] {AbsorptionAmount:48}
+function lunartech:math/chance {chance:140,command:"function moon:effects/entity/types/king_magma_cube"}
