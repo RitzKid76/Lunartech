@@ -1,5 +1,6 @@
 #from ./main
 
+function objects:web/spawn
 execute summon cave_spider run data merge entity @s {\
     Tags:["moon.boss.spawn","moon.boss.broodmother.spawn"],\
     DeathLootTable:"moon:entities/boss_spawns/brood_spawn",\
