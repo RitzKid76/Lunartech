@@ -1,10 +1,9 @@
 #from ./phantom
 
 data merge entity @s {\
-    Tags:["moon.boss","moon.boss.king_phantom"],\
+    Tags:["moon.boss","moon.boss.king_phantom","lunartech.no_planet_transformation"],\
     PersistenceRequired:1b,\
     DeathLootTable:"moon:entities/bosses/king_phantom",\
-    AbsorptionAmount:400,\
     Size:100,\
     CustomName:'{"text":"King Phantom"}',\
     Attributes:[\
@@ -14,3 +13,4 @@ data merge entity @s {\
         }\
     ]\
 }
+function moon:mobs/entity/set_health {health:400}

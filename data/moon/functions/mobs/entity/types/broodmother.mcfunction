@@ -1,10 +1,9 @@
 #from ./spider
 
 data merge entity @s {\
-    Tags:["moon.boss","moon.boss.broodmother"],\
+    Tags:["moon.boss","moon.boss.broodmother","lunartech.no_planet_transformation"],\
     PersistenceRequired:1b,\
     DeathLootTable:"moon:entities/bosses/broodmother",\
-    AbsorptionAmount:284,\
     CustomName:'{"text":"Broodmother"}',\
     Attributes:[\
         {\
@@ -14,5 +13,7 @@ data merge entity @s {\
     ],\
     Silent:1b\
 }
-effect give @s speed 99999 1 true
-effect give @s strength 99999 1 true
+function moon:mobs/entity/set_health {health:250}
+
+effect give @s speed infinite 1 true
+effect give @s strength infinite 1 true

@@ -1,10 +1,9 @@
 #from ./magma_cube
 
 data merge entity @s {\
-    Tags:["moon.boss","moon.boss.king_magma_cube"],\
+    Tags:["moon.boss","moon.boss.king_magma_cube","lunartech.no_planet_transformation"],\
     PersistenceRequired:1b,\
     DeathLootTable:"moon:entities/bosses/king_magma_cube",\
-    AbsorptionAmount:300,\
     Size:15,\
     CustomName:'{"text":"King Magma Cube"}',\
     Attributes:[\
@@ -14,6 +13,7 @@ data merge entity @s {\
         }\
     ]\
 }
+function moon:mobs/entity/set_health {health:300}
 
 # execute if entity @s[nbt={CustomName:'{"text":"Lunar Magma Cube"}'}] run data merge entity @s {Team:"NoNames",DeathLootTable:"moon:entities/mobs/magma_cube",Tags:["nocount"]}
 # execute if entity @s[nbt={CustomName:'{"text":"King Magma Cubelet"}'}] run data merge entity @s {Team:"NoNames",DeathLootTable:"moon:entities/boss_spawns/king_magma_cubelet",Tags:["lunar_entity","king_magma_cubelet","nocount"]}

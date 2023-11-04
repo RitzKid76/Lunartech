@@ -1,3 +1,3 @@
 #from ../entity
 
-data merge entity @s {AbsorptionAmount:40}
+function moon:mobs/entity/set_health {health:80}

@@ -5,3 +5,4 @@ block loot tables
 methods that are not guarenteed to drop an item upon destroy will cause machines to kill items that werent part of the machine
 crops should not have a main
 lab creepers are updated to be lunar creepers
+creepers drop area effect clouds that effect you with thingies

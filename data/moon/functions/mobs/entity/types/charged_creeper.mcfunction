@@ -4,7 +4,6 @@ data merge entity @s {\
     DeathLootTable:"moon:entities/mobs/charged_creeper",\
     ExplosionRadius:5,\
     powered:1b,\
-    AbsorptionAmount:80,\
     CustomName:'{"text":"Lunar Charged Creeper"}',\
     Attributes:[\
         {\
@@ -13,4 +12,6 @@ data merge entity @s {\
         }\
     ]\
 }
+function moon:mobs/entity/set_health {health:100}
+
 effect give @s speed infinite 2 true
