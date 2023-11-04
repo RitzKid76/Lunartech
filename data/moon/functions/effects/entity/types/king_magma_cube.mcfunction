@@ -3,7 +3,7 @@
 data merge entity @s {\
     Tags:["moon.boss","moon.boss.king_magma_cube"],\
     PersistenceRequired:1b,\
-    DeathLootTable:"moon:entities/mobs/king_magma_cube",\
+    DeathLootTable:"moon:entities/bosses/king_magma_cube",\
     AbsorptionAmount:300,\
     Size:15,\
     CustomName:'{"text":"King Magma Cube"}',\
