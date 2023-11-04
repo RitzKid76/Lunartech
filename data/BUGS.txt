@@ -3,3 +3,4 @@ block loot tables
     reference replacement
         tool
 methods that are not guarenteed to drop an item upon destroy will cause machines to kill items that werent part of the machine
+crops should not have a main

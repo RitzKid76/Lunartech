@@ -7,6 +7,8 @@ scoreboard objectives remove lunartech.die
 scoreboard objectives remove lunartech.raycast
 scoreboard objectives remove lunartech.math
 
+team remove NoNames
+
 function machines:uninstall
 function items:uninstall
 function objects:uninstall
