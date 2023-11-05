@@ -3,7 +3,7 @@
     "entity": "this",
     "scores": {
         "moon.boss.spawns": {
-            "max": 29
+            "max": 9
         }
     }
 }

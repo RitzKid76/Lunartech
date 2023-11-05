@@ -1,10 +1,8 @@
-#from ./main
+#from ./spawn
 
-function objects:web/spawn
-execute summon cave_spider run data merge entity @s {\
-    Tags:["moon.boss.spawn","moon.boss.broodmother.spawn"],\
+data merge entity @s {\
+    Tags:["moon.boss.spawn","moon.boss.broodmother.spawn","lunartech.no_planet_transformation"],\
     DeathLootTable:"moon:entities/boss_spawns/brood_spawn",\
-    AbsorptionAmount:24,\
     CustomName:'{"text":"Broodmother Spawn"}',\
     Attributes:[\
         {\
@@ -13,3 +11,5 @@ execute summon cave_spider run data merge entity @s {\
         }\
     ]\
 }
+function lunartech:tools/set_health {health:40}
+team join NoNames

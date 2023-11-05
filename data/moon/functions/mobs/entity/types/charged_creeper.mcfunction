@@ -12,6 +12,6 @@ data merge entity @s {\
         }\
     ]\
 }
-function moon:mobs/entity/set_health {health:100}
+function lunartech:tools/set_health {health:100}
 
 effect give @s speed infinite 2 true

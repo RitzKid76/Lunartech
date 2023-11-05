@@ -13,7 +13,7 @@ data merge entity @s {\
         }\
     ]\
 }
-function moon:mobs/entity/set_health {health:300}
+function lunartech:tools/set_health {health:300}
 
 # execute if entity @s[nbt={CustomName:'{"text":"Lunar Magma Cube"}'}] run data merge entity @s {Team:"NoNames",DeathLootTable:"moon:entities/mobs/magma_cube",Tags:["nocount"]}
 # execute if entity @s[nbt={CustomName:'{"text":"King Magma Cubelet"}'}] run data merge entity @s {Team:"NoNames",DeathLootTable:"moon:entities/boss_spawns/king_magma_cubelet",Tags:["lunar_entity","king_magma_cubelet","nocount"]}

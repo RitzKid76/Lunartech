@@ -11,6 +11,7 @@ data merge entity @s {\
             Name:"generic.knockback_resistance",\
             Base:0.5\
         }\
-    ]\
+    ],\
+    Silent:1b\
 }
-function moon:mobs/entity/set_health {health:400}
+function lunartech:tools/set_health {health:400}

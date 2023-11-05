@@ -13,7 +13,7 @@ data merge entity @s {\
     ],\
     Silent:1b\
 }
-function moon:mobs/entity/set_health {health:250}
+function lunartech:tools/set_health {health:250}
 
 effect give @s speed infinite 1 true
 effect give @s strength infinite 1 true
