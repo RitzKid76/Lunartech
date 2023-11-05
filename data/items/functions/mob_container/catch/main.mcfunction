@@ -10,6 +10,7 @@ data modify entity @s Item.tag.CustomModelData set from storage items:mob_contai
 data modify entity @s Item.tag.display.Lore[0] set from storage items:mob_container lore 
 
 data modify entity @s Item.tag.entity_data set from entity @e[predicate=items:mob_container/target,limit=1]
+data modify entity @s Item.tag.entity_data.PersistanceRequired set value 1b
 data remove entity @s Item.tag.entity_data.Pos
 
 data modify entity @s Item.tag.empty set value 0
@@ -20,6 +21,7 @@ data merge entity @e[predicate=items:mob_container/target,limit=1] {\
     Health:0f,\
     DeathLootTable:"lunartech:none",\
     Owner:[I;0,0,0,0],\
-    Attacker:[I;0,0,0,0]\
+    Attacker:[I;0,0,0,0],\
+    Attributes:[]\
 }
 tag @e[predicate=items:mob_container/target] remove items.mob_container.target
