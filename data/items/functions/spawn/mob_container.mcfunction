@@ -9,7 +9,14 @@ $summon item ~ ~ ~ {\
                     "text":"Mob Container",\
                     "color":"#FFFFFF",\
                     "italic":false\
-                }'\
+                }',\
+                Lore:[\
+                    '{\
+                        "text":"Empty",\
+                        "color":"#999999",\
+                        "italic":false\
+                    }'\
+                ]\
             },\
             CustomModelData:10010001,\
             mob_container:1,\
