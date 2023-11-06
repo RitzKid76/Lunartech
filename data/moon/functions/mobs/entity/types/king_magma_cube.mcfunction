@@ -15,3 +15,5 @@ data merge entity @s {\
     Silent:1b\
 }
 function lunartech:tools/set_health {health:250}
+
+execute positioned over motion_blocking run tp @s ~ ~10 ~

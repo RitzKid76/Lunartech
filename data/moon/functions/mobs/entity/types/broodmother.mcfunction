@@ -17,3 +17,5 @@ function lunartech:tools/set_health {health:250}
 
 effect give @s speed infinite 1 true
 effect give @s strength infinite 1 true
+
+execute positioned over motion_blocking run tp @s ~ ~10 ~
