@@ -67,7 +67,8 @@ data merge entity @s {\
                 CustomModelData:10010002\
             }\
         }\
-    ]\
+    ],\
+    Silent:1b\
 }
 function lunartech:tools/set_health {health:20}
 effect give @s invisibility infinite 0 true

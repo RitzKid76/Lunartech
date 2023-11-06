@@ -67,6 +67,7 @@ data merge entity @s {\
                 CustomModelData:10010005\
             }\
         }\
-    ]\
+    ],\
+    Silent:1b\
 }
 effect give @s invisibility infinite 0 true
