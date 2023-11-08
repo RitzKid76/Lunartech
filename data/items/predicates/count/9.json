@@ -6,8 +6,7 @@
             "entity": "this",
             "scores": {
                 "machines.item_count": {
-                    "min": 9,
-                    "max": 64
+                    "min": 9
                 }
             }
         },

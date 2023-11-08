@@ -13,6 +13,7 @@ $summon item ~ ~ ~ {\
             },\
             CustomModelData:10001031,\
             magenta_lunar_mushroom_spore:1,\
+            float:1,\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
