@@ -1,5 +1,7 @@
 #from ./main
 
+function moon:mobs/boss/king_phantom/update_bossbar
+
 execute if score @s moon.boss.timer matches 20 run playsound entity.phantom.flap hostile @a[distance=..200] ~ ~ ~ 6 0
 execute if score @s moon.boss.timer matches 80 run playsound entity.phantom.flap hostile @a[distance=..200] ~ ~ ~ 6 0
 execute if score @s moon.boss.timer matches 120 run playsound entity.phantom.flap hostile @a[distance=..200] ~ ~ ~ 6 0
