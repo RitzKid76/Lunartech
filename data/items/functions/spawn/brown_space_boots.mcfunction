@@ -1,0 +1,1 @@
+$function items:spawn/space_boots_base {color:"brown",id:5,count:$(count)}

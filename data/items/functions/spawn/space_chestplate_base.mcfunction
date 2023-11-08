@@ -1,24 +1,24 @@
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\
-        id:"minecraft:leather_helmet",\
+        id:"minecraft:leather_chestplate",\
         Count:$(count)b,\
         tag:{\
             display:{\
                 Name:'{\
-                    "text":"Space Helmet",\
+                    "text":"Space Chestplate",\
                     "color":"#FFFFFF",\
                     "italic":false\
                 }'\
             },\
             Trim:{\
                 material:"minecraft:iron",\
-                pattern:"minecraft:space_suit"\
+                pattern:"minecraft:space_suit_$(color)"\
             },\
             CustomModelData:10000001,\
             HideFlags:128,\
-            color:1,\
-            space_helmet:1,\
+            color:$(id),\
+            space_chestplate:1,\
             space_suit:1,\
             insulated:1\
         }\
