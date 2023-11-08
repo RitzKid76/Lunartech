@@ -1,12 +1,12 @@
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\
-        id:"minecraft:leather_boots",\
+        id:"minecraft:leather_helmet",\
         Count:$(count)b,\
         tag:{\
             display:{\
                 Name:'{\
-                    "text":"Space Boots",\
+                    "text":"Space Helmet",\
                     "color":"#FFFFFF",\
                     "italic":false\
                 }'\
@@ -17,7 +17,9 @@ $summon item ~ ~ ~ {\
             },\
             CustomModelData:10000001,\
             HideFlags:128,\
+            color:1,\
             space_helmet:1,\
+            space_suit:1,\
             insulated:1\
         }\
     }\

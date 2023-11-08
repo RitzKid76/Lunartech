@@ -10,7 +10,7 @@
         },
         {
             "condition": "minecraft:reference",
-            "name": "items:tag/snapped_item"
+            "name": "items:entity_tag/snapped_item"
         }
     ]
 }
