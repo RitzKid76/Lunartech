@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "objects:blue_mushroom/wide",
+                "chance": 0.33
+            },
+            {
+                "feature": "objects:blue_mushroom/branch",
+                "chance": 0.33
+            }
+        ],
+        "default": "objects:blue_mushroom/straight"
+    }
+}

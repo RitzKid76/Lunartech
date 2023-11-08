@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{item:\"quarry\",count:1,CustomModelData:10020001,loot_spawner:1}"
+                        }
+                    ],
+                    "conditions": []
+                }
+            ]
+        }
+    ]
+}
