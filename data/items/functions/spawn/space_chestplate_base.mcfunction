@@ -15,7 +15,7 @@ $summon item ~ ~ ~ {\
                 material:"minecraft:iron",\
                 pattern:"minecraft:space_suit_$(color)"\
             },\
-            CustomModelData:10000001,\
+            CustomModelData:$(model_data),\
             HideFlags:128,\
             color:$(id),\
             space_chestplate:1,\
