@@ -1,0 +1,4 @@
+{
+    "condition": "minecraft:reference",
+    "name": "moon:in_biome/lunar_jungle"
+}

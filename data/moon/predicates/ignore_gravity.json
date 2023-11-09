@@ -4,6 +4,10 @@
         {
             "condition": "minecraft:reference",
             "name": "moon:boss/king_magma_cube"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "objects:meteor/is"
         }
     ]
 }
