@@ -66,14 +66,6 @@
         []
     ],
     "spawners": {
-        "creature": [
-            {
-                "type": "minecraft:frog",
-                "minCount": 1,
-                "maxCount": 4,
-                "weight": 1
-            }
-        ],
         "monster": [
             {
                 "type": "minecraft:stray",
@@ -98,6 +90,12 @@
                 "minCount": 1,
                 "maxCount": 4,
                 "weight": 2
+            },
+            {
+                "type": "minecraft:silverfish",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
             }
         ]
     },
