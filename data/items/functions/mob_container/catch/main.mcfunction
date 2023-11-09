@@ -1,6 +1,6 @@
 #from ../main
 
-tag @e[predicate=items:mob_container/catchable,distance=..3,sort=nearest,limit=1] add items.mob_container.target
+tag @e[predicate=items:mob_container/catchable,distance=..1.5,sort=nearest,limit=1] add items.mob_container.target
 
 execute as @e[predicate=items:mob_container/target] run function lunartech:tools/get_entity_type/main
 data modify entity @s Item.tag.entity_type set from storage lunartech:tools entity_type
@@ -25,3 +25,7 @@ data merge entity @e[predicate=items:mob_container/target,limit=1] {\
     Attributes:[]\
 }
 tag @e[predicate=items:mob_container/target] remove items.mob_container.target
+
+playsound minecraft:entity.item.pickup player @a[distance=..25] ~ ~ ~ 10 0
+playsound minecraft:entity.player.attack.sweep player @a[distance=..25] ~ ~ ~ 1 0
+particle minecraft:enchant ~ ~ ~ 0.2 0.2 0.2 0.4 30 normal
