@@ -1,3 +1,3 @@
 #from .:tick
 
-function lunartech:math/chance {chance:10,command:"kill @s"}
+execute if function objects:meteor/break/condition run function objects:meteor/break/main
