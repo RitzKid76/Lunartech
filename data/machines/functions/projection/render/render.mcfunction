@@ -5,7 +5,8 @@ $summon item_display ~ ~ ~ {\
         id:"minecraft:armor_stand",\
         Count:1b,\
         tag:{\
-            CustomModelData:$(model_data)\
+            CustomModelData:$(model_data),\
+            fuel:$(fuel)\
         }\
     },\
     Tags:[\

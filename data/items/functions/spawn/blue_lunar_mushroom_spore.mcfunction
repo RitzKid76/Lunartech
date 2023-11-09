@@ -13,12 +13,24 @@ $summon item ~ ~ ~ {\
             },\
             CustomModelData:10001021,\
             blue_lunar_mushroom_spore:1,\
+            float:1,\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
-                    "lunartech.placeable",\
-                    "lunar_crop",\
-                    "blue_lunar_mushroom_spore"\
+                    "objects.spawn_object"\
+                ],\
+                ArmorItems:[\
+                    {},\
+                    {},\
+                    {},\
+                    {\
+                        id: "minecraft:command_block",\
+                        Count:1b,\
+                        tag: {\
+                            object:"blue_lunar_mushroom_spore",\
+                            CustomModelData:10020001\
+                        }\
+                    }\
                 ]\
             }\
         }\

@@ -66,6 +66,14 @@
         []
     ],
     "spawners": {
+        "creature": [
+            {
+                "type": "minecraft:frog",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            }
+        ],
         "monster": [
             {
                 "type": "minecraft:stray",

@@ -1,0 +1,26 @@
+{
+    "feature": "moon:surface_details/trees/magenta_mushroom/straight",
+    "placement": [
+        {
+            "type": "block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "lunartech:air"
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "tag": "moon:lunar_soil",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "asset_id": "minecraft:space_suit_pink",
+  "description": {
+    "text": "Space Suit"
+  },
+  "template_item": "minecraft:structure_void"
+}

@@ -1,4 +1,5 @@
 #from SERVER
 
 execute as @e[predicate=items:has_tag] at @s run function items:modifiers/main
-execute as @e[predicate=items:tag/ore_validator] at @s run function items:ore_validator/main
+
+execute as @e[predicate=items:mob_container/is,predicate=items:count/exact/1,predicate=items:pickupable,predicate=!items:entity_tag/restrict] at @s run function items:mob_container/main

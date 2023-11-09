@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:blaze",
+        "minecraft:cave_spider",
+        "minecraft:creeper",
+        "minecraft:enderman",
+        "minecraft:husk",
+        "minecraft:magma_cube",
+        "minecraft:phantom",
+        "minecraft:silverfish",
+        "minecraft:skeleton",
+        "minecraft:spider",
+        "minecraft:stray",
+        "minecraft:wither_skeleton",
+        "minecraft:zombie"
+    ]
+}
