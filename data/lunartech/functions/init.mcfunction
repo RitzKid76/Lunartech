@@ -10,6 +10,7 @@ scoreboard objectives add lunartech.radiation_damage dummy
 scoreboard objectives add lunartech.die deathCount
 scoreboard objectives add lunartech.raycast dummy
 scoreboard objectives add lunartech.math dummy
+scoreboard objectives add lunartech.tools dummy
 
 team add NoNames
 team modify NoNames nametagVisibility never
