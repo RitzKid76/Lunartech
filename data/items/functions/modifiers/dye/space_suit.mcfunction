@@ -12,3 +12,4 @@ $data merge entity @s {\
         }\
     }\
 }
+tag @s add items.restrict
