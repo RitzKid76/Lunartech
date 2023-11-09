@@ -74,6 +74,14 @@
         []
     ],
     "spawners": {
+        "creature": [
+            {
+                "type": "minecraft:frog",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            }
+        ],
         "monster": [
             {
                 "type": "minecraft:spider",
@@ -89,6 +97,12 @@
             },
             {
                 "type": "minecraft:creeper",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
+            },
+            {
+                "type": "minecraft:skeleton",
                 "minCount": 1,
                 "maxCount": 4,
                 "weight": 1
