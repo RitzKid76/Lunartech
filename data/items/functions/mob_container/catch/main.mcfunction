@@ -5,6 +5,8 @@ tag @e[predicate=items:mob_container/catchable,distance=..1.5,sort=nearest,limit
 execute as @e[predicate=items:mob_container/target] run function lunartech:tools/get_entity_type/main
 data modify entity @s Item.tag.entity_type set from storage lunartech:tools entity_type
 
+execute if entity @e[predicate=items:mob_container/target,predicate=lunartech:teams/nonames] run data modify entity @s Item.tag.nonames set value 1
+
 execute as @e[predicate=items:mob_container/target] run function items:mob_container/catch/get_data/main with storage lunartech:tools
 data modify entity @s Item.tag.CustomModelData set from storage items:mob_container model_data
 data modify entity @s Item.tag.display.Lore[0] set from storage items:mob_container lore 
