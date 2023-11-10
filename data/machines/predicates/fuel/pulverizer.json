@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:reference",
+                "name": "items:is/blaze_rod"
+            }
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "machines:fuel/all"
+        }
+    ]
+}
