@@ -90,6 +90,12 @@
                 "minCount": 1,
                 "maxCount": 4,
                 "weight": 3
+            },
+            {
+                "type": "minecraft:bat",
+                "minCount": 1,
+                "maxCount": 1,
+                "weight": 1
             }
         ]
     },

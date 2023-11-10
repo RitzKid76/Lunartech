@@ -1,4 +1,4 @@
-#from ./creeper
+#from ../creeper
 
 data merge entity @s {\
     DeathLootTable:"moon:entities/mobs/charged_creeper",\

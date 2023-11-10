@@ -1,9 +1,9 @@
-#from ./wither_skeleton
+#from .../skeleton
 
 data merge entity @s {\
-    DeathLootTable:"moon:entities/mobs/shroomling/black",\
+    DeathLootTable:"moon:entities/mobs/shroomling/blue",\
     CanPickupLoot:0b,\
-    CustomName:'{"text":"Black Shroomling"}',\
+    CustomName:'{"text":"Blue Shroomling"}',\
     HandDropChances:[0f,0f],\
     HandItems:[\
         {\
@@ -32,10 +32,10 @@ data merge entity @s {\
         },\
         {\
             Name:"generic.attack_damage",\
-            Base:6.0\
+            Base:3.0\
         }\
     ],\
-    ArmorDropChances:[0f,0f,0f,0f],\
+    ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],\
     ArmorItems:[\
         {},\
         {\
@@ -45,7 +45,7 @@ data merge entity @s {\
                 Unbreakable:1b,\
                 Trim:{\
                     material:"minecraft:emerald",\
-                    pattern:"minecraft:black_fungus"\
+                    pattern:"minecraft:fungus"\
                 }\
             }\
         },\
@@ -56,7 +56,7 @@ data merge entity @s {\
                 Unbreakable:1b,\
                 Trim:{\
                     material:"minecraft:emerald",\
-                    pattern:"minecraft:black_fungus"\
+                    pattern:"minecraft:fungus"\
                 }\
             }\
         },\
@@ -64,10 +64,11 @@ data merge entity @s {\
             id:"minecraft:armor_stand",\
             Count:1b,\
             tag:{\
-                CustomModelData:10010005\
+                CustomModelData:10010001\
             }\
         }\
     ],\
     Silent:1b\
 }
+function lunartech:tools/set_health {health:20}
 effect give @s invisibility infinite 0 true

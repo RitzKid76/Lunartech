@@ -1,7 +1,8 @@
 #from SERVER
 
-scoreboard objectives add moon.boss.spawns dummy
+scoreboard objectives add moon.spawns dummy
 scoreboard objectives add moon.boss.timer dummy
+function moon:constants
 
 bossbar add moon:boss/broodmother {"text":"Broodmother","color":"#A64A47"}
 bossbar set moon:boss/broodmother max 250

@@ -1,4 +1,4 @@
-#from ./spider
+#from .../spider
 
 data merge entity @s {\
     Tags:["moon.boss","moon.boss.broodmother","lunartech.no_planet_transformation"],\
