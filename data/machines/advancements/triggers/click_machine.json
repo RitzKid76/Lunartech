@@ -22,7 +22,7 @@
       ]
     ],
     "rewards": {
-      "function": "machines:triggers/click_machine"
+      "function": "machines:triggers/click_machine/main"
     }
   }
   

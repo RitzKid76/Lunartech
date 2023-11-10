@@ -1,1 +1,1 @@
-execute anchored eyes run function lunartech:raycast/start {steps:500,size:0.01}
+execute anchored eyes run function lunartech:raycast/start {steps:5000,size:0.001}
