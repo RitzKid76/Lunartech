@@ -5,7 +5,7 @@
     "spawn_overrides": {},
     "biomes": "#moon:has_structure/small_rocket",
     "start_height": {
-        "absolute": -3
+        "absolute": -4
     },
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
     "start_jigsaw_name": "minecraft:small_rocket",
