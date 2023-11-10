@@ -1,0 +1,14 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 69420,
+      "separation": 4,
+      "spacing": 10
+    },
+    "structures": [
+      {
+        "structure": "moon:small_rocket",
+        "weight": 1
+      }
+    ]
+  }

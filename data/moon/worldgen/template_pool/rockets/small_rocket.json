@@ -1,0 +1,15 @@
+{
+  "name": "moon:rockets/small_rocket",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "moon:rockets/small_rocket",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
