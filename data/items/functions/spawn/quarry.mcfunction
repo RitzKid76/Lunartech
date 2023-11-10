@@ -15,7 +15,7 @@ $summon item ~ ~ ~ {\
             quarry:1,\
             default_name: "Quarry",\
             machine:1,\
-            fuel:2048,\
+            fuel:$(fuel),\
             has_fuel:1,\
             non_stackable:1,\
             projection: {\
@@ -23,17 +23,30 @@ $summon item ~ ~ ~ {\
                 false:10020008,\
                 x:0,\
                 y:0,\
-                z:0,\
+                z:1,\
                 scale:3,\
                 name:"quarry",\
             },\
             EntityTag:{\    
                 Invisible:1b,\
                 Tags:[\
-                    "machines.spawn_machine",\
-                    "machines.spawn_quarry"\
+                    "machines.spawn_machine"\
+                ],\
+                ArmorItems:[\
+                    {},\
+                    {},\
+                    {},\
+                    {\
+                        id: "minecraft:command_block",\
+                        Count:1b,\
+                        tag: {\
+                            machine:"quarry",\
+                            CustomModelData:10020001\
+                        }\
+                    }\
                 ]\
             }\
         }\
     }\
 }
+execute as @e[predicate=items:tag/non_stackable] run function items:modifiers/non_stackable
