@@ -5,7 +5,7 @@ tellraw @a[predicate=machines:prompter] [\
         "text":"[","color":"#707070"\
     },\
     {\
-        "text":"Pulverizer","color":"#8FB8C9"\
+        "text":"Metal Press","color":"#8FB8C9"\
     },\
     {\
         "text":"]","color":"#707070"\
@@ -28,7 +28,7 @@ tellraw @a[predicate=machines:prompter] [\
     },\
     {\
         "score":{\
-            "name":"#pulverizer",\
+            "name":"#metal_press",\
             "objective":"machines.fuel"\
         },\
         "color":"#80959C"\
@@ -40,40 +40,22 @@ tellraw @a[predicate=machines:prompter] [\
         "text":"]","color":"#707070"\
     },\
     {\
-        "text":"\n\nTurns ","color":"#CCEFFA"\
+        "text":"\n\nCompresses ","color":"#CCEFFA"\
     },\
     {\
-        "text":"Raw Ore","color":"#80959C"\
+        "text":"Metal Ingots","color":"#80959C"\
     },\
     {\
-        "text":" into dust, which can be smelted to give\ndouble yeild. It can also turn other items like ","color":"#CCEFFA"\
+        "text":" into ","color":"#CCEFFA"\
     },\
     {\
-        "text":"Cobblestone","color":"#80959C"\
-    },\
-    {\
-        "text":"\ninto ","color":"#CCEFFA"\
-    },\
-    {\
-        "text":"Gravel","color":"#80959C"\
-    },\
-    {\
-        "text":", or ","color":"#CCEFFA"\
-    },\
-    {\
-        "text":"Bones","color":"#80959C"\
-    },\
-    {\
-        "text":" into 5 ","color":"#CCEFFA"\
-    },\
-    {\
-        "text":"Bone Meal","color":"#80959C"\
+        "text":"Metal Sheets","color":"#80959C"\
     },\
     {\
         "text":".\n\nThrow items above the ","color":"#CCEFFA"\
     },\
     {\
-        "text":"Blast Furnace","color":"#80959C"\
+        "text":"Furnace","color":"#80959C"\
     },\
     {\
         "text":" to use them in recipes.","color":"#CCEFFA"\
@@ -94,7 +76,7 @@ tellraw @a[predicate=machines:prompter] [\
         "text":", or ","color":"#B0B0B0"\
     },\
     {\
-        "text":"Blaze Powder","color":"#7A7A7A"\
+        "text":"Blaze Rods","color":"#7A7A7A"\
     },\
     {\
         "text":" as fuel.","color":"#B0B0B0"\
