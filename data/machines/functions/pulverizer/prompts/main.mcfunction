@@ -1,6 +1,5 @@
 #from .:prompts/prompt
 
-say Pulverizer
 tellraw @a[predicate=machines:prompter] [\
     {\
         "text":"[","color":"#707070"\
