@@ -11,7 +11,7 @@ data merge entity @s {\
         }\
     ],\
     Size:5,\
-    Motion:[0f,1f,0f]\
+    Motion:[0d,1d,0d]\
 }
 function lunartech:tools/set_health {health:50}
 team join NoNames

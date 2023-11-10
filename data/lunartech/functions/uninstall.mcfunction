@@ -6,6 +6,7 @@ scoreboard objectives remove lunartech.radiation_damage
 scoreboard objectives remove lunartech.die
 scoreboard objectives remove lunartech.raycast
 scoreboard objectives remove lunartech.math
+scoreboard objectives remove lunartech.tools
 
 team remove NoNames
 
