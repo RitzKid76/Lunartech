@@ -6,6 +6,8 @@
         "#moon:generation/dead_vegetation",
         "minecraft:pointed_dripstone",
         "minecraft:glow_lichen",
-        "#minecraft:ice"
+        "#minecraft:ice",
+        "minecraft:dripstone_block",
+        "minecraft:lava"
     ]
 }

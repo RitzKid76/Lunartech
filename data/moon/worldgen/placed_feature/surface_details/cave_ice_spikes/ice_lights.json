@@ -1,51 +1,51 @@
 {
-    "feature": "moon:surface_details/cave_ice_spikes/ice_lights",
-    "placement": [
-      {
-        "type": "minecraft:count",
-        "count": 256
-      },
-      {
-        "type": "minecraft:in_square"
-      },
-      {
-        "type": "minecraft:height_range",
-        "height": {
-          "type": "minecraft:uniform",
-          "max_inclusive": {
-            "absolute": 0
-          },
-          "min_inclusive": {
-            "above_bottom": -60
-          }
-        }
-      },
-      {
-        "type": "minecraft:environment_scan",
-        "allowed_search_condition": {
-          "type": "minecraft:matching_blocks",
-          "blocks": "#lunartech:air"
+  "feature": "moon:surface_details/cave_ice_spikes/ice_lights",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 0
         },
-        "direction_of_search": "up",
-        "max_steps": 32,
-        "target_condition": {
-          "type": "all_of",
-          "predicates": [
-            {
-              "type": "matching_blocks",
-              "blocks": "#minecraft:ice",
-              "offset": [
-                  0,
-                  1,
-                  0
-              ]
-            },
-            {
-              "type": "matching_blocks",
-              "blocks": "#lunartech:air"
-            }
-          ] 
+        "min_inclusive": {
+          "above_bottom": -58
         }
       }
-    ]
-  }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "#lunartech:air"
+      },
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "all_of",
+        "predicates": [
+          {
+            "type": "matching_blocks",
+            "blocks": "#minecraft:ice",
+            "offset": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "matching_blocks",
+            "blocks": "#lunartech:air"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -45,11 +45,11 @@
         [],
         [
             "moon:surface_details/cave_ice_spikes/ice_replace",
-            "minecraft:ore_coal_upper",
-            "minecraft:ore_coal_lower",
-            "minecraft:ore_iron_upper",
-            "minecraft:ore_iron_middle",
-            "minecraft:ore_iron_small"
+            "moon:ore/space_rock",
+            "moon:ore/spaceship_debris",
+            "moon:ore/lunar_metal",
+            "moon:ore/nebulite",
+            "moon:ore/lead"
         ],
         [
             "moon:stone_type/basalt",
@@ -90,6 +90,12 @@
                 "minCount": 1,
                 "maxCount": 4,
                 "weight": 2
+            },
+            {
+                "type": "minecraft:silverfish",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 1
             }
         ]
     },
