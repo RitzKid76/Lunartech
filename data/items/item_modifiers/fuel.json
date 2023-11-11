@@ -20,6 +20,11 @@
             "storage": "items:modifiers",
             "color": "#FFFFFF",
             "italic": false
+          },
+          {
+            "text": " Fuel",
+            "color": "#FFFFFF",
+            "italic": false
           }
         ]
       ]

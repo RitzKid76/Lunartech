@@ -8,3 +8,4 @@ lab creepers are updated to be lunar creepers
 creepers drop area effect clouds that effect you with thingies
 no planet transformation tag to entities in mob container
 potential duplicate boss with persistancerequired:1b
+webs from spider spawn do not exist
