@@ -10,5 +10,5 @@ kill @e[type=item,nbt={Item:{id:"minecraft:cobbled_deepslate_stairs",Count:1b}},
 kill @e[type=item,nbt={Item:{id:"minecraft:cauldron",Count:1b}},sort=nearest,limit=1]
 kill @e[type=item,nbt={Item:{id:"minecraft:blast_furnace",Count:1b}},sort=nearest,limit=1]
 
-execute if predicate machines:fuel/has run kill @e[type=item,nbt={Item:{id:"minecraft:magma_block",Count:1b}},sort=nearest,limit=2]
-execute unless predicate machines:fuel/has run kill @e[type=item,nbt={Item:{id:"minecraft:netherrack",Count:1b}},sort=nearest,limit=2]
+execute if predicate machines:state/has_fuel run kill @e[type=item,nbt={Item:{id:"minecraft:magma_block",Count:1b}},sort=nearest,limit=2]
+execute unless predicate machines:state/has_fuel run kill @e[type=item,nbt={Item:{id:"minecraft:netherrack",Count:1b}},sort=nearest,limit=2]
