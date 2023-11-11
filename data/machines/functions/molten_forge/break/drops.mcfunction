@@ -7,6 +7,8 @@ kill @e[type=item,nbt={Item:{id:"minecraft:cobbled_deepslate",Count:1b}},sort=ne
 kill @e[type=item,nbt={Item:{id:"minecraft:cobbled_deepslate_slab",Count:1b}},sort=nearest,limit=6]
 kill @e[type=item,nbt={Item:{id:"minecraft:polished_andesite",Count:1b}},sort=nearest,limit=8]
 kill @e[type=item,nbt={Item:{id:"minecraft:cobbled_deepslate_stairs",Count:1b}},sort=nearest,limit=4]
-kill @e[type=item,nbt={Item:{id:"minecraft:magma_block",Count:1b}},sort=nearest,limit=2]
 kill @e[type=item,nbt={Item:{id:"minecraft:cauldron",Count:1b}},sort=nearest,limit=1]
 kill @e[type=item,nbt={Item:{id:"minecraft:blast_furnace",Count:1b}},sort=nearest,limit=1]
+
+execute if predicate machines:fuel/has run kill @e[type=item,nbt={Item:{id:"minecraft:magma_block",Count:1b}},sort=nearest,limit=2]
+execute unless predicate machines:fuel/has run kill @e[type=item,nbt={Item:{id:"minecraft:netherrack",Count:1b}},sort=nearest,limit=2]
