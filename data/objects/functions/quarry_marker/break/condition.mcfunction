@@ -1,3 +1,5 @@
 #from ../main
 
-return run execute unless block ~ ~ ~ soul_torch
+execute unless predicate objects:spawn/quarry_marker run return 1
+
+return run function objects:hitbox/check_punch
