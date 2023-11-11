@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{item:\"coke_oven\",count:1,CustomModelData:10020001,loot_spawner:1}"
+                            "tag": "{item:\"molten_forge\",count:1,CustomModelData:10020001,loot_spawner:1}"
                         }
                     ],
                     "conditions": []
