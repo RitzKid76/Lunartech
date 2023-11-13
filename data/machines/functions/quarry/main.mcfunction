@@ -6,3 +6,7 @@ scoreboard players remove @s[predicate=!machines:state/process_time_ready,predic
 execute if function machines:quarry/break/condition run function machines:quarry/break/main
 
 return 1
+
+# particle colors
+particle dust 0.212 0.329 0.757 1 ~ ~.5 ~ 0 0 0 0 1 force @a
+particle dust 0.549 0.78 1 1 ~ ~.5 ~ 0 0 0 0 1 force @a

@@ -28,7 +28,7 @@ tellraw @a[predicate=machines:prompter] [\
     },\
     {\
         "score":{\
-            "name":"#molten_forge",\
+            "name":"#quarry",\
             "objective":"machines.fuel"\
         },\
         "color":"#80959C"\
@@ -40,3 +40,4 @@ tellraw @a[predicate=machines:prompter] [\
         "text":"]","color":"#707070"\
     }\
 ]
+function machines:quarry/states/machine_click

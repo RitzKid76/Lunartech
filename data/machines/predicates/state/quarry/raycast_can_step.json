@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+        "type": "minecraft:score",
+        "score": "machines.state",
+        "target": {
+            "type": "fixed",
+            "name": "quarry.perimeter"
+        }
+    },
+    "range": {
+        "max": 68
+    }
+}
