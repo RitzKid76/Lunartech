@@ -1,6 +1,5 @@
 {
     "values": [
-        "#moon:generation/cave_ice_can_replace",
-        "#moon:lunar_surface"
+        "#moon:generation/cave_ice_can_replace"
     ]
 }
