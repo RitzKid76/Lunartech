@@ -1,8 +1,8 @@
 #from ./main
 
-execute if entity @e[predicate=objects:crops/is] run function objects:crops/main
+execute if entity @e[type=item_display,tag=objects.crop] run function objects:crops/main
 
-execute as @e[predicate=objects:is/web] at @s run function objects:web/main
-execute as @e[predicate=objects:meteor/is] at @s run function objects:meteor/main
-execute as @e[predicate=objects:is/quarry_marker] at @s run function objects:quarry_marker/main
+execute as @e[type=marker,tag=objects.web] at @s run function objects:web/main
+execute as @e[type=creeper,tag=objects.meteor] at @s run function objects:meteor/main
+execute as @e[type=item_display,tag=objects.quarry_marker] at @s run function objects:quarry_marker/main
     

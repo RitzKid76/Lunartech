@@ -2,5 +2,5 @@
 
 schedule function lunartech:timer/6t 6t
 
-execute as @e[predicate=moon:in_moon,type=#lunartech:float_gravity] run function moon:effects/gravity/float
-execute as @e[predicate=items:tag/float] run function moon:effects/gravity/float
+execute as @e[type=#lunartech:float_gravity,predicate=moon:in_moon] run function moon:effects/gravity/float
+execute as @e[type=item,nbt={Item:{tag:{float:1}}}] run function moon:effects/gravity/float

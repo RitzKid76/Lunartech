@@ -9,6 +9,6 @@ $summon falling_block ~ ~ ~ {\
     Motion:[0d,-1d,0d]\
 }
 
-execute store result entity @e[predicate=objects:meteor/projectile,limit=1] Motion[0] double 0.2 run random value -5..5
-execute store result entity @e[predicate=objects:meteor/projectile,limit=1] Motion[2] double 0.2 run random value -5..5
-tag @e[predicate=objects:meteor/projectile] remove objects.meteor.projectile
+execute store result entity @e[type=falling_block,tag=objects.meteor.projectile,limit=1] Motion[0] double 0.2 run random value -5..5
+execute store result entity @e[type=falling_block,tag=objects.meteor.projectile,limit=1] Motion[2] double 0.2 run random value -5..5
+tag @e[type=falling_block,tag=objects.meteor.projectile] remove objects.meteor.projectile

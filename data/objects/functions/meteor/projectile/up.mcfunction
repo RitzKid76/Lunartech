@@ -8,8 +8,8 @@ $summon falling_block ~ ~ ~ {\
     DropItem:0b\
 }
 
-execute store result entity @e[predicate=objects:meteor/projectile,limit=1] Motion[1] double 0.01 run random value 1..25
+execute store result entity @e[type=falling_block,tag=objects.meteor.projectile,limit=1] Motion[1] double 0.01 run random value 1..25
 
-execute store result entity @e[predicate=objects:meteor/projectile,limit=1] Motion[0] double 0.01 run random value -100..100
-execute store result entity @e[predicate=objects:meteor/projectile,limit=1] Motion[2] double 0.01 run random value -100..100
-tag @e[predicate=objects:meteor/projectile] remove objects.meteor.projectile
+execute store result entity @e[type=falling_block,tag=objects.meteor.projectile,limit=1] Motion[0] double 0.01 run random value -100..100
+execute store result entity @e[type=falling_block,tag=objects.meteor.projectile,limit=1] Motion[2] double 0.01 run random value -100..100
+tag @e[type=falling_block,tag=objects.meteor.projectile] remove objects.meteor.projectile

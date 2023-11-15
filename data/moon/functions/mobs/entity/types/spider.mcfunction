@@ -1,4 +1,4 @@
 #from ../entity
 
 function lunartech:tools/set_health {health:32}
-execute unless entity @e[predicate=moon:boss/broodmother] run function lunartech:math/chance {chance:70,command:"function moon:mobs/entity/types/convert/boss/broodmother"}
+execute unless entity @e[type=spider,tag=moon.boss.broodmother] run function lunartech:math/chance {chance:70,command:"function moon:mobs/entity/types/convert/boss/broodmother"}

@@ -1,4 +1,4 @@
 #from lunartech:timer/10t
 
-execute as @e[predicate=machines:spawn/industrial_crafter/parent] at @s run function machines:industrial_crafter/place
-execute as @e[predicate=machines:spawn/cooking_station/parent] at @s if entity @e[predicate=machines:spawn/cooking_station/children/1,distance=...5] run function machines:cooking_station/place
+execute as @e[type=item,predicate=machines:spawn/in_cauldron,nbt={Item:{id:"minecraft:copper_block",Count:1b}}] at @s run function machines:industrial_crafter/place
+execute as @e[type=item,predicate=machines:spawn/in_cauldron,nbt={Item:{id:"minecraft:crafting_table",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:campfire",Count:1b}},distance=...5] run function machines:cooking_station/place

@@ -14,4 +14,4 @@ data merge entity @s {\
     }\
 }
 
-data modify entity @s item.tag.hitbox set from entity @e[predicate=objects:is/hitbox,sort=nearest,limit=1] UUID
+data modify entity @s item.tag.hitbox set from entity @e[type=interaction,tag=objects.hitbox,sort=nearest,limit=1] UUID

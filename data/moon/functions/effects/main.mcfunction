@@ -1,3 +1,3 @@
 #from .:tick
 
-execute as @e[predicate=moon:entity,predicate=!moon:moon_gravity] run function moon:effects/gravity/entity
+execute as @e[type=!player,tag=!moon.gravity,predicate=moon:in_moon] run function moon:effects/gravity/entity

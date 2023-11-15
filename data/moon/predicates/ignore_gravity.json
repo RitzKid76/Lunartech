@@ -2,12 +2,20 @@
     "condition": "minecraft:any_of",
     "terms": [
         {
-            "condition": "minecraft:reference",
-            "name": "moon:boss/king_magma_cube"
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:magma_cube",
+                "nbt": "{Tags:[\"moon.boss.king_magma_cube\"]}"
+            }
         },
         {
-            "condition": "minecraft:reference",
-            "name": "objects:meteor/is"
-        }
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:creeper",
+                "nbt": "{Tags:[\"objects.meteor\"]}"
+            }
+        }        
     ]
 }

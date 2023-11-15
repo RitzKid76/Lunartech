@@ -13,4 +13,4 @@ $data merge entity @s {\
 
 $function machines:place/armor_stand/spawn/$(rotation) {machine:$(machine)}
 $scoreboard players set @s machines.fuel $(fuel)
-tag @e[predicate=machines:is/new_machine_part] remove machines.new_part
+tag @e[tag=machines.new_part] remove machines.new_part
