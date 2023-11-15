@@ -2,9 +2,9 @@
 
 function items:modifiers/remove_item_count {count:4}
 
-execute as @e[type=item,predicate=items:is/rubber_sheet,predicate=items:count/2,distance=...7,limit=1] run function items:modifiers/remove_item_count {count:2}
-execute as @e[type=item,predicate=items:is/steel_ingot,predicate=items:count/1,distance=...7,limit=1] run function items:modifiers/remove_item_count {count:1}
-kill @e[type=item,predicate=items:is/leather_boots,predicate=items:count/1,distance=...7,limit=1]
+execute as @e[type=item,nbt={Item:{tag:{rubber_sheet:1}}},predicate=items:count/2,distance=...7,limit=1] run function items:modifiers/remove_item_count {count:2}
+execute as @e[type=item,nbt={Item:{tag:{steel_ingot:1}}},predicate=items:count/1,distance=...7,limit=1] run function items:modifiers/remove_item_count {count:1}
+kill @e[type=item,nbt={Item:{id:"minecraft:leather_boots"}},predicate=items:count/1,distance=...7,limit=1]
 
 $function items:spawn/$(color)_space_boots {count:1}
 

@@ -4,7 +4,7 @@ import re
 
 def replace_predicate_values(folder_path):
     json_folder = './items/predicates/is/'  # Path to the folder containing JSON files
-    pattern = re.compile(r'items:is/(\w+)')  # Regex pattern to match the string
+    pattern = re.compile(r'predicate=items:is/(\w+)')  # Regex pattern to match the string
 
     for root, dirs, files in os.walk(folder_path):
         for file_name in files:
