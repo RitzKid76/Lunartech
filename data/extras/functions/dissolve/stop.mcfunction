@@ -1,1 +1,1 @@
-return run kill @e[tag=extras.dissolve]
+return run kill @e[type=marker,tag=extras.dissolve]

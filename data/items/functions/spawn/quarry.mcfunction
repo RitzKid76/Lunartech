@@ -49,4 +49,4 @@ $summon item ~ ~ ~ {\
         }\
     }\
 }
-execute as @e[type=item,nbt={Item:{tag:{non_stackable:1}}}] run function items:modifiers/non_stackable
+execute as @e[type=item,nbt={Item:{tag:{non_stackable:1}}},limit=1] run function items:modifiers/non_stackable

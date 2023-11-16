@@ -5,4 +5,4 @@ function items:modifiers/loot_spawner/loot with entity @s Item.tag
 
 data modify entity @s Item set from entity @e[tag=items.restrict,sort=nearest,limit=1] Item
 
-kill @e[tag=items.restrict,sort=nearest,limit=1]
+kill @e[type=item,tag=items.restrict,sort=nearest,limit=1]
