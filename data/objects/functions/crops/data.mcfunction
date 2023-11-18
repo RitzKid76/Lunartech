@@ -12,6 +12,7 @@ $data merge entity @s {\
     },\
     Tags:[\
         "objects.object",\
+        "objects.type.block",\
         "objects.crop",\
         "objects.$(crop)"\
     ],\
