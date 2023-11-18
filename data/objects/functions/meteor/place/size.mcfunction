@@ -25,7 +25,8 @@ $summon item_display ~ ~ ~ {\
         Count:1b,\
         tag:{\
             CustomModelData:10020002,\
-            size:$(size)\
+            size:$(size),\
+            type:"$(type)"\
         }\
     },\
     transformation:[\
