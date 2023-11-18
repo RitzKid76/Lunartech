@@ -8,7 +8,7 @@ $data merge entity @s {\
                 material:"minecraft:iron",\
                 pattern:"minecraft:space_suit_$(color)"\
             },\
-            color:$(id)\
+            color:"$(color)"\
         }\
     }\
 }

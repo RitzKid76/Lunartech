@@ -17,7 +17,7 @@ $summon item ~ ~ ~ {\
             },\
             CustomModelData:$(model_data),\
             HideFlags:128,\
-            color:$(id),\
+            color:"$(color)",\
             space_boots:1,\
             space_suit:1,\
             insulated:1\
