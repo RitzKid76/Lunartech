@@ -1,46 +1,42 @@
 {
   "type": "minecraft:block",
   "pools": [
-      {
-          "rolls": 1.0,
-          "entries": [
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:command_block",
-                  "functions": [
-                      {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{CustomModelData:10020001,ore_validator:1,valid:\"minecraft:dead_brain_coral_block\",true:\"space_rock/base\",false:\"space_rock/false\"}"
-                      }
-                  ],
-                  "conditions": [
-                      {
-                          "condition": "minecraft:survives_explosion"
-                      },
-                      {
-                          "condition": "minecraft:reference",
-                          "name": "lunartech:on_planet"
-                      }
-                  ]
-              },
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:dead_brain_coral_block",
-                  "conditions": [
-                      {
-                          "condition": "minecraft:survives_explosion"
-                      },
-                      {
-                          "condition": "minecraft:inverted",
-                          "term": {
-                              "condition": "minecraft:reference",
-                              "name": "lunartech:on_planet"
-                          }
-                      }
-                  ]
-              }
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"space_rock\",count:1,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "lunartech:on_planet"
+            }
           ]
-      }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_brain_coral_block",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition":"minecraft:inverted",
+              "term":{
+                "condition":"minecraft:reference",
+                "name": "lunartech:on_planet"
+              }
+            }
+          ]
+        }
+      ]
+    }
   ],
   "random_sequence": "minecraft:blocks/dead_brain_coral_block"
 }
