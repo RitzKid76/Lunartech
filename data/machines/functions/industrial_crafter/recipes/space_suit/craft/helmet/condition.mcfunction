@@ -1,6 +1,6 @@
 #from ../condition
 
-execute unless entity @e[type=item,nbt={Item:{tag:{steel_helmet:1}}},predicate=items:count/1,distance=...7,limit=1] run return 0
+execute unless entity @e[type=item,predicate=items:count/1_exact,nbt={Item:{tag:{steel_helmet:1}}},distance=...7,limit=1] run return 0
 
 execute if function machines:industrial_crafter/recipes/space_suit/craft/helmet/color/white run return 1
 execute if function machines:industrial_crafter/recipes/space_suit/craft/helmet/color/light_gray run return 1
