@@ -9,8 +9,9 @@ $data merge entity @s {\
     },\
     transformation:[\
         0.51f,0f,0f,-0.25f,\
-        0f,0.51f,0f,-0.5f,\
+        0f,0.51f,0f,0f,\
         0f,0f,0.51f,-0.25f,\
         0f,0f,0f,1f\
-    ]\
+    ],\
+    teleport_duration:1\
 }
