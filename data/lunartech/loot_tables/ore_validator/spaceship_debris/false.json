@@ -6,12 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:command_block",
-          "weight": 1,
+          "name": "minecraft:light_gray_glazed_terracotta",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{item:\"space_rock\",count:1,CustomModelData:10020001,loot_spawner:1}"
+              "function": "minecraft:set_count",
+              "count": 1
             }
           ]
         }

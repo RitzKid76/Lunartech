@@ -6,11 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dead_brain_coral_block",
+          "name": "minecraft:command_block",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"spaceship_debris\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ]
         }
