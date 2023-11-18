@@ -1,3 +1,5 @@
 #from ../main
 
-return run execute if entity @e[type=item,nbt={Item:{id:"minecraft:shears"}},distance=..1,limit=1]
+execute unless predicate objects:spawn/rubber_ball run return 1
+
+return 0
