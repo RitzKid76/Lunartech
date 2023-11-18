@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:10020001,ore_validator:1,valid:\"minecraft:light_gray_glazed_terracotta\",true:\"spaceship_debris/base\",false:\"spaceship_debris/false\"}"
+                            "tag": "{CustomModelData:10020001,ore_validator:1,valid:\"minecraft:gray_glazed_terracotta\",true:\"lead/base\",false:\"lead/false\"}"
                         }
                     ],
                     "conditions": [
@@ -25,7 +25,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_glazed_terracotta",
+                    "name": "minecraft:gray_glazed_terracotta",
                     "conditions": [
                         {
                             "condition": "minecraft:survives_explosion"
@@ -42,5 +42,5 @@
             ]
         }
     ],
-    "random_sequence": "minecraft:blocks/light_gray_glazed_terracotta"
+    "random_sequence": "minecraft:blocks/gray_glazed_terracotta"
 }
