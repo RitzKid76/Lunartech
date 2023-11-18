@@ -3,7 +3,6 @@
     "entity": "this",
     "scores": {
         "machines.process_time": {
-            "min": -2147483648,
             "max": 0
         }
     }

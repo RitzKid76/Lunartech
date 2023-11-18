@@ -1,7 +1,7 @@
 #from ./main
 
 function items:spawn {item:"metal_press"}
-execute store result entity @e[predicate=items:tag/loot_spawner,sort=nearest,limit=1] Item.tag.fuel int 1 run scoreboard players get @s machines.fuel
+execute store result entity @e[type=item,nbt={Item:{tag:{loot_spawner:1}}},sort=nearest,limit=1] Item.tag.fuel int 1 run scoreboard players get @s machines.fuel
 
 kill @e[type=item,nbt={Item:{id:"minecraft:andesite_wall",Count:1b}},sort=nearest,limit=4]
 kill @e[type=item,nbt={Item:{id:"minecraft:iron_trapdoor",Count:1b}},sort=nearest,limit=4]

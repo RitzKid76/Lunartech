@@ -1,4 +1,4 @@
 #from .:main
 
-kill @s[predicate=machines:projection/die]
+kill @s[tag=machines.projection.die]
 tag @s add machines.projection.die

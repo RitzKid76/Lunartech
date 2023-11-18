@@ -1,3 +1,3 @@
-#from lunartech:timer/2s
+#from timers:2s
 
 function objects:web/spawn

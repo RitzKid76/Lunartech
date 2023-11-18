@@ -68,6 +68,7 @@
             "moon:surface_details/trees/magenta_mushroom/all",
             "moon:surface_details/vegetation/dead_coral/many",
             "moon:surface_details/rock/redstone",
+            "moon:surface_details/rock/diamond",
             "moon:surface_details/vegetation/side_coral_fans/all",
             "moon:surface_details/vegetation/glow_lichen/all"
         ],
@@ -103,12 +104,6 @@
                 "type": "minecraft:silverfish",
                 "minCount": 1,
                 "maxCount": 4,
-                "weight": 1
-            },
-            {
-                "type": "minecraft:bat",
-                "minCount": 1,
-                "maxCount": 1,
                 "weight": 1
             }
         ]

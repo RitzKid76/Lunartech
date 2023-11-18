@@ -1,15 +1,4 @@
 #from *
 
-$data merge entity @s {\
-    Item:{\
-        tag:{\
-            CustomModelData:$(model_data),\
-            Trim:{\
-                material:"minecraft:iron",\
-                pattern:"minecraft:space_suit_$(color)"\
-            },\
-            color:$(id)\
-        }\
-    }\
-}
-tag @s add items.restrict
+$function items:modifiers/dye/base {model_data:$(model_data),color:"$(color)"}
+$data modify entity @s Item.tag.Trim.pattern set value "minecraft:space_suit_$(color)"

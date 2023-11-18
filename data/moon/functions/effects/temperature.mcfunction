@@ -1,3 +1,3 @@
-#from lunartech:timer/10s
+#from timers:10s
 
 damage @s 1 moon:environment

@@ -2,7 +2,7 @@
     "type": "minecraft:block",
     "pools": [
         {
-            "rolls": 1,
+            "rolls": 1.0,
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -10,36 +10,34 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{item:\"spaceship_debris\",count:1,CustomModelData:10020001,loot_spawner:1}"
+                            "tag": "{CustomModelData:10020001,ore_validator:1,valid:\"minecraft:light_gray_glazed_terracotta\",true:\"spaceship_debris/base\",false:\"spaceship_debris/false\"}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "reference",
+                            "condition": "minecraft:survives_explosion"
+                        },
+                        {
+                            "condition": "minecraft:reference",
                             "name": "lunartech:on_planet"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:light_gray_glazed_terracotta"
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
                 },
                 {
-                    "condition": "inverted",
-                    "term": {
-                        "condition": "minecraft:reference",
-                        "name": "lunartech:on_planet"
-                    }
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_glazed_terracotta",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:survives_explosion"
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:reference",
+                                "name": "lunartech:on_planet"
+                            }
+                        }
+                    ]
                 }
             ]
         }

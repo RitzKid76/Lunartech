@@ -2,6 +2,6 @@
 
 function lunartech:raycast/defaults/selected_block
 
-$execute as @e[predicate=lunartech:raycast/found_block] at @s run function machines:projection/found_block {projection:$(projection),fuel:$(fuel)}
+$execute as @e[type=marker,tag=lunartech.raycast.found_block,limit=1] at @s run function machines:projection/found_block {projection:$(projection),fuel:$(fuel)}
 
-kill @e[predicate=lunartech:raycast/entity]
+kill @e[type=marker,tag=lunartech.raycast,limit=1]

@@ -2,6 +2,7 @@
 
 scoreboard objectives add moon.spawns dummy
 scoreboard objectives add moon.boss.timer dummy
+scoreboard objectives add moon.weather dummy
 function moon:constants
 
 bossbar add moon:boss/broodmother {"text":"Broodmother","color":"#A64A47"}

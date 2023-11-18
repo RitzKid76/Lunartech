@@ -1,7 +1,5 @@
 #from SERVER
 
-function lunartech:timer/init
-
 scoreboard objectives add lunartech.gravity.jump custom:jump
 scoreboard objectives add lunartech.gravity.jump.motion dummy
 scoreboard objectives add lunartech.boolean dummy

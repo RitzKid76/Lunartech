@@ -4,13 +4,19 @@
         {
             "condition": "minecraft:inverted",
             "term": {
-                "condition": "minecraft:reference",
-                "name": "items:entity_tag/restrict"
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Tags:[\"items.restrict\"]}"
+                }
             }
         },
         {
-            "condition": "minecraft:reference",
-            "name": "items:entity_tag/snapped_item"
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Tags:[\"machines.snapped_item\"]}"
+            }
         }
     ]
 }
