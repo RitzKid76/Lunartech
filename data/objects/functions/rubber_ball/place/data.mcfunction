@@ -1,7 +1,7 @@
 #from ./place
 
 function lunartech:tools/set_health {health:1024}
-data merge entity @s {\
+$data merge entity @s {\
     Tags:[\
         "objects.object",\
         "objects.rubber_ball"\
@@ -17,7 +17,8 @@ data merge entity @s {\
             id:"minecraft:command_block",\
             Count:1b,\
             tag:{\
-                display_uuid:[]\
+                display_uuid:[],\
+                color:"$(color)"\
             }\
         }\
     ]\
