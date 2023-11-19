@@ -1,7 +1,6 @@
 #from ./main
 
-function items:spawn {item:"coke_oven"}
-execute store result entity @e[type=item,nbt={Item:{tag:{loot_spawner:1}}},sort=nearest,limit=1] Item.tag.fuel int 1 run scoreboard players get @s machines.fuel
+function items:spawn/machine {machine:"coke_oven"}
 
 kill @e[type=item,nbt={Item:{id:"minecraft:deepslate_tiles",Count:1b}},sort=nearest,limit=36]
 kill @e[type=item,nbt={Item:{id:"minecraft:deepslate_tile_slab",Count:1b}},sort=nearest,limit=10]

@@ -1,8 +1,12 @@
 #from ../main
 
-execute unless data entity @s Item.tag.fuel run data modify entity @s Item.tag.fuel set value 0
-function items:modifiers/loot_spawner/loot with entity @s Item.tag
+execute unless data storage items:modifiers loot_spawner.fuel run data modify storage items:modifiers loot_spawner.fuel set value 0
+
+data modify storage items:modifiers loot_spawner.count set from entity @s Item.tag.count
+data modify storage items:modifiers loot_spawner.item set from entity @s Item.tag.item
+function items:modifiers/loot_spawner/loot with storage items:modifiers loot_spawner
 
 data modify entity @s Item set from entity @e[tag=items.restrict,sort=nearest,limit=1] Item
 
 kill @e[type=item,tag=items.restrict,sort=nearest,limit=1]
+data remove storage items:modifiers loot_spawner.fuel
