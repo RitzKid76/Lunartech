@@ -18,7 +18,8 @@ tellraw @a[predicate=machines:prompter] [\
     },\
     {\
         "score":{\
-            "name":"@s","objective":"machines.fuel"\
+            "name":"@s",\
+            "objective":"machines.fuel"\
         },\
         "color":"#80959C"\
     },\
@@ -26,7 +27,11 @@ tellraw @a[predicate=machines:prompter] [\
         "text":" / ","color":"#CCEFFA"\
     },\
     {\
-        "text":"512","color":"#80959C"\
+        "score":{\
+            "name":"#pulverizer",\
+            "objective":"machines.fuel"\
+        },\
+        "color":"#80959C"\
     },\
     {\
         "text":" Fuel","color":"#CCEFFA"\
@@ -35,7 +40,7 @@ tellraw @a[predicate=machines:prompter] [\
         "text":"]","color":"#707070"\
     },\
     {\
-        "text":"\nTurns ","color":"#CCEFFA"\
+        "text":"\n\nTurns ","color":"#CCEFFA"\
     },\
     {\
         "text":"Raw Ore","color":"#80959C"\
@@ -65,7 +70,7 @@ tellraw @a[predicate=machines:prompter] [\
         "text":"Bone Meal","color":"#80959C"\
     },\
     {\
-        "text":".\nThrow items above the ","color":"#CCEFFA"\
+        "text":".\n\nThrow items above the ","color":"#CCEFFA"\
     },\
     {\
         "text":"Blast Furnace","color":"#80959C"\
@@ -86,7 +91,7 @@ tellraw @a[predicate=machines:prompter] [\
         "text":"Dried Kelp Blocks","color":"#7A7A7A"\
     },\
     {\
-        "text":", and ","color":"#B0B0B0"\
+        "text":", or ","color":"#B0B0B0"\
     },\
     {\
         "text":"Blaze Powder","color":"#7A7A7A"\
