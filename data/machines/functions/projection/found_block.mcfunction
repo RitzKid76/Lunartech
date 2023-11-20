@@ -1,7 +1,7 @@
 #from ./main
 
 function lunartech:raycast/backtrack {size:0.01}
-function lunartech:tools/snap_facing
+function lunartech:tools/rotation/snap_facing
 execute at @s run function lunartech:tools/rotation/invert_y_rotation
 
 $data modify storage machines:projection fuel set value $(fuel)
