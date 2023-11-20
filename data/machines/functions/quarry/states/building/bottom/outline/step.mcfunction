@@ -1,6 +1,6 @@
 #from ./start -> self
 
-execute as @e[type=marker,tag=machines.quarry.current,distance=1.5..,limit=1] run function machines:quarry/states/building/bottom/outline/particle
+execute as @e[type=marker,tag=machines.quarry.current,distance=1.5..,limit=1] run function machines:quarry/states/building/outline_particle/main
 
 scoreboard players add quarry.perimeter machines.state 1
 

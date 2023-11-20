@@ -42,5 +42,8 @@ tellraw @a[tag=machines.prompter,limit=1] [\
 ]
 execute if entity @s[tag=building.obstructed] run return run \
     function machines:quarry/prompts/build_error
-#else 
-    function machines:quarry/states/machine_click
+#else if
+    execute if entity @s[tag=building] run return run \
+        tag @s add building.ready
+    #else 
+        function machines:quarry/states/building/bottom/marker_check/main
