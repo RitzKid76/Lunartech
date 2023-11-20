@@ -1,7 +1,6 @@
 {
     "values": [
-        "#lunartech:air",
         "minecraft:chiseled_copper",
-        "minecraft:lightning_rod"
+        "minecraft:moving_piston"
     ]
 }

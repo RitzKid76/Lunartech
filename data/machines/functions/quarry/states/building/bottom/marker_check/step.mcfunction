@@ -3,7 +3,7 @@
 scoreboard players add quarry.perimeter machines.state 1
 
 execute if entity @e[type=item_display,tag=objects.quarry_marker,distance=...5,limit=1] run function lunartech:tools/rotation/rotate_90
-tag @e[type=item_display,tag=objects.quarry_marker,distance=...5,limit=1] add machines.quarry.building.quarry_marker
+execute as @e[type=item_display,tag=objects.quarry_marker,distance=...5,limit=1] run tag @s add machines.quarry.building.quarry_marker
 
 execute at @s unless block ^ ^ ^1 #lunartech:raycast_air run tag @s add lunartech.raycast.found_target
 execute at @s run tp @s ^ ^ ^1
