@@ -40,4 +40,7 @@ tellraw @a[tag=machines.prompter,limit=1] [\
         "text":"]","color":"#707070"\
     }\
 ]
-function machines:quarry/states/machine_click
+execute if entity @s[tag=building.obstructed] run \
+    return run function machines:quarry/prompts/build_error
+#else 
+    function machines:quarry/states/machine_click

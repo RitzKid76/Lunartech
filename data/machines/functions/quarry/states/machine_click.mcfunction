@@ -1,3 +1,6 @@
-#from ?
+#from .:quarry/prompts/main
 
-function machines:quarry/states/building/bottom/get_size/search/main
+
+execute if entity @s[tag=building.bottom] run return run tag @s add building.ready
+
+function machines:quarry/states/building/bottom/marker_check/main
