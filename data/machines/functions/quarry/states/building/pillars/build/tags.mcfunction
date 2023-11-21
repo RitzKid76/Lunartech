@@ -1,4 +1,4 @@
 #from ./start
 
-tag @s add building.pillars
+tag @s add building.top
 tag @s remove building.ready

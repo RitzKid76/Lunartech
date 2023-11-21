@@ -1,5 +1,8 @@
 #from ../step
 
-execute if entity @e[type=item_display,tag=objects.quarry_marker,distance=...5,limit=1] run return run setblock ~ ~ ~ waxed_chiseled_copper
+playsound block.copper.place block @a[distance=..30]
 
-function machines:quarry/states/building/pillars/build/block/lightning_rod/main
+tag @e[type=marker,tag=machines.quarry.current,limit=1] add building.pillars.placed_block
+execute as @e[type=item_display,tag=machines.quarry.pillar.current,limit=1] run function machines:quarry/states/building/pillars/build/block/toggle_state
+
+execute as @e[type=item_display,tag=machines.quarry.pillar.current,limit=1] run function machines:quarry/states/building/pillars/build/block/place
