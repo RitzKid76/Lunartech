@@ -34,3 +34,4 @@ tellraw @a[tag=machines.prompter,limit=1] [\
         "color":"#CCEFFA"\
     }\
 ]
+tag @s remove machines.quarry.current
