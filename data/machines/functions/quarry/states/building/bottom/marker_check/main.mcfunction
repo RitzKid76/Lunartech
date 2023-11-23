@@ -11,3 +11,4 @@ execute if entity @s[tag=building.bottom] run function machines:quarry/states/bu
 tag @e[type=item_display,tag=machines.quarry.building.quarry_marker] remove machines.quarry.building.quarry_marker
 
 kill @e[type=marker,tag=machines.quarry.search,limit=1]
+tag @s remove machines.quarry.current
