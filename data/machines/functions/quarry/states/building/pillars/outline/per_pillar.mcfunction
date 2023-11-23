@@ -1,8 +1,8 @@
 #from ./main
 
 scoreboard players reset quarry.perimeter machines.state
-summon marker ~ ~.5 ~ {Tags:["machines.quarry.outline"]}
+summon marker ~ ~.5 ~ {Tags:["machines.quarry.state_helper"]}
 
-execute as @e[type=marker,tag=machines.quarry.outline,limit=1] run function machines:quarry/states/building/pillars/outline/start
+execute as @e[type=marker,tag=machines.quarry.state_helper,limit=1] run function machines:quarry/states/building/pillars/outline/start
 
-kill @e[type=marker,tag=machines.quarry.outline,limit=1]
+kill @e[type=marker,tag=machines.quarry.state_helper,limit=1]
