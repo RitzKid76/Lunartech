@@ -8,5 +8,3 @@ execute as @e[type=item,predicate=items:count/3,nbt={Item:{id:"minecraft:glass_p
 kill @e[type=item,predicate=items:count/1_exact,nbt={Item:{tag:{steel_helmet:1}}},distance=...7,limit=1]
 
 $function items:spawn/$(color)_space_helmet {count:1}
-
-return 1

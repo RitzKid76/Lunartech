@@ -7,5 +7,3 @@ execute as @e[type=item,predicate=items:count/1,nbt={Item:{tag:{steel_ingot:1}}}
 kill @e[type=item,predicate=items:count/1_exact,nbt={Item:{id:"minecraft:leather_chestplate"}},distance=...7,limit=1]
 
 $function items:spawn/$(color)_space_chestplate {count:1}
-
-return 1
