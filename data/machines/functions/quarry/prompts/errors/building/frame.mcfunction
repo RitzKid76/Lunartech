@@ -22,15 +22,11 @@ tellraw @a[tag=machines.prompter,limit=1] [\
         "color":"#80959C"\
     },\
     {\
-        "text":"; make sure the path between ",\
+        "text":"; make sure the path",\
         "color":"#CCEFFA"\
     },\
     {\
-        "text":"\nQuarry Markers",\
-        "color":"#526DB7"\
-    },\
-    {\
-        "text":" is clear of any blocks.",\
+        "text":"\nhighlighted is clear of any blocks.",\
         "color":"#CCEFFA"\
     }\
 ]

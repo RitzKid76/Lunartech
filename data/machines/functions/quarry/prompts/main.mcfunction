@@ -49,7 +49,8 @@ function lunartech:tools/for_each/main {\
     after_term:"\\\"}"\
 }
 
-execute if entity @s[tag=building.obstructed] run return run function machines:quarry/prompts/build_error
+execute if entity @s[tag=building.arm_area_obstructed] run return run function machines:quarry/prompts/errors/building/arm
+execute if entity @s[tag=building.frame_obstructed] run return run function machines:quarry/prompts/errors/building/frame
 
 execute if entity @s[tag=building] run tag @s remove machines.quarry.current
 execute if entity @s[tag=building] run return run tag @s add building.ready
