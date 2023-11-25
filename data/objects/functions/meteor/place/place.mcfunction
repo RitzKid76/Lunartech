@@ -10,5 +10,3 @@ function lunartech:math/chance {chance:200,command:"data merge storage objects:s
 execute if biome ~ ~ ~ #moon:meteor/turn_dark run data modify storage objects:spawn type set value "dark"
 
 execute positioned ~ 320 ~ summon creeper run function objects:meteor/place/size with storage objects:spawn
-
-return 1

@@ -7,5 +7,3 @@ execute unless score @s machines.fuel matches 1.. run fill ^ ^ ^-1 ^1 ^ ^-1 neth
 execute if score @s machines.fuel matches 1.. run fill ^ ^ ^-1 ^1 ^ ^-1 magma_block
 
 execute if function machines:molten_forge/break/condition run function machines:molten_forge/break/main
-
-return 1

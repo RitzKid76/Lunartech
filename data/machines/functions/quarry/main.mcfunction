@@ -10,5 +10,3 @@ function machines:quarry/states/main
 tag @s remove machines.quarry.current
 
 execute if function machines:quarry/break/condition run function machines:quarry/break/main
-
-return 1
