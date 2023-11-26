@@ -1,1 +1,1 @@
-tp @s ~ ~ ~ ~180 ~
+execute at @s run tp @s ~ ~ ~ ~180 ~
