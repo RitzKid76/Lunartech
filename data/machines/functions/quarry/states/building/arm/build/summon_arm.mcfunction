@@ -1,7 +1,7 @@
 #from ./main
 
 data modify storage lunartech:tools UUID set from entity @s data.markers[3]
-data modify storage lunartech:tools command set value "at @s positioned ^.4999 ^3.5 ^0.5001 run summon item_display ~ ~ ~ {\
+data modify storage lunartech:tools command set value "at @s positioned ^.4999 ^3.5 ^.5001 run summon item_display ~ ~ ~ {\
     Tags:[\\\"machines.quarry.arm\\\",\\\"machines.new_part\\\"]\
 }"
 function lunartech:tools/as_uuid/main with storage lunartech:tools
