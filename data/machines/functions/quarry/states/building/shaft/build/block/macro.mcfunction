@@ -5,7 +5,7 @@ $summon block_display ~ ~ ~ {\
     block_state:$(block_state),\
     transformation:[\
         1f,0f,0f,$(x)f,\
-        0f,1f,0f,0f,\
+        0f,1f,0f,$(y)f,\
         0f,0f,1f,$(z)f,\
         0f,0f,0f,1f\
     ]\
