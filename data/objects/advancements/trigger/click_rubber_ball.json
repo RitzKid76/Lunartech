@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type_specific": {
+            "type": "slime",
+            "size": 1
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "objects:rubber_ball/break/player_destroy/check"
+  }
+}

@@ -1,6 +1,6 @@
 #from ../main
 
-function machines:kill_parts
+function machines:as_parts {type:"parts",command:"run kill @s"}
 
 function machines:metal_press/volume/fill {params:"air destroy"}
 
