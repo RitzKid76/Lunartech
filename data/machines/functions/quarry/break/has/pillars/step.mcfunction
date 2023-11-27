@@ -1,6 +1,6 @@
 #from ./start -> self
 
-execute if block ~ ~ ~ #machines:quarry/frame run function machines:quarry/break/has/remove_block
+execute if block ~ ~ ~ #machines:quarry/copper_reclaim_remove run function machines:quarry/break/has/remove_block
 
 scoreboard players add quarry.outline_steps machines.state 1
 

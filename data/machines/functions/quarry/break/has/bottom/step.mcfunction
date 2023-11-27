@@ -2,7 +2,7 @@
 
 execute if entity @e[type=item_display,tag=machines.quarry.pillars.current,distance=...5,limit=1] run function lunartech:tools/rotation/rotate_90
 
-execute if block ~ ~ ~ #machines:quarry/frame run function machines:quarry/break/has/remove_block
+execute if block ~ ~ ~ #machines:quarry/copper_reclaim_remove run function machines:quarry/break/has/remove_block
 
 scoreboard players add quarry.outline_steps machines.state 1
 
