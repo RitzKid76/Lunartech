@@ -5,5 +5,5 @@ execute align xyz positioned ~.5 ~ ~.5 run summon armor_stand ~ ~-1.05 ~ {Tags:[
 playsound block.beacon.activate block @a[distance=..200] ~ ~ ~ 1 1
 playsound block.anvil.place block @a[distance=..200] ~ ~ ~ 1 1
 
-kill @e[predicate=machines:spawn/cooking_station/children/1,distance=...5,limit=1]
+kill @e[type=item,nbt={Item:{id:"minecraft:campfire"}},distance=...5,limit=1]
 kill @s

@@ -1,5 +1,6 @@
 {
     "values": [
-        "#lunartech:air"
+        "#lunartech:air",
+        "minecraft:moving_piston"
     ]
 }

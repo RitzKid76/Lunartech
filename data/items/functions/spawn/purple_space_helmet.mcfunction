@@ -1,1 +1,1 @@
-$function items:spawn/space_helmet_base {color:"purple",id:14,model_data:10000014,count:$(count)}
+$function items:spawn/space_helmet_base {color:"purple",model_data:10000014,count:$(count)}

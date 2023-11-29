@@ -8,6 +8,7 @@
         "rocket:init",
         "machines:init",
         "objects:init",
+        "timers:init",
         "lunartech:init"
     ]
 }

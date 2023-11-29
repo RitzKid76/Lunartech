@@ -25,7 +25,8 @@ $summon item_display ~ ~ ~ {\
         Count:1b,\
         tag:{\
             CustomModelData:10020002,\
-            size:$(size)\
+            size:$(size),\
+            type:"$(type)"\
         }\
     },\
     transformation:[\
@@ -35,4 +36,4 @@ $summon item_display ~ ~ ~ {\
         0f,0f,0f,1f\
     ]\
 }
-ride @e[predicate=objects:meteor/display,sort=nearest,limit=1] mount @s
+ride @e[type=item_display,tag=objects.meteor.display,sort=nearest,limit=1] mount @s
