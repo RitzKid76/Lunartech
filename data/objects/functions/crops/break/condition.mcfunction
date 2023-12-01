@@ -1,4 +1,4 @@
-# objects:crops/tick/all
+#> .:crops/tick/all
 
 $execute unless predicate objects:crops/survive/$(crop) run return 1
 

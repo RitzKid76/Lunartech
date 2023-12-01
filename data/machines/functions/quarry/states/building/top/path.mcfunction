@@ -1,6 +1,5 @@
-# machines:quarry/states/building/top/build/start
-# machines:quarry/states/building/top/outline/start
-# -> self
+#> ../start
+#> .:quarry/states/building/top/path
 
 tp @s ^ ^ ^1
 

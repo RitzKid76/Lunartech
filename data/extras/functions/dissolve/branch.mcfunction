@@ -1,4 +1,4 @@
-# extras:dissolve/main
+#> ./main
 
 setblock ~ ~ ~ air
 kill @s

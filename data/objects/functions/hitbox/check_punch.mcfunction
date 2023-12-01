@@ -1,5 +1,5 @@
-# objects:crops/break/condition
-# objects:quarry_marker/break/condition
+#> .:crops/break/condition
+#> .:quarry_marker/break/condition
 
 data modify storage lunartech:tools UUID set from entity @s item.tag.hitbox
 data modify storage lunartech:tools command set value "if data entity @s attack"

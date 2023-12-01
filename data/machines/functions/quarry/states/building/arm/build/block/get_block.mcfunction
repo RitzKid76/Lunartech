@@ -1,4 +1,4 @@
-# machines:quarry/states/building/arm/build/block/place
+#> ./place
 
 function machines:quarry/states/building/arm/build/block/update
 

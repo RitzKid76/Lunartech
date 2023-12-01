@@ -1,4 +1,4 @@
-# machines:quarry/states/building/bottom/build/block/main
+#> ../main
 
 execute as @e[type=marker,tag=machines.quarry.current,limit=1] run function machines:quarry/states/building/toggle_state
 

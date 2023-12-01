@@ -1,4 +1,4 @@
-# timers:1s
+#> timers:1s
 
 function lunartech:tools/get_entity_type/main
 

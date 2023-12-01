@@ -1,6 +1,5 @@
-# machines:quarry/states/building/pillars/build/start
-# machines:quarry/states/building/pillars/outline/start
-# -> self
+#> ../start
+#> .:quarry/states/building/pillars/path
 
 $$(action)
 

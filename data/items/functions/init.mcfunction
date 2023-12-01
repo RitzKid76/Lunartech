@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 scoreboard objectives add items.fuel dummy
 

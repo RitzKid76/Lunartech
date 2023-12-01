@@ -1,4 +1,4 @@
-# any
+#> .:modifiers/loot_spawner/loot
 
 summon item ~ ~ ~ {\
     Tags:["items.restrict"],\

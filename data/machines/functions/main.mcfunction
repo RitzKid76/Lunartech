@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 execute as @e[type=item_display,tag=machines.projection] run function machines:projection/clean
 

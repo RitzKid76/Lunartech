@@ -1,7 +1,5 @@
-# machines:quarry/states/building/bottom/build/start
-# machines:quarry/states/building/bottom/marker_check/start
-# machines:quarry/states/building/bottom/outline/start
-# -> self
+#> ../start
+#> .:quarry/states/building/bottom/path
 
 execute if entity @e[type=item_display,tag=objects.quarry_marker,distance=...5,limit=1] run function lunartech:tools/rotation/rotate_90
 

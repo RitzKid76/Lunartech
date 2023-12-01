@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 advancement revoke @s only objects:trigger/click_rubber_ball
 

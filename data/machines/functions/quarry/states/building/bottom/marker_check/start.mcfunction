@@ -1,4 +1,4 @@
-# machines:quarry/states/building/bottom/marker_check/main
+#> ./main
 
 data remove storage machines:state quarry.markers
 function lunartech:tools/rotation/rotate_90

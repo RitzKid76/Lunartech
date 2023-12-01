@@ -1,4 +1,4 @@
-# machines:molten_forge/input/has_item
+#> .:molten_forge/input/has_item
 
 execute if function machines:molten_forge/recipes/copper_ingot/condition run return 1
 execute if function machines:molten_forge/recipes/gold_ingot/condition run return 1

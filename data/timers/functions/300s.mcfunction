@@ -1,5 +1,5 @@
-# timers:init
-# -> self
+#> ./init
+#> self
 
 schedule function timers:300s 300s
 

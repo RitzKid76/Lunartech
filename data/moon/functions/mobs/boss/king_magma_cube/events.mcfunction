@@ -1,4 +1,4 @@
-# moon:mobs/boss/king_magma_cube/main
+#> ./main
 
 execute store result entity @s Size int 0.06 run data get entity @s Health
 function moon:mobs/boss/king_magma_cube/update_bossbar

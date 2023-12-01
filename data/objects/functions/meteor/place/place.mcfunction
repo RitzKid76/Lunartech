@@ -1,4 +1,4 @@
-# objects:place/place
+#> self
 
 data merge storage objects:spawn {type:"light",size:1,radius:3,name:"small meteor"}
 

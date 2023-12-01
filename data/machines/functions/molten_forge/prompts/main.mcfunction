@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\

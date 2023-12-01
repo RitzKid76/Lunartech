@@ -1,5 +1,5 @@
-# timers:init
-# -> self
+#> ./init
+#> self
 
 schedule function timers:6t 6t
 

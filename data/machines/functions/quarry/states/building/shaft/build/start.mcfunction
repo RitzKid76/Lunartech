@@ -1,4 +1,4 @@
-# machines:quarry/states/building/shaft/build/main
+#> ./main
 
 function machines:quarry/states/building/shaft/build/block/main
 

@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 scoreboard objectives add extras.entity_render trigger
 

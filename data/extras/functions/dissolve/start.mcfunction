@@ -1,3 +1,3 @@
-# extras:dissolve/branch
+#> ./branch
 
 execute align xyz run summon marker ~ ~ ~ {Tags:["extras.dissolve"]}

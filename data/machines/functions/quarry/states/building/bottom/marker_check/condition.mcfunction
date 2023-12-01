@@ -1,4 +1,4 @@
-# machines:quarry/states/building/bottom/marker_check/main
+#> ./main
 
 execute unless score quarry.outline_steps machines.state matches 16..68 run return 0
 execute unless entity @e[type=marker,tag=machines.quarry.search,distance=...5,limit=1] run return 0

@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 function machines:as_parts {type:"parts",command:"run kill @s"}
 

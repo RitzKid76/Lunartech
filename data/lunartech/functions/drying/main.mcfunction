@@ -1,3 +1,3 @@
-# lunartech:triggers/on_planet
+#> .:triggers/on_planet
 
 function lunartech:drying/player

@@ -1,4 +1,4 @@
-# machines:quarry/prompts/main
+#> .:quarry/prompts/main
 
 scoreboard players set quarry.outline_steps machines.state 0
 summon marker ~ ~ ~ {Tags:["machines.quarry.search"]}

@@ -1,5 +1,5 @@
-# machines:place/armor_stand/main
-# machines:place/armor_stand/spawn/machine_properties
+#> ../main
+#> ./machine_properties
 
 $execute positioned ~ ~.001 ~ if function machines:$(machine)/volume/check/place run return run \
     function machines:place/armor_stand/spawn/can_place with storage machines:spawn

@@ -1,5 +1,5 @@
-# machines:molten_forge/recipes/netherite_scrap/conditions/debris
-# machines:molten_forge/recipes/netherite_scrap/conditions/dust
+#> ../debris
+#> ../dust
 
 function items:modifiers/remove_item_count {count:1}
 

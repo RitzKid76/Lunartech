@@ -1,4 +1,4 @@
-# moon:mobs/entity/entity
+#> ../entity
 
 data merge entity @s {\
     variant:"minecraft:warm"\

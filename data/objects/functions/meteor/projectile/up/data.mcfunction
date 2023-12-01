@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 execute store result entity @s Motion[1] double 0.01 run random value 1..25
 

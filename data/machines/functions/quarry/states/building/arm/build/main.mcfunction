@@ -1,4 +1,4 @@
-# machines:quarry/states/building/build
+#> .:quarry/states/building/build
 
 execute unless data entity @s data.arm run function machines:quarry/states/building/arm/build/summon_arm
 

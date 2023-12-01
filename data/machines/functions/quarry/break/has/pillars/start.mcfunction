@@ -1,3 +1,3 @@
-# machines:quarry/break/has/pillars/as
+#> ./as
 
 function machines:quarry/break/has/pillars/step

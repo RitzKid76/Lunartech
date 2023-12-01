@@ -1,4 +1,4 @@
-# machines:quarry/states/building/arm/build/start
+#> ./start
 
 tag @s add building.shaft
 tag @s remove building.ready

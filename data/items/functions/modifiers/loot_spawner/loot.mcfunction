@@ -1,3 +1,3 @@
-# items:modifiers/loot_spawner/main
+#> ./main
 
 $function items:spawn/$(item) {count:$(count),fuel:$(fuel)}

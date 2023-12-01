@@ -1,5 +1,5 @@
-# machines:quarry/states/building/bottom/build/block/lightning_rod/main
-# machines:quarry/states/building/top/build/block/lightning_rod/main
+#> machines:quarry/states/building/bottom/build/block/lightning_rod/main
+#> machines:quarry/states/building/top/build/block/lightning_rod/main
 
 function lunartech:tools/rotation/get/main
 

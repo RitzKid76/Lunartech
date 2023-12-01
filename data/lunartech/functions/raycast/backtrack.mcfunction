@@ -1,3 +1,3 @@
-# machines:projection/found_block
+#> machines:projection/found_block
 
 $tp @s ^ ^ ^-$(size)

@@ -1,3 +1,3 @@
-# machines:cooking_station/main
+#> ../main
 
 return 0

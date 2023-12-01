@@ -1,4 +1,4 @@
-# objects:quarry_marker/break/main
+#> ./main
 
 function items:spawn {item:"quarry_marker"}
 

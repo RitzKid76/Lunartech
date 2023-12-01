@@ -1,4 +1,4 @@
-# machines:quarry/states/building/outline
+#> .:quarry/states/building/outline
 
 execute store result score quarry.arm_length machines.state run data get entity @s data.volume.arm_length
 

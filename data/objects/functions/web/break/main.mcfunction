@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 setblock ~ ~ ~ air
 kill @s

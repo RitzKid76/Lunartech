@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 tag @s add machines.quarry.current.break
 

@@ -1,4 +1,4 @@
-# mars:triggers/in_mars
+#> .:triggers/in_.
 
 effect give @s slow_falling 2 0 true
 

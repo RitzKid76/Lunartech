@@ -1,4 +1,4 @@
-# any
+#> ./place
 
 $summon block_display ~ ~ ~ {\
     Tags:["machines.quarry.arm.display","machines.new_part"],\

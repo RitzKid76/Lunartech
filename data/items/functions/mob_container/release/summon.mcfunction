@@ -1,4 +1,4 @@
-# items:mob_container/release/main
+#> ./main
 
 $summon $(entity_type) ~ ~ ~ $(entity_data)
 

@@ -1,4 +1,4 @@
-# lunartech:main
+#> ./main
 
 scoreboard players reset @s lunartech.die
 

@@ -1,4 +1,4 @@
-# machines:quarry/break/parts
+#> ../parts
 
 scoreboard players set @s machines.state 0
 

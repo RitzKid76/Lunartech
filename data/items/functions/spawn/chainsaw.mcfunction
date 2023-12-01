@@ -1,4 +1,4 @@
-# items:modifiers/loot_spawner/loot
+#> .:modifiers/loot_spawner/loot
 
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\

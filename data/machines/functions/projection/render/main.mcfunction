@@ -1,4 +1,4 @@
-# machines:projection/found_block
+#> ../found_block
 
 $data modify storage machines:projection scale set value $(scale)
 data modify storage machines:projection angle set from entity @s Rotation[0]

@@ -1,4 +1,4 @@
-# machines:quarry/break/has/arm/main
+#> ./main
 
 $function machines:quarry/volume/space/fill {\
     x0:$(x0),z0:$(z0),\

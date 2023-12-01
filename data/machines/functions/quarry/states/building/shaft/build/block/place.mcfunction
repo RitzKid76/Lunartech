@@ -1,4 +1,4 @@
-# machines:place/armor_stand/spawn/-180
+#> self
 
 $execute if entity @s[tag=z+] run return run function machines:quarry/states/building/shaft/build/block/$(function) {\
     x:-1,\

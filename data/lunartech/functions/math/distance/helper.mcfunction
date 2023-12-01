@@ -1,4 +1,4 @@
-# lunartech:math/distance/scoreboard
+#> ./scoreboard
 
 summon item_display ~ ~ ~ {UUID:[I;0,0,0,0]}
 

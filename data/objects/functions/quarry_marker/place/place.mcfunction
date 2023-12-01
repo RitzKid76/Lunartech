@@ -1,4 +1,4 @@
-# objects:place/place
+#> self
 
 function objects:hitbox/spawn {height:0.625,width:0.25}
 

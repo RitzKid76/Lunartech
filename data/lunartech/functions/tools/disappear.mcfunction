@@ -1,5 +1,5 @@
-# items:mob_container/catch/main
-# objects:rubber_ball/break/main
+#> items:mob_container/catch/main
+#> objects:rubber_ball/break/main
 
 data merge entity @s {\
     Tags:[],\

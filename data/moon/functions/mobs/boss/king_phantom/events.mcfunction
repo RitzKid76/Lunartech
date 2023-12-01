@@ -1,4 +1,4 @@
-# moon:mobs/boss/king_phantom/main
+#> ./main
 
 function moon:mobs/boss/king_phantom/update_bossbar
 

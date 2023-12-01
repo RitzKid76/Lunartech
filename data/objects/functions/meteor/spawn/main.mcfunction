@@ -1,4 +1,4 @@
-# objects:meteor/spawn/spread
+#> ./spread
 
 summon armor_stand ~ ~ ~ {\    
     Invisible:1b,\

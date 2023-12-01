@@ -1,4 +1,4 @@
-# machines:main
+#> ./main
 
 execute if entity @s[tag=machines.industrial_crafter] positioned ~ ~2 ~ if entity @a[distance=..30] run return run function machines:industrial_crafter/main
 execute if entity @s[tag=machines.cooking_station] positioned ~ ~2 ~ if entity @a[distance=..30] run return run function machines:cooking_station/main

@@ -1,4 +1,4 @@
-# machines:coke_oven/break/main
+#> ./main
 
 function items:spawn/machine {machine:"coke_oven"}
 

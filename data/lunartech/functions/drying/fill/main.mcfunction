@@ -1,4 +1,4 @@
-# lunartech:drying/player
+#> ../player
 
 $execute if entity @s[distance=30..] run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 $(blocks)
 execute if entity @s[distance=30..] run return 1

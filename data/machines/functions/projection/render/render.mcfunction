@@ -1,4 +1,4 @@
-# machines:projection/render/main
+#> ./main
 
 $summon item_display ~ ~ ~ {\
     item:{\

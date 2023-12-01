@@ -1,4 +1,4 @@
-# machines:industrial_crafter/recipes/space_suit/craft/chestplate/color/condition
+#> ../condition
 
 function items:modifiers/remove_item_count {count:8}
 

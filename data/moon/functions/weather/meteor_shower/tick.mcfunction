@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 function objects:meteor/spawn/spread
 

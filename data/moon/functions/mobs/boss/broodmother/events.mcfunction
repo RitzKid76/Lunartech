@@ -1,4 +1,4 @@
-# moon:mobs/boss/broodmother/main
+#> ./main
 
 function moon:mobs/boss/broodmother/update_bossbar
 

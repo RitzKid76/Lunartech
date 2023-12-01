@@ -1,4 +1,4 @@
-# machines:quarry/prompts/building
+#> .:quarry/prompts/building
 
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\

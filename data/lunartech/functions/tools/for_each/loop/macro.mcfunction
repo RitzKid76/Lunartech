@@ -1,3 +1,3 @@
-# lunartech:tools/for_each/loop/main
+#> ./main
 
 $$(command_a)$(term)$(command_b)

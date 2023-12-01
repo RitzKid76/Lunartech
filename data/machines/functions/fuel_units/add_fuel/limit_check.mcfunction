@@ -1,4 +1,4 @@
-# machines:fuel_units/add_fuel/attempt
+#> ./attempt
 
 scoreboard players operation temp_fuel machines.fuel = @s machines.fuel
 scoreboard players operation temp_fuel machines.fuel += fuel machines.fuel

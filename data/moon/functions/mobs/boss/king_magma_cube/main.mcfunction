@@ -1,4 +1,4 @@
-# moon:mobs/boss/main
+#> ../main
 
 execute store result storage moon:boss king_magma_cube.size double 0.66 run data get entity @s Size
 execute store result storage moon:boss king_magma_cube.width double 0.2 run data get entity @s Size

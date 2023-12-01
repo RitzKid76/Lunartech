@@ -1,4 +1,4 @@
-# machines:quarry/states/building/arm/outline/start
+#> .:quarry/states/building/arm/outline/start
 
 data modify entity @s data.volume.h set value 4
 

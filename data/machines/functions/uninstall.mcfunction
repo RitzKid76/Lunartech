@@ -1,4 +1,4 @@
-# lunartech:uninstall
+#> lunartech:uninstall
 
 scoreboard objectives remove machines.item_count
 scoreboard objectives remove machines.machine_radius

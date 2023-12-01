@@ -1,5 +1,5 @@
-# machines:quarry/break/has/main
-# objects:meteor/projectile/spawn
+#> machines:quarry/break/has/main
+#> objects:meteor/projectile/spawn
 
 scoreboard players set run_n.index lunartech.tools 0
 

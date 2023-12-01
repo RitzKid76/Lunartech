@@ -1,4 +1,4 @@
-# machines:quarry/volume/space/get/main
+#> ./main
 
 execute at @s run summon marker ^-1 ^ ^1 {Tags:["machines.quarry.volume_getter"]}
 

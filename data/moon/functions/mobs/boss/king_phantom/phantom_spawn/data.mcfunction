@@ -1,4 +1,4 @@
-# moon:mobs/boss/king_phantom/phantom_spawn/spawn
+#> ./spawn
 
 data merge entity @s {\
     Tags:["moon.boss.spawn","moon.boss.king_phantom.spawn","lunartech.no_planet_transformation"],\

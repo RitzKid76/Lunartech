@@ -1,4 +1,4 @@
-# moon:main
+#> ./main
 
 function moon:mobs/main
 function moon:effects/main

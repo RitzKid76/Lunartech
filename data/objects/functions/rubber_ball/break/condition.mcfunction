@@ -1,4 +1,4 @@
-# objects:rubber_ball/main
+#> ../main
 
 execute unless predicate objects:spawn/rubber_ball run return 1
 

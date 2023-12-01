@@ -1,4 +1,4 @@
-# machines:quarry/states/building/shaft/build/main
+#> ./main
 
 data modify storage lunartech:tools UUID set from entity @s data.markers[3]
 data modify storage lunartech:tools command set value "at @s positioned ^-.5001 ^-.5 ^.5001 run summon item_display ~ ~ ~ {\

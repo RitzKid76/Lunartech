@@ -1,4 +1,4 @@
-# objects:main
+#> ./main
 
 execute as @e[type=item_display,tag=objects.crop] at @s run function objects:crops/tick/all with entity @s item.tag
 

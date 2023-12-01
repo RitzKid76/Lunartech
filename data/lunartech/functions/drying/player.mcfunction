@@ -1,4 +1,4 @@
-# lunartech:drying/main
+#> ./main
 
 fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace #lunartech:dryable
 fill ~-10 ~-10 ~-10 ~10 ~10 ~10 gravel replace #lunartech:dryable_blocks

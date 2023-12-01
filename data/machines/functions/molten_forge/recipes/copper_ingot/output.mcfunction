@@ -1,5 +1,5 @@
-# machines:molten_forge/recipes/copper_ingot/conditions/dust
-# machines:molten_forge/recipes/copper_ingot/conditions/raw
+#> ../dust
+#> ../raw
 
 function items:modifiers/remove_item_count {count:1}
 

@@ -1,4 +1,4 @@
-# lunartech:hard_reset
+#> ./hard_reset
 
 scoreboard objectives remove lunartech.gravity.jump
 scoreboard objectives remove lunartech.gravity.jump.motion

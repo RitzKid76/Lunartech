@@ -1,4 +1,4 @@
-# machines:quarry/states/building/bottom/marker_check/add_markers
+#> .:quarry/states/building/bottom/marker_check/add_markers
 
 data modify storage lunartech:tools UUID set from entity @s data.markers[0]
 data modify storage lunartech:tools command set value "run function machines:quarry/volume/space/get/macro {id:0}"

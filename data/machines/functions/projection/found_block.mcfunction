@@ -1,4 +1,4 @@
-# machines:projection/main
+#> ./main
 
 function lunartech:raycast/backtrack {size:0.01}
 function lunartech:tools/rotation/snap_facing

@@ -1,5 +1,5 @@
-# items:modifiers/dye/rubber_ball
-# items:modifiers/dye/space_suit
+#> ./rubber_ball
+#> ./space_suit
 
 $data merge entity @s {\
     Item:{\

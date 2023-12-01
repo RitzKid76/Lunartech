@@ -1,4 +1,4 @@
-# machines:radius/main
+#> ./main
 
 $execute facing ^ ^1 ^ positioned ^ ^ ^$(radius) if block ~ ~ ~ #machines:radius_can_render run particle dust $(R) $(G) $(B) $(size) ~ ~ ~ 0 0 0 0 1 force @a[distance=..$(distance)]
 

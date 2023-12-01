@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 $data modify storage objects:meteor direction set value $(direction)
 

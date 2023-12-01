@@ -1,4 +1,4 @@
-# machines:industrial_crafter/recipes/diamond/condition
+#> ./condition
 
 function items:modifiers/remove_item_count {count:9}
 

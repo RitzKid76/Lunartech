@@ -1,4 +1,4 @@
-# machines:cooking_station/break/main
+#> ./main
 
 loot spawn ~ ~ ~ loot machines:cooking_station
 

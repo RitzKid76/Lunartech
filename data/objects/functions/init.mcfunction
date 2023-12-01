@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 scoreboard objectives add objects.crops dummy
 scoreboard objectives add objects.crops.stages dummy

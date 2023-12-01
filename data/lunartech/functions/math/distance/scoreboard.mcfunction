@@ -1,4 +1,4 @@
-# lunartech:math/distance/macro
+#> ./macro
 
 scoreboard players operation x0 lunartech.math -= x1 lunartech.math
 scoreboard players operation y0 lunartech.math -= y1 lunartech.math

@@ -1,4 +1,4 @@
-# machines:quarry/recipes/copper/condition
+#> ./condition
 
 function items:modifiers/remove_item_count {count:1}
 

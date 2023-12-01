@@ -1,4 +1,4 @@
-# lunartech:tools/rotation/get/axis/main
+#> ./main
 
 tag @s add x
 tag @s add +

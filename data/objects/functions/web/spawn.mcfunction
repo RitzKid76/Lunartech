@@ -1,5 +1,5 @@
-# moon:mobs/boss/broodmother/brood_spawn/main
-# moon:mobs/boss/broodmother/brood_spawn/spawn
+#> moon:mobs/boss/broodmother/brood_spawn/main
+#> moon:mobs/boss/broodmother/brood_spawn/spawn
 
 summon armor_stand ~ ~ ~ {\    
     Invisible:1b,\

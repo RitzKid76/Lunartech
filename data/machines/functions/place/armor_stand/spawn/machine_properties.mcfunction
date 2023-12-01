@@ -1,4 +1,4 @@
-# -> self
+#> self
 
 $data merge entity @s {\
     Tags:[\

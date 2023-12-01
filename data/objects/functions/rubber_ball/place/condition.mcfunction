@@ -1,3 +1,3 @@
-# any
+#> .:place/place
 
 return 1

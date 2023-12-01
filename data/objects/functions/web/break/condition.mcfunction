@@ -1,3 +1,3 @@
-# objects:web/main
+#> ../main
 
 return run execute unless block ~ ~ ~ cobweb

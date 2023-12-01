@@ -1,4 +1,4 @@
-# machines:quarry/volume/space/building/inside/check
+#> .:quarry/volume/space/building/inside/check
 
 $function machines:quarry/volume/space/fill {\
     x0:$(x0),z0:$(z0),\

@@ -1,4 +1,4 @@
-# machines:quarry/states/building/pillars/build/main
+#> ./main
 
 tag @s add building.top
 tag @s remove building.ready

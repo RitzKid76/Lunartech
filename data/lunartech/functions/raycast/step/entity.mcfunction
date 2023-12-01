@@ -1,4 +1,4 @@
-# lunartech:raycast/start
+#> ../start
 
 scoreboard players remove @s lunartech.raycast 1
 

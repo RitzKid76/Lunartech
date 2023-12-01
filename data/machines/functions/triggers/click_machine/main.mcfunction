@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 advancement revoke @s only machines:triggers/click_machine
 

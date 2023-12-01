@@ -1,5 +1,5 @@
-# machines:quarry/states/building/arm/outline/start
-# -> self
+#> ../start
+#> .:quarry/states/building/arm/path
 
 tp @s ^ ^ ^1
 

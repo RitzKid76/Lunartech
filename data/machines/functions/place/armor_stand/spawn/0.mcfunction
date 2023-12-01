@@ -1,4 +1,4 @@
-# machines:place/armor_stand/spawn/machine_properties
+#> ./machine_properties
 
 $function machines:$(machine)/place {rotation:"none",angle:0}
 return 1

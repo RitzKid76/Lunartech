@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 function machines:as_parts {\
     type:"arm",\

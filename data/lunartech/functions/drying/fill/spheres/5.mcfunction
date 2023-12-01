@@ -1,4 +1,4 @@
-# lunartech:drying/fill/main
+#> ../main
 
 $fill ~-3 ~-3 ~-3 ~3 ~3 ~3 $(blocks)
 $fill ~-2 ~-5 ~-1 ~2 ~5 ~1 $(blocks)

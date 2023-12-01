@@ -1,4 +1,4 @@
-# objects:crops/main
+#> ../main
 
 $function lunartech:math/chance {chance:$(growth_chance),command:"scoreboard players add @s objects.crops 1"}
 

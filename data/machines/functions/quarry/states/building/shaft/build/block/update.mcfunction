@@ -1,4 +1,4 @@
-# any
+#> ./place
 
 scoreboard players remove @s machines.quarry_entities_placed 1
 

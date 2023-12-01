@@ -1,3 +1,3 @@
-# lunartech:uninstall
+#> lunartech:uninstall
 
 scoreboard objectives remove items.fuel

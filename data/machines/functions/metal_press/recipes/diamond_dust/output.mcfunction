@@ -1,4 +1,4 @@
-# machines:metal_press/recipes/diamond_dust/condition
+#> ./condition
 
 function items:modifiers/remove_item_count {count:1}
 

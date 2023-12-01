@@ -1,4 +1,4 @@
-# machines:industrial_crafter/recipes/ice_cubes/9/condition
+#> ./condition
 
 function items:modifiers/remove_item_count {count:1}
 

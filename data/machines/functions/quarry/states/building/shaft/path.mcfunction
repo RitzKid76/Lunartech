@@ -1,5 +1,5 @@
-# machines:quarry/states/building/shaft/outline/start
-# -> self
+#> ../start
+#> .:quarry/states/building/shaft/path
 
 $$(action)
 

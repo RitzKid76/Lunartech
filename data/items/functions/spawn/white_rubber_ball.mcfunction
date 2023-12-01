@@ -1,3 +1,3 @@
-# items:modifiers/loot_spawner/loot
+#> .:modifiers/loot_spawner/loot
 
 $function items:spawn/rubber_ball_base {color:"white",model_data:10005001,count:$(count)}

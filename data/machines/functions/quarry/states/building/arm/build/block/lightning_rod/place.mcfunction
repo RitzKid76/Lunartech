@@ -1,4 +1,4 @@
-# machines:place/armor_stand/spawn/-180
+#> self
 
 function machines:quarry/states/building/toggle_state
 

@@ -1,4 +1,4 @@
-# any
+#> unknown
 
 scoreboard players operation @s machines.process_time = #quarry machines.process_time
 

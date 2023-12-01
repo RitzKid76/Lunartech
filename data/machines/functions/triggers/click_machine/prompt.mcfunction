@@ -1,4 +1,4 @@
-# machines:triggers/click_machine/main
+#> ./main
 
 tag @s add machines.prompter
 function lunartech:raycast/defaults/selected_block

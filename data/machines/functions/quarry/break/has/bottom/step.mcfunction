@@ -1,5 +1,5 @@
-# machines:quarry/break/has/bottom/start
-# -> self
+#> ./start
+#> .:quarry/break/has/bottom/step
 
 execute if entity @e[type=item_display,tag=machines.quarry.pillars.current,distance=...5,limit=1] run function lunartech:tools/rotation/rotate_90
 
