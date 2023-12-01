@@ -1,4 +1,4 @@
-#from ../path
+# machines:quarry/states/building/bottom/marker_check/start
 
 tag @s add machines.quarry.building.quarry_marker
 data modify storage machines:state quarry.markers append from entity @s UUID

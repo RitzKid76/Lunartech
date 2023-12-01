@@ -1,4 +1,4 @@
-#from ../main
+# objects:rubber_ball/physics/main
 
 execute store result score @s objects.motion.x run data get entity @s Motion[0] 10000
 execute store result score @s objects.motion.y run data get entity @s Motion[1] 10000

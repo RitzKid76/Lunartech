@@ -1,4 +1,4 @@
-#from ../main
+# any
 
 function machines:as_parts {\
     type:"arm",\

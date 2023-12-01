@@ -1,4 +1,5 @@
-#from ../STATE/main
+# machines:quarry/states/building/top/build/main
+# machines:quarry/states/building/top/outline/main
 
 summon marker ~ ~ ~ {Tags:["machines.quarry.state_helper"]}
 

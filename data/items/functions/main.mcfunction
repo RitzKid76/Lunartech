@@ -1,4 +1,4 @@
-#from SERVER
+# any
 
 execute as @e[type=item,nbt={Item:{tag:{}}}] at @s run function items:modifiers/main
 

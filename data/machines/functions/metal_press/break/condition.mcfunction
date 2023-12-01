@@ -1,3 +1,3 @@
-#from ../main
+# machines:metal_press/main
 
 return run function machines:metal_press/volume/check/break

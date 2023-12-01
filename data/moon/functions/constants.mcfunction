@@ -1,4 +1,4 @@
-#from ./init
+# moon:init
 
 scoreboard players set #brood_spawn moon.spawns 30
 scoreboard players set #phantom_spawn moon.spawns 10

@@ -1,4 +1,4 @@
-#from ../main
+# items:main
 
 execute if entity @s[nbt={Item:{tag:{float:1}}}] run function moon:effects/gravity/entity
 

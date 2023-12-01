@@ -1,4 +1,4 @@
-#from .:prompts/prompt
+# any
 
 tag @s add machines.quarry.current
 tellraw @a[tag=machines.prompter,limit=1] [\

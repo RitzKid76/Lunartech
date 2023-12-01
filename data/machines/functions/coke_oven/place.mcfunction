@@ -1,3 +1,3 @@
-#from .:place/armor_stand/spawn/ROTATION
+# any
 
 $place template machines:coke_oven ^-2 ^ ^-2 $(rotation)

@@ -1,3 +1,5 @@
+# lunartech:hard_reset
+
 scoreboard objectives remove lunartech.gravity.jump
 scoreboard objectives remove lunartech.gravity.jump.motion
 scoreboard objectives remove lunartech.boolean

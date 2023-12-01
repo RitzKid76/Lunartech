@@ -1,4 +1,4 @@
-#from ./main
+# machines:quarry/states/building/top/build/main
 
 execute at @s run function machines:quarry/states/building/top/path {\
     action:"execute unless block ~ ~4 ~ #machines:quarry/frame run return run function machines:quarry/states/building/top/build/block/main"\

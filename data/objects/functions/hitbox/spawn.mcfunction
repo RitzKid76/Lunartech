@@ -1,4 +1,4 @@
-#from ./OBJECT/place
+# objects:crops/place
 
 $summon interaction ~ ~ ~ {\
     Tags:[\

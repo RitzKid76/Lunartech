@@ -1,4 +1,4 @@
-#from ./place
+# objects:crops/place
 
 $data merge entity @s {\
     item:{\

@@ -1,3 +1,3 @@
-#from ../main
+# machines:pulverizer/main
 
 return run function machines:pulverizer/volume/check/break

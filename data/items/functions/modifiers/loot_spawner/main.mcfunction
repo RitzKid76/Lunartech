@@ -1,4 +1,5 @@
-#from ../main
+# items:modifiers/main
+# items:spawn
 
 execute unless data storage items:modifiers loot_spawner.fuel run data modify storage items:modifiers loot_spawner.fuel set value 0
 

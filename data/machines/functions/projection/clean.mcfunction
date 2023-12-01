@@ -1,4 +1,4 @@
-#from .:main
+# machines:main
 
 kill @s[tag=machines.projection.die]
 tag @s add machines.projection.die

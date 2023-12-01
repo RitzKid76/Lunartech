@@ -1,4 +1,5 @@
-#from ./STATE/start -> self
+# machines:quarry/states/building/arm/outline/start
+# -> self
 
 tp @s ^ ^ ^1
 

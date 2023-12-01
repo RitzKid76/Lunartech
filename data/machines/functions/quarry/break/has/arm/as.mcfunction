@@ -1,4 +1,4 @@
-#from ../parts
+# machines:quarry/break/has/arm/main
 
 execute store result score @s machines.state run data get entity @s Passengers
 

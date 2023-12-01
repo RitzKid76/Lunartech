@@ -1,3 +1,6 @@
+# lunartech:tools/run_n/main
+# -> self
+
 $execute if score run_n.index lunartech.tools matches $(n).. run return 1
 $$(command)
 scoreboard players add run_n.index lunartech.tools 1

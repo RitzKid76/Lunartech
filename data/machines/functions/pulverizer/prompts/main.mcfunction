@@ -1,4 +1,4 @@
-#from .:prompts/prompt
+# any
 
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\

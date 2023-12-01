@@ -1,4 +1,4 @@
-#from ../main
+# machines:tick
 
 function machines:industrial_crafter/visuals
 function items:modifiers/snapped_item/snap

@@ -1,4 +1,4 @@
-#from ../main
+# machines:pulverizer/main
 
 function items:modifiers/snapped_item/snap
 

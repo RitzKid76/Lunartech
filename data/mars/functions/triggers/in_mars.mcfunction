@@ -1,4 +1,4 @@
-#from adv ./triggers/in_mars
+# any
 
 advancement revoke @s only mars:triggers/in_mars
 

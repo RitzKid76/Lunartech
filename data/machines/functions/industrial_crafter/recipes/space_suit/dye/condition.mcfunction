@@ -1,4 +1,4 @@
-#from ../condition
+# machines:industrial_crafter/recipes/space_suit/condition
 
 execute unless entity @e[type=item,predicate=items:count/1_exact,nbt={Item:{tag:{space_suit:1}}},distance=...7,limit=1] run return 0
 

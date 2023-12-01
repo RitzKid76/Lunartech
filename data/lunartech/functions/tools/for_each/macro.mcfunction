@@ -1,4 +1,4 @@
-#from main
+# lunartech:tools/for_each/main
 
 $data modify storage lunartech:tools for_each.$(id) set from storage lunartech:tools for_each
 

@@ -1,4 +1,4 @@
-#from .:quarry/states/building/build
+# machines:quarry/states/building/build
 
 scoreboard players set quarry.outline_steps machines.state 0
 function machines:quarry/states/building/top/as_pillar/main

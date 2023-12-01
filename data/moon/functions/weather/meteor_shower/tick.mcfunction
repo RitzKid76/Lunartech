@@ -1,4 +1,4 @@
-#from ./main
+# any
 
 function objects:meteor/spawn/spread
 

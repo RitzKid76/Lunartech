@@ -1,4 +1,5 @@
-#from *
+# lunartech:tools/rotation/get/axis/main
+# lunartech:tools/rotation/snap_facing
 
 execute if entity @s[y_rotation=-135..-44.9] run return run tag @s add x+
 

@@ -1,4 +1,5 @@
-#from .:quarry/states/building/shaft/build/tags
+# machines:quarry/states/building/shaft/build/block/place
+# machines:quarry/states/building/shaft/build/start
 
 playsound block.anvil.place block @a[distance=..25]
 playsound block.bell.use block @a[distance=..25]

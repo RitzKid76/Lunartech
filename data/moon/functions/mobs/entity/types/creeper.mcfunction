@@ -1,4 +1,4 @@
-#from ../entity
+# moon:mobs/entity/entity
 
 function lunartech:tools/set_health {health:40}
 effect give @s unluck infinite 0 true

@@ -1,4 +1,4 @@
-#from ./init
+# machines:init
 
 scoreboard players set #pulverizer machines.process_time 200
 scoreboard players set #pulverizer machines.fuel 512

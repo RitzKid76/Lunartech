@@ -1,4 +1,4 @@
-#from ./condition
+# machines:industrial_crafter/recipes/rubber_ball/craft/condition
 
 function items:modifiers/remove_item_count {count:1}
 

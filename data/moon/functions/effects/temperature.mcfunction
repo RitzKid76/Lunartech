@@ -1,3 +1,3 @@
-#from timers:10s
+# timers:50t
 
 damage @s 1 moon:environment

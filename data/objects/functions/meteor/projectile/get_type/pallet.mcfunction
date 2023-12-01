@@ -1,4 +1,4 @@
-#from ./init
+# objects:constants
 
 data modify storage objects:meteor types set value {\
     light:{\

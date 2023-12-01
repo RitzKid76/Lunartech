@@ -1,4 +1,4 @@
-#from ../main
+# machines:molten_forge/main
 
 function items:modifiers/snapped_item/snap
 

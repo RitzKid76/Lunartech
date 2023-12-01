@@ -1,4 +1,4 @@
-#from ../main
+# machines:coke_oven/main
 
 function items:modifiers/snapped_item/snap
 

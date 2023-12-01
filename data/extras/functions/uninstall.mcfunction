@@ -1,3 +1,3 @@
-#from SERVER
+# any
 
 scoreboard objectives remove extras.entity_render

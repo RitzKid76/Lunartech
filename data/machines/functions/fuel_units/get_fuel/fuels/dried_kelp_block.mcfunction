@@ -1,3 +1,3 @@
-#from ../get_fuel
+# any
 
 return 20

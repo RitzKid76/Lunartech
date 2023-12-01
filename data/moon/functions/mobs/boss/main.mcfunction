@@ -1,4 +1,4 @@
-#from ../main
+# moon:mobs/main
 
 execute if entity @s[type=spider,tag=moon.boss.broodmother] run return run function moon:mobs/boss/broodmother/main
 execute if entity @s[type=magma_cube,tag=moon.boss.king_magma_cube] run return run function moon:mobs/boss/king_magma_cube/main

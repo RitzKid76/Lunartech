@@ -1,4 +1,4 @@
-#from ./condition
+# any
 
 function items:modifiers/remove_item_count {count:1}
 

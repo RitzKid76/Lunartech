@@ -1,4 +1,4 @@
-#from ./place|*
+# objects:rubber_ball/display_part/place
 
 $data merge entity @s {\
     Tags:[\

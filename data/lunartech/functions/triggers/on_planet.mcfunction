@@ -1,4 +1,4 @@
-#from adv ./triggers/on_planet
+# any
 
 advancement revoke @s only lunartech:triggers/on_planet
 

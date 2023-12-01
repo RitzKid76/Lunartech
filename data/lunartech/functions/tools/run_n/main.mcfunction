@@ -1,3 +1,6 @@
+# machines:quarry/break/has/main
+# objects:meteor/projectile/spawn
+
 scoreboard players set run_n.index lunartech.tools 0
 
 $data modify storage lunartech:tools run_n.n set value $(n)

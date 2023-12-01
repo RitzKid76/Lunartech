@@ -1,3 +1,5 @@
+# timers:10t
+
 execute store result storage lunartech:effects radiation.damage int 0.033333 run scoreboard players get @s lunartech.radiation
 execute store result score damage lunartech.radiation_damage run data get storage lunartech:effects radiation.damage 1
 

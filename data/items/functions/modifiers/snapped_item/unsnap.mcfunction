@@ -1,4 +1,4 @@
-#from ../main
+# machines:main
 
 data merge entity @s {NoGravity:0b}
 tag @s remove machines.snapped_item

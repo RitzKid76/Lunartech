@@ -1,4 +1,4 @@
-#from 
+# any
 
 function machines:as_parts {\
     type:"shaft",\

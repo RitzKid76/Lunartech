@@ -1,4 +1,4 @@
-#from ../step
+# machines:quarry/states/building/pillars/build/per_pillar/action
 
 playsound block.copper.place block @a[distance=..30]
 

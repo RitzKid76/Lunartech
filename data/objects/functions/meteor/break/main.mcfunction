@@ -1,4 +1,4 @@
-#from ./main
+# any
 
 execute as @a[distance=..150] run function objects:meteor/break/sounds
 

@@ -1,4 +1,5 @@
-#from ../main
+# items:modifiers/main
+# moon:effects/main
 
 tag @s add moon.gravity
 effect give @s[type=!#lunartech:float_gravity,predicate=!moon:ignore_gravity] slow_falling infinite 0 true

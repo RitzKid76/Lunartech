@@ -1,4 +1,4 @@
-#from ./main
+# objects:crops/tick/all
 
 $function items:spawn {item:$(crop)}
 playsound block.grass.break block @a ~ ~ ~

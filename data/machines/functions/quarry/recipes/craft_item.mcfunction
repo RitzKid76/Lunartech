@@ -1,4 +1,4 @@
-#from ./ITEM/output
+# any
 
 scoreboard players operation @s machines.process_time = #quarry machines.process_time
 

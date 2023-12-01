@@ -1,4 +1,4 @@
-#from ./spawn
+# moon:mobs/boss/broodmother/brood_spawn/spawn
 
 data merge entity @s {\
     Tags:["moon.boss.spawn","moon.boss.broodmother.spawn","lunartech.no_planet_transformation"],\

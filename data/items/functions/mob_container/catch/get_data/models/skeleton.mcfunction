@@ -1,3 +1,3 @@
-#from ../main
+# any
 
 return 10010052

@@ -1,3 +1,5 @@
+# any
+
 $scoreboard players set x0 lunartech.math $(x0)
 $scoreboard players set y0 lunartech.math $(y0)
 $scoreboard players set z0 lunartech.math $(z0)

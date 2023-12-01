@@ -1,4 +1,4 @@
-#from ./main
+# machines:quarry/states/building/arm/outline/main
 
 execute as @e[type=marker,tag=machines.quarry.current,limit=1] run function machines:quarry/states/building/outline_particle/arm/area
 

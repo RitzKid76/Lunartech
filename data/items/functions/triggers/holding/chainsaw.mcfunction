@@ -1,4 +1,4 @@
-#from adv ./triggers/holding/chainsaw
+# any
 
 advancement revoke @s only items:triggers/holding/chainsaw
 

@@ -1,3 +1,5 @@
+# any
+
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\

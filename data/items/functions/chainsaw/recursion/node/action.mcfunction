@@ -1,4 +1,4 @@
-#from ./tick
+# items:chainsaw/recursion/node/tick
 
 setblock ~ ~ ~ air destroy
 function items:chainsaw/recursion/branch

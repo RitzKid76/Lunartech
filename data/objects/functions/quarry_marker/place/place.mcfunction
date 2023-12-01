@@ -1,4 +1,4 @@
-#from .:place/place
+# objects:place/place
 
 function objects:hitbox/spawn {height:0.625,width:0.25}
 

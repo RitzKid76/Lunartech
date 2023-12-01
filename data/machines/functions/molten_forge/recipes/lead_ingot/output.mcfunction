@@ -1,4 +1,5 @@
-#from ./condition
+# machines:molten_forge/recipes/lead_ingot/conditions/dust
+# machines:molten_forge/recipes/lead_ingot/conditions/raw
 
 function items:modifiers/remove_item_count {count:1}
 

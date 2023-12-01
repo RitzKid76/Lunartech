@@ -1,4 +1,4 @@
-#from ./start
+# machines:quarry/states/building/bottom/build/start
 
 tag @s add building.pillars
 tag @s remove building.ready

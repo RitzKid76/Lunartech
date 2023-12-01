@@ -1,4 +1,4 @@
-#from .:tick
+# objects:tick
 
 execute if function objects:meteor/break/condition run function objects:meteor/break/main with entity @s Passengers[0].item.tag
 

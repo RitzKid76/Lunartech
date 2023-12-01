@@ -1,4 +1,4 @@
-#from adv ./triggers/holding/has_fuel
+# any
 
 advancement revoke @s only items:triggers/holding/has_fuel
 

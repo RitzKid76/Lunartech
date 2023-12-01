@@ -1,4 +1,4 @@
-#from ./main
+# machines:quarry/states/building/shaft/build/block/place
 
 function machines:quarry/states/building/shaft/build/block/update
 

@@ -1,4 +1,4 @@
-#from .:main
+# machines:main
 
 execute store result entity @s Rotation[0] float 1 run data get entity @e[type=item_display,tag=machines.projection,sort=nearest,limit=1] Rotation[0]
 

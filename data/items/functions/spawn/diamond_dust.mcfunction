@@ -1,3 +1,7 @@
+# machines:coke_oven/recipes/diamond_dust/output
+# machines:metal_press/recipes/diamond_dust/output
+# machines:pulverizer/recipes/diamond_dust/output
+
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\

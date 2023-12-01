@@ -1,4 +1,4 @@
-#from ./ITEM/output
+# any
 
 scoreboard players operation @s machines.process_time = #molten_forge machines.process_time
 scoreboard players remove @s machines.fuel 1

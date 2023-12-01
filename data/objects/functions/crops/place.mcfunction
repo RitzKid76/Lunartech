@@ -1,4 +1,4 @@
-#from .:CROP/place/place
+# any
 
 function objects:hitbox/spawn {height:0.75,width:0.75}
 

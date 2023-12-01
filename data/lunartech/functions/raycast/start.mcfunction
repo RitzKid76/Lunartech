@@ -1,3 +1,6 @@
+# lunartech:raycast/defaults/selected_block
+# lunartech:raycast/defaults/selected_entity
+
 summon marker ^ ^ ^ {Tags:["lunartech.raycast"]}
 data modify entity @e[type=marker,tag=lunartech.raycast,limit=1] Rotation set from entity @s Rotation
 

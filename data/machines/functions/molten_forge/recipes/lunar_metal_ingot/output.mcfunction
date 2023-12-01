@@ -1,4 +1,5 @@
-#from ./condition
+# machines:molten_forge/recipes/lunar_metal_ingot/conditions/dust
+# machines:molten_forge/recipes/lunar_metal_ingot/conditions/raw
 
 function items:modifiers/remove_item_count {count:1}
 

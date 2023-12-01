@@ -1,4 +1,4 @@
-#from ./main
+# machines:molten_forge/break/main
 
 function items:spawn/machine {machine:"molten_forge"}
 

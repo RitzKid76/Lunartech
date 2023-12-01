@@ -1,4 +1,4 @@
-#from ./main
+# machines:quarry/states/building/pillars/outline/main
 
 scoreboard players set quarry.outline_steps machines.state 0
 summon marker ~ ~.5 ~ {Tags:["machines.quarry.state_helper"]}

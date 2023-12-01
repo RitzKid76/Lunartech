@@ -1,4 +1,4 @@
-#from ../main
+# machines:metal_press/main
 
 function items:modifiers/snapped_item/snap
 

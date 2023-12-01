@@ -1,4 +1,6 @@
-#from ./STATE/start -> self
+# machines:quarry/states/building/top/build/start
+# machines:quarry/states/building/top/outline/start
+# -> self
 
 tp @s ^ ^ ^1
 

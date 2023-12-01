@@ -1,4 +1,4 @@
-#from ./main
+# items:chainsaw/start
 
 function items:chainsaw/recursion/spawn_node
 function items:chainsaw/recursion/step

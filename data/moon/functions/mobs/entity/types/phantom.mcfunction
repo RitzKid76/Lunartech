@@ -1,4 +1,4 @@
-#from ../entity
+# moon:mobs/entity/entity
 
 data merge entity @s {Size:3}
 function lunartech:tools/set_health {health:40}

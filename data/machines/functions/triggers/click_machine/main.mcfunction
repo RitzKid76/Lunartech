@@ -1,4 +1,4 @@
-#from adv ./triggers/click_machine
+# any
 
 advancement revoke @s only machines:triggers/click_machine
 

@@ -1,4 +1,4 @@
-#from SERVER
+# any
 
 scoreboard objectives add extras.entity_render trigger
 

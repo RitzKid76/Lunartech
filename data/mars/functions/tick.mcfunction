@@ -1,4 +1,4 @@
-#from ./main
+# mars:main
 
 function mars:effects/main
 

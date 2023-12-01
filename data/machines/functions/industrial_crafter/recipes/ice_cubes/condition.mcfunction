@@ -1,4 +1,4 @@
-#from ../main
+# machines:industrial_crafter/recipes/main
 
 execute unless entity @e[type=item,predicate=items:count/1,nbt={Item:{id:"minecraft:blue_ice"}},distance=...7,limit=1] run return 0
 

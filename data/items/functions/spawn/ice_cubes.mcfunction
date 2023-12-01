@@ -1,3 +1,6 @@
+# machines:industrial_crafter/recipes/ice_cubes/1/output
+# machines:industrial_crafter/recipes/ice_cubes/9/output
+
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\

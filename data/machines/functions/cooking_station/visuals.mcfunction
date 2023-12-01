@@ -1,4 +1,4 @@
-#from ./main
+# machines:cooking_station/main
 
 particle minecraft:flame ~ ~-.8 ~ .15 .05 .15 0 2 normal @a
 particle minecraft:dripping_lava ^ ^.05 ^.37 0 0 0 0 2 normal @a

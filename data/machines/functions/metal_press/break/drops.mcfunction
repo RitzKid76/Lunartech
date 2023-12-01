@@ -1,4 +1,4 @@
-#from ./main
+# machines:metal_press/break/main
 
 function items:spawn/machine {machine:"metal_press"}
 

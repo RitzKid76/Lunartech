@@ -1,4 +1,4 @@
-#from ../path
+# machines:quarry/states/building/pillars/build/start
 
 execute if block ~ ~ ~ #machines:quarry/frame run scoreboard players add @s machines.state 1
 execute if block ~ ~ ~ #machines:quarry/frame run return 0

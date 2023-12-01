@@ -1,4 +1,4 @@
-#from ../main
+# machines:quarry/states/building/outline
 
 function machines:as_parts {\
     type:"markers",\

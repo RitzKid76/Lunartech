@@ -1,4 +1,4 @@
-#from ./color/condition
+# machines:industrial_crafter/recipes/rubber_ball/dye/color/condition
 
 function items:modifiers/remove_item_count {count:1}
 

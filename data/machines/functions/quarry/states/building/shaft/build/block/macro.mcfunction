@@ -1,4 +1,4 @@
-#from ../main
+# any
 
 $summon block_display ~ ~ ~ {\
     Tags:["machines.quarry.shaft.display","machines.new_part"],\

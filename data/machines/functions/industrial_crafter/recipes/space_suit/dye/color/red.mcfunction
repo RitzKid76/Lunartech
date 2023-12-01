@@ -1,4 +1,4 @@
-#from ../condition
+# machines:industrial_crafter/recipes/space_suit/dye/condition
 
 data modify storage machines:recipes color set value "red"
 data modify storage machines:recipes model_data set value 10000006

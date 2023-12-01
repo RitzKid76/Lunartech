@@ -1,4 +1,4 @@
-#from ./main
+# machines:industrial_crafter/break/main
 
 loot spawn ~ ~ ~ loot machines:industrial_crafter
 

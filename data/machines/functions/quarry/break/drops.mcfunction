@@ -1,4 +1,4 @@
-#from ./main
+# machines:quarry/break/main
 
 function items:spawn/machine {machine:"quarry"}
 

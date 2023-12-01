@@ -1,4 +1,6 @@
-#from ./STATE/start -> self
+# machines:quarry/states/building/pillars/build/start
+# machines:quarry/states/building/pillars/outline/start
+# -> self
 
 $$(action)
 

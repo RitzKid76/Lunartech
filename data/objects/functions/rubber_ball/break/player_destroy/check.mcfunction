@@ -1,4 +1,4 @@
-#from adv ./triggers/click_rubber_ball
+# any
 
 advancement revoke @s only objects:trigger/click_rubber_ball
 

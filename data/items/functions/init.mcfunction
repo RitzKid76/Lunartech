@@ -1,4 +1,4 @@
-#from SERVER
+# any
 
 scoreboard objectives add items.fuel dummy
 

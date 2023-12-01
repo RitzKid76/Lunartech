@@ -1,4 +1,4 @@
-#from ../main
+# objects:quarry_marker/main
 
 execute if entity @s[tag=quarry.part] run return 0
 

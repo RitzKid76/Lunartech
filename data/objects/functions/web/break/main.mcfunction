@@ -1,4 +1,4 @@
-#from ../main
+# any
 
 setblock ~ ~ ~ air
 kill @s

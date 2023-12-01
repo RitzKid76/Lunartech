@@ -1,4 +1,4 @@
-#from ./main
+# machines:quarry/prompts/main
 
 say mining phase
 

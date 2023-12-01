@@ -1,4 +1,4 @@
-#from ./get_block
+# any
 
 scoreboard players remove @s machines.quarry_entities_placed 1
 

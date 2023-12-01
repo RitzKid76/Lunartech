@@ -1,4 +1,4 @@
-#from ./main
+# machines:pulverizer/break/main
 
 function items:spawn/machine {machine:"pulverizer"}
 

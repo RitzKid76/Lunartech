@@ -1,4 +1,4 @@
-#from ./main
+# machines:quarry/states/mining/plane_scan/z/main
 
 summon marker ~ ~ ~ {Tags:["machines.state_helper"]}
 tp @e[type=marker,tag=machines.state_helper,limit=1] @s

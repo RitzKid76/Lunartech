@@ -1,4 +1,4 @@
-#from ./condition
+# machines:industrial_crafter/recipes/space_suit/craft/helmet/color/condition
 
 function items:modifiers/remove_item_count {count:5}
 
