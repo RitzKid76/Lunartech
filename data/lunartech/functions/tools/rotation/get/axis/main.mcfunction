@@ -1,5 +1,6 @@
-#> machines:quarry/states/building/bottom/build/block/lightning_rod/main
 #> machines:quarry/states/building/top/build/block/lightning_rod/main
+#> machines:quarry/states/building/bottom/build/block/lightning_rod/main
+#> machines:quarry/place
 
 function lunartech:tools/rotation/get/main
 

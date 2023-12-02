@@ -1,5 +1,5 @@
-#> items:mob_container/catch/main
 #> moon:mobs/entity/main
+#> items:mob_container/catch/main
 
 execute unless predicate lunartech:has_vehicle run function lunartech:tools/get_entity_type/no_vehicle
 

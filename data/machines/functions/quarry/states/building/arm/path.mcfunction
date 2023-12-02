@@ -1,5 +1,5 @@
 #> ../start
-#> .:quarry/states/building/arm/path
+#> self
 
 tp @s ^ ^ ^1
 

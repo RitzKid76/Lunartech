@@ -1,5 +1,5 @@
-#> ../selected_block
 #> ../selected_entity
+#> ../selected_block
 
 summon marker ^ ^ ^ {Tags:["lunartech.raycast"]}
 data modify entity @e[type=marker,tag=lunartech.raycast,limit=1] Rotation set from entity @s Rotation

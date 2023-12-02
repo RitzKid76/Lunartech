@@ -1,3 +1,4 @@
+#> ./main
 #> ./place
 
 function machines:quarry/states/building/shaft/build/block/update

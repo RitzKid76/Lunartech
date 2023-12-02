@@ -1,4 +1,4 @@
-#> self
+#> .:place/armor_stand/spawn/90
 
 execute store result score volume_check machines.projection run fill ^-2 ^ ^ ^2 ^2 ^ structure_void replace air
 fill ^-2 ^ ^ ^2 ^2 ^ air replace structure_void

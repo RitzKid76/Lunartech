@@ -1,5 +1,5 @@
 #> ./start
-#> .:chainsaw/recursion/step
+#> self
 
 execute at @e[type=marker,tag=items.chainsaw.mine_node,sort=nearest] run function items:chainsaw/recursion/node/tick
 

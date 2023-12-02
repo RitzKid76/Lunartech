@@ -1,5 +1,5 @@
 #> ./start
-#> .:quarry/break/has/pillars/step
+#> self
 
 execute if block ~ ~ ~ #machines:quarry/copper_reclaim_remove run function machines:quarry/break/has/remove_block
 

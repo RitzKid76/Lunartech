@@ -1,5 +1,5 @@
-#> ./place
 #> .:quarry/states/building/shaft/build/start
+#> .:quarry/states/building/shaft/build/block/place
 
 playsound block.anvil.place block @a[distance=..25]
 playsound block.bell.use block @a[distance=..25]

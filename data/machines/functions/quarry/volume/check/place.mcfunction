@@ -1,4 +1,4 @@
-#> self
+#> .:place/armor_stand/spawn/90
 
 function machines:volume {machine:"quarry"}
 execute if score volume_check machines.volume matches 9 run return 1

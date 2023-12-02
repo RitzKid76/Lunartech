@@ -1,4 +1,20 @@
+#> ./yellow_space_chestplate
+#> ./white_space_chestplate
 #> .:modifiers/loot_spawner/loot
+#> ./red_space_chestplate
+#> ./purple_space_chestplate
+#> ./pink_space_chestplate
+#> ./orange_space_chestplate
+#> ./magenta_space_chestplate
+#> ./lime_space_chestplate
+#> ./light_gray_space_chestplate
+#> ./light_blue_space_chestplate
+#> ./green_space_chestplate
+#> ./gray_space_chestplate
+#> ./cyan_space_chestplate
+#> ./brown_space_chestplate
+#> ./blue_space_chestplate
+#> ./black_space_chestplate
 
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\

@@ -1,5 +1,5 @@
-#> ./main
 #> .:molten_forge/input/fuel
+#> ./main
 
 function machines:fuel_units/add_fuel/limit_check with entity @s data
 #false

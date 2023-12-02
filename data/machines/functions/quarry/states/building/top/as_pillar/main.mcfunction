@@ -1,5 +1,5 @@
-#> .:quarry/states/building/top/build/main
 #> .:quarry/states/building/top/outline/main
+#> .:quarry/states/building/top/build/main
 
 summon marker ~ ~ ~ {Tags:["machines.quarry.state_helper"]}
 

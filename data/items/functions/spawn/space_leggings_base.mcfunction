@@ -1,4 +1,20 @@
+#> ./yellow_space_leggings
+#> ./white_space_leggings
 #> .:modifiers/loot_spawner/loot
+#> ./red_space_leggings
+#> ./purple_space_leggings
+#> ./pink_space_leggings
+#> ./orange_space_leggings
+#> ./magenta_space_leggings
+#> ./lime_space_leggings
+#> ./light_gray_space_leggings
+#> ./light_blue_space_leggings
+#> ./green_space_leggings
+#> ./gray_space_leggings
+#> ./cyan_space_leggings
+#> ./brown_space_leggings
+#> ./blue_space_leggings
+#> ./black_space_leggings
 
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\

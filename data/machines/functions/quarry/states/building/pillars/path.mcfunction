@@ -1,5 +1,6 @@
 #> ../start
-#> .:quarry/states/building/pillars/path
+#> ../start
+#> self
 
 $$(action)
 

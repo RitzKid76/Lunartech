@@ -1,4 +1,4 @@
-#> self
+#> ./can_place
 
 $data merge entity @s {\
     Tags:[\

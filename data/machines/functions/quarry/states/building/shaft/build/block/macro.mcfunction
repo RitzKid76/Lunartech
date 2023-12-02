@@ -1,4 +1,6 @@
+#> ./main
 #> ./place
+#> .:quarry/states/building/shaft/build/block/end_cap/type/head/finish
 
 $summon block_display ~ ~ ~ {\
     Tags:["machines.quarry.shaft.display","machines.new_part"],\

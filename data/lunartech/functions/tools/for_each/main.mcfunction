@@ -1,6 +1,6 @@
-#> machines:as_parts
-#> machines:quarry/break/has/main
 #> machines:quarry/prompts/main
+#> machines:quarry/break/has/main
+#> machines:as_parts
 
 $data modify storage lunartech:tools for_each.data_getter set value "$(data_getter)"
 $data modify storage lunartech:tools for_each.command_a set value "$(before_term)"

@@ -1,4 +1,4 @@
-#> self
+#> .:place/place
 
 data modify storage objects:spawn color set from entity @s ArmorItems[3].tag.color
 

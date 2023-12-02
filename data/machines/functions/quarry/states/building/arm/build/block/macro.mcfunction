@@ -1,3 +1,4 @@
+#> ./main
 #> ./place
 
 $summon block_display ~ ~ ~ {\

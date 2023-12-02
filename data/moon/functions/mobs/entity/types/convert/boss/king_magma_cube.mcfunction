@@ -1,4 +1,4 @@
-#> ../entity
+#> .:mobs/entity/entity
 
 data merge entity @s {\
     Tags:["moon.boss","moon.boss.king_magma_cube","lunartech.no_planet_transformation"],\

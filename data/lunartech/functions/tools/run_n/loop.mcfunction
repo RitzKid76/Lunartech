@@ -1,5 +1,5 @@
-#> .:tools/run_n/loop
 #> ./main
+#> self
 
 $execute if score run_n.index lunartech.tools matches $(n).. run return 1
 $$(command)

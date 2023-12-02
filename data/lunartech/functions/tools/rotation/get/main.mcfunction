@@ -1,5 +1,5 @@
-#> ../main
 #> ../snap_facing
+#> ../main
 
 execute if entity @s[y_rotation=-135..-44.9] run return run tag @s add x+
 

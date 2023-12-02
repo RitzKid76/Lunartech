@@ -1,4 +1,6 @@
-#> self
+#> .:place/armor_stand/spawn/90
+#> ./main
+#> ../get_block
 
 function machines:quarry/states/building/toggle_state
 

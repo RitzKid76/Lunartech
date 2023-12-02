@@ -1,5 +1,5 @@
-#> ./rubber_ball
 #> ./space_suit
+#> ./rubber_ball
 
 $data merge entity @s {\
     Item:{\
