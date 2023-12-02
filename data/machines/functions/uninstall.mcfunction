@@ -6,4 +6,4 @@ scoreboard objectives remove machines.volume
 scoreboard objectives remove machines.process_time
 scoreboard objectives remove machines.fuel
 scoreboard objectives remove machines.state
-scoreboard objectives remove machines.quarry_entities_placed
+scoreboard objectives remove machines.quarry.entities_placed

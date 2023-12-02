@@ -1,4 +1,5 @@
 #> .:quarry/states/mining/plane_scan/z/main
+#> .:quarry/states/mining/plane_scan/main
 #> .:quarry/states/building/shaft/build/main
 #> .:quarry/states/building/pillars/outline/main
 #> .:quarry/states/building/pillars/build/main
