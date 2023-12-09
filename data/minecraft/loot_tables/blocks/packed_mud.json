@@ -16,6 +16,9 @@
           ],
           "conditions": [
             {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
               "condition": "minecraft:reference",
               "name": "mars:in_mars"
             }
@@ -27,12 +30,15 @@
           "weight": 1,
           "conditions": [
             {
-              "condition":"minecraft:inverted",
-              "term":{
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
                 "condition": "minecraft:reference",
                 "name": "mars:in_mars"
               }
-            } 
+            }
           ]
         }
       ]
