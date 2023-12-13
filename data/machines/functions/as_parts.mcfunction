@@ -7,6 +7,7 @@
 #> .:quarry/break/has/shaft/main
 #> .:quarry/break/has/pillars/main
 #> .:quarry/break/has/main
+#> .:quarry/break/has/layer_marker/main
 #> .:quarry/break/has/arm/main
 #> .:pulverizer/break/main
 #> .:molten_forge/break/main
