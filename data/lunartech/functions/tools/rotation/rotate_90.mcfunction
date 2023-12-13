@@ -1,3 +1,4 @@
+#> machines:quarry/states/mining/plane_scan/z/main
 #> machines:quarry/states/building/top/path
 #> machines:quarry/states/building/bottom/path
 #> machines:quarry/states/building/bottom/outline/start

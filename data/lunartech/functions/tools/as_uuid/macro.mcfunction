@@ -1,4 +1,4 @@
-#> ./main
+#> ./helper
 
 $summon snowball ~ ~ ~ {Owner:$(UUID),Tags:["lunartech.tools.as_uuid.$(id)"]}
 $execute store result score success lunartech.tools as @e[type=snowball,tag=lunartech.tools.as_uuid.$(id),distance=0,sort=nearest,limit=1] on origin $(command)
