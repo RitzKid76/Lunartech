@@ -1,6 +1,6 @@
 #> ./yellow_space_leggings
 #> ./white_space_leggings
-#> .:modifiers/loot_spawner/loot
+#> .:modifiers/loot_spawner/loot ?
 #> ./red_space_leggings
 #> ./purple_space_leggings
 #> ./pink_space_leggings

@@ -1,4 +1,4 @@
-#> ../entity
+#> ../entity ?
 
 execute if entity @s[nbt={Size:0}] run function lunartech:tools/set_health {health:6} 
 execute if entity @s[nbt={Size:1}] run function lunartech:tools/set_health {health:24}

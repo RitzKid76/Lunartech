@@ -5,9 +5,9 @@
 #> objects:crops/break/entities
 #> machines:quarry/volume/space/get/main
 #> machines:quarry/states/building/top/as_pillar/main
-#> machines:quarry/states/building/shaft/build/summon_shaft
+#> machines:quarry/states/building/shaft/build/summon_shaft/main
 #> machines:quarry/states/building/shaft/as_pillar/main
-#> machines:quarry/states/building/arm/build/summon_arm
+#> machines:quarry/states/building/arm/build/summon_arm/main
 #> machines:quarry/states/building/arm/as_pillar/main
 
 $data modify storage lunartech:tools UUID set from $(data_getter)

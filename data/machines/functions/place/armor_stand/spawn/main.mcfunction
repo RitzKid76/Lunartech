@@ -1,4 +1,4 @@
-#> ./machine_properties
+#> ./machine_properties ?
 #> ../main
 
 $execute positioned ~ ~.001 ~ if function machines:$(machine)/volume/check/place run return run \

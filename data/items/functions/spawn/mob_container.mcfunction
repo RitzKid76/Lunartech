@@ -1,4 +1,4 @@
-#> .:modifiers/loot_spawner/loot
+#> .:modifiers/loot_spawner/loot ?
 #> .:mob_container/release/main
 
 $summon item ~ ~ ~ {\

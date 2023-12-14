@@ -1,3 +1,3 @@
-#> ../get_fuel
+#> ../get_fuel ?
 
 return 6

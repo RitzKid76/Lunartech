@@ -1,6 +1,6 @@
 #> ./yellow_rubber_ball
 #> ./white_rubber_ball
-#> .:modifiers/loot_spawner/loot
+#> .:modifiers/loot_spawner/loot ?
 #> ./red_rubber_ball
 #> ./purple_rubber_ball
 #> ./pink_rubber_ball
