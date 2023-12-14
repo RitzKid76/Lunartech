@@ -1,4 +1,3 @@
-#> .:place/armor_stand/spawn/90
 #> .:quarry/states/building/arm/build/block/lightning_rod/place
 #> .:quarry/states/building/arm/build/block/end_cap/place
 

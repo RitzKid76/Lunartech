@@ -8,6 +8,7 @@ execute if entity @e[type=item_display,tag=objects.quarry_marker,distance=...5,l
 $$(action)
 
 scoreboard players add quarry.outline_steps machines.state 1
+execute unless entity @e[type=marker,tag=machines.quarry.current,tag=building,limit=1] run scoreboard players add quarry.side_length machines.state 1
 
 execute at @s run tp @s ^ ^ ^1
 

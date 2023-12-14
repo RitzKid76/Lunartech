@@ -1,4 +1,4 @@
-#> .:quarry/states/building/shaft/build/block/place
+#> .:quarry/states/building/shaft/build/block/place ?
 #> ./finish
 
 summon marker ~ ~ ~ {Tags:["machines.quarry.layer_marker","machines.new_part"]}

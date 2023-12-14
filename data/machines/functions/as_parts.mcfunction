@@ -1,9 +1,11 @@
 #> .:quarry/states/mining/plane_scan/main
 #> .:quarry/states/building/shaft/build/main
+#> .:quarry/states/building/shaft/build/block/main
 #> .:quarry/states/building/pillars/outline/main
 #> .:quarry/states/building/pillars/build/main
 #> .:quarry/states/building/arm/build/main
 #> .:quarry/break/parts
+#> .:quarry/break/has/shaft_intersection/main
 #> .:quarry/break/has/shaft/main
 #> .:quarry/break/has/pillars/main
 #> .:quarry/break/has/main

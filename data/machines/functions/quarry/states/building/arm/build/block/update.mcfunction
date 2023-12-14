@@ -1,4 +1,4 @@
-#> ./place
+#> ./place ?
 #> ./get_block
 
 scoreboard players add @s machines.quarry.entities_placed 1

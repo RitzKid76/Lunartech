@@ -1,4 +1,4 @@
-#> .:quarry/states/building/shaft/build/block/place
+#> .:quarry/states/building/shaft/build/block/place ?
 
 $data modify storage machines:state quarry.block set value {\
     block_state:{\

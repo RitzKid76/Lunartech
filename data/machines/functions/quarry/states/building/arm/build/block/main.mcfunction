@@ -1,5 +1,5 @@
 #> ../start
-#> ./place
+#> ./place ?
 
 playsound block.copper.place block @a[distance=..30]
 

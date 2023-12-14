@@ -1,4 +1,3 @@
-#> .:place/armor_stand/spawn/90
 #> ./main
 
 execute if entity @s[scores={machines.state=0}] run return run \
