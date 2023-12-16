@@ -1,4 +1,4 @@
-#from ./place
+#> ./place
 
 function lunartech:tools/set_health {health:1024}
 $data merge entity @s {\

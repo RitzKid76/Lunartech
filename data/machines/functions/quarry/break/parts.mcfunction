@@ -1,4 +1,4 @@
-#from ./main
+#> ./main
 
 function machines:quarry/break/has/main
 

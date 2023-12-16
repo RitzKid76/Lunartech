@@ -1,4 +1,4 @@
-#from ../main
+#> ../place ?
 
 $data modify storage machines:state quarry.block set value {\
     block_state:{\

@@ -1,4 +1,4 @@
-#from ./main
+#> ../entity ?
 
 data merge entity @s {\
     variant:"minecraft:warm"\

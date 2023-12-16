@@ -1,4 +1,4 @@
-#from SERVER
+#> unknown
 
 scoreboard objectives add lunartech.gravity.jump custom:jump
 scoreboard objectives add lunartech.gravity.jump.motion dummy

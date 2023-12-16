@@ -1,4 +1,9 @@
-#from *
+#> objects:rubber_ball/break/drops
+#> objects:quarry_marker/break/drops
+#> objects:place/place
+#> objects:crops/break/main
+#> machines:place/armor_stand/spawn/main
+#> .:spawn/machine
 
 $loot spawn ~ ~ ~ loot items:spawn/$(item)
 # force resolve item

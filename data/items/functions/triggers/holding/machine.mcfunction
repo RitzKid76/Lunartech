@@ -1,4 +1,4 @@
-#from adv ./triggers/holding/machine
+#> unknown
 
 advancement revoke @s only items:triggers/holding/machine
 

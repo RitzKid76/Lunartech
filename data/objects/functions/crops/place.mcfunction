@@ -1,4 +1,5 @@
-#from .:CROP/place/place
+#> .:magenta_lunar_mushroom_spore/place/place
+#> .:blue_lunar_mushroom_spore/place/place
 
 function objects:hitbox/spawn {height:0.75,width:0.75}
 

@@ -1,6 +1,6 @@
-#from .:quarry/states/building/build
+#> .:quarry/states/building/build
 
-execute unless data entity @s data.shaft run function machines:quarry/states/building/shaft/build/summon_shaft
+execute unless data entity @s data.shaft run function machines:quarry/states/building/shaft/build/summon_shaft/main
 
 function machines:as_parts {\
     type:"shaft",\

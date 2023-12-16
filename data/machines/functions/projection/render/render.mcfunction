@@ -1,4 +1,4 @@
-#from ./main
+#> ./main
 
 $summon item_display ~ ~ ~ {\
     item:{\

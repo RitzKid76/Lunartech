@@ -1,4 +1,4 @@
-#from ./main
+#> ./main
 
 say mining phase
 

@@ -1,4 +1,4 @@
-#from items:triggers/holding/machine
+#> items:triggers/holding/machine
 
 function lunartech:raycast/defaults/selected_block
 

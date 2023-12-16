@@ -1,3 +1,3 @@
-#from ../place
+#> ../place
 
 setblock ~ ~ ~ lightning_rod[facing=up]

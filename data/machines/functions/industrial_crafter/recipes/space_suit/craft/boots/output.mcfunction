@@ -1,4 +1,4 @@
-#from ./condition
+#> .:industrial_crafter/recipes/space_suit/craft/boots/color/condition
 
 function items:modifiers/remove_item_count {count:4}
 

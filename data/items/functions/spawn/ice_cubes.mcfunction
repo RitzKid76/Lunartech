@@ -1,3 +1,7 @@
+#> machines:industrial_crafter/recipes/ice_cubes/9/output
+#> machines:industrial_crafter/recipes/ice_cubes/1/output
+#> .:modifiers/loot_spawner/loot ?
+
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\

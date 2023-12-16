@@ -1,4 +1,4 @@
-#from ../main
+#> ../main
 
 $loot spawn ~ ~ ~ loot lunartech:ore_validator/$(true)
 kill @s

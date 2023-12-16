@@ -1,4 +1,4 @@
-#from ../main
+#> ../main ?
 
 $summon falling_block ~ ~ ~ {\
     Tags:["objects.meteor.projectile"],\

@@ -1,4 +1,5 @@
-#from ../main
+#> ../macro
+#> self
 
 $execute unless score for_each.$(id).index lunartech.tools < for_each.$(id).terms lunartech.tools run return 1
 

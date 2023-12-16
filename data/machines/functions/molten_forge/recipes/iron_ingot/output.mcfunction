@@ -1,4 +1,7 @@
-#from ./condition
+#> .:molten_forge/recipes/iron_ingot/conditions/raw
+#> .:molten_forge/recipes/iron_ingot/conditions/dust
+#> .:molten_forge/recipes/gold_ingot/conditions/raw
+#> .:molten_forge/recipes/gold_ingot/conditions/dust
 
 function items:modifiers/remove_item_count {count:1}
 

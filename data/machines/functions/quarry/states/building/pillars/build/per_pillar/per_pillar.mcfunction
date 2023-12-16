@@ -1,4 +1,4 @@
-#from ./main
+#> ./main
 
 tag @s add machines.quarry.pillars.current
 scoreboard players set quarry.outline_steps machines.state 0

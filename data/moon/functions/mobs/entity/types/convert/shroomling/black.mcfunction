@@ -1,4 +1,4 @@
-#from .../wither_skeleton
+#> .:mobs/entity/entity ?
 
 data merge entity @s {\
     DeathLootTable:"moon:entities/mobs/shroomling/black",\

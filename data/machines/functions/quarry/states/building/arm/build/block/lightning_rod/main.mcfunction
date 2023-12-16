@@ -1,4 +1,4 @@
-#from ../get_block
+#> ../place ?
 
 function machines:quarry/states/building/toggle_state
 

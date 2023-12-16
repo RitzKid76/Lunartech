@@ -1,4 +1,4 @@
-#from ./spawn -> lunartech:tools/run_n/main
+#> unknown
 
 $data modify storage objects:meteor direction set value $(direction)
 

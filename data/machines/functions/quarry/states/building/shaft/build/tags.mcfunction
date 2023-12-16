@@ -1,4 +1,4 @@
-#from ./start
+#> ./start
 
 tag @s add mining
 tag @s remove building.ready

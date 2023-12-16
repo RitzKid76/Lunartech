@@ -1,4 +1,4 @@
-#from ../main
+#> unknown
 
 function machines:as_parts {\
     type:"shaft",\

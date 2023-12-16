@@ -1,4 +1,4 @@
-#from ./color/condition
+#> .:industrial_crafter/recipes/space_suit/dye/color/condition
 
 function items:modifiers/remove_item_count {count:1}
 

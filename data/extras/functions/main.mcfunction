@@ -1,4 +1,4 @@
-#from SERVER
+#> unknown
 
 scoreboard players enable @a extras.entity_render
 execute as @a[scores={extras.entity_render=1..}] run function extras:entity_render_toggle

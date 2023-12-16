@@ -1,3 +1,3 @@
-#from ./main
+#> ./main
 
 $$(command_a)$(term)$(command_b)

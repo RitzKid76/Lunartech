@@ -1,4 +1,7 @@
-#from .:MACHINE/place
+#> .:quarry/place
+#> .:pulverizer/place
+#> .:molten_forge/place
+#> .:metal_press/place
 
 $summon marker ^ ^ ^ {\
     Tags:[\

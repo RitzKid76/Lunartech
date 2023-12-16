@@ -1,3 +1,3 @@
-#from ./main
+#> ../main
 
 return 0

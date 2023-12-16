@@ -1,4 +1,4 @@
-#from ./tick
+#> ../tick
 
 execute if function objects:rubber_ball/break/condition run function objects:rubber_ball/break/main
 

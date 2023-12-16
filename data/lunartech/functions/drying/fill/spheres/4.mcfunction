@@ -1,3 +1,5 @@
+#> ../main
+
 $fill ~-2 ~-2 ~-2 ~2 ~2 ~2 $(blocks)
 $fill ~-2 ~-4 ~-1 ~2 ~4 ~1 $(blocks)
 $fill ~-1 ~-4 ~-2 ~1 ~4 ~2 $(blocks)

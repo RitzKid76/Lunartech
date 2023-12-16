@@ -1,4 +1,5 @@
-#from ./STATE/start -> self
+#> .:quarry/states/building/shaft/outline/start
+#> self
 
 $$(action)
 

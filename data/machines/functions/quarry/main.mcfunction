@@ -1,4 +1,4 @@
-#from ../main
+#> ../tick
 
 tag @s add machines.quarry.current
 

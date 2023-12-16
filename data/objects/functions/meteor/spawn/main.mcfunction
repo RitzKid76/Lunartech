@@ -1,4 +1,4 @@
-#from ./spread
+#> ./spread
 
 summon armor_stand ~ ~ ~ {\    
     Invisible:1b,\

@@ -1,4 +1,4 @@
-#from .:quarry/states/building/build
+#> .:quarry/states/building/build
 
 scoreboard players set @s machines.state 0
 tag @s remove building.pillars.placed_block

@@ -1,6 +1,5 @@
-#from ./main
+#> ./main
 
-#get x and z
 execute store result score x0 machines.state run data get storage machines:state quarry.volume.x0
 execute store result score x1 machines.state run data get storage machines:state quarry.volume.x1
 execute store result score z0 machines.state run data get storage machines:state quarry.volume.z0

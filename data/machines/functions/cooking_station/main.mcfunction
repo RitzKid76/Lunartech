@@ -1,4 +1,4 @@
-#from ../main
+#> ../tick
 
 function machines:cooking_station/visuals
 function items:modifiers/snapped_item/snap

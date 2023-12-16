@@ -1,4 +1,4 @@
-#from ../main
+#> ../main
 
 function machines:quarry/states/building/tags
 

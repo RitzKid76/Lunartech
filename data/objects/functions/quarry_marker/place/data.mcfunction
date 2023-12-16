@@ -1,4 +1,4 @@
-#from ./place
+#> ./place
 
 data merge entity @s {\
     Tags:[\
