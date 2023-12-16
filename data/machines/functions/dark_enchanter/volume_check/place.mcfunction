@@ -1,4 +1,4 @@
-#from .:projection/main
+#> unknown
 
 execute store result score volume_check machines.projection run fill ^-1 ^ ^ ^1 ^5 ^-1 structure_void replace air
 fill ^-1 ^ ^ ^1 ^5 ^-1 air replace structure_void

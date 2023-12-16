@@ -1,7 +1,8 @@
-#from ../main
+#> unknown
 
-function machines:as_parts {type:"parts",command:"run kill @s"}
-function machines:as_parts {type:"markers",command:"run function objects:quarry_marker/break/main"}
+tag @s add machines.quarry.current.break
+
+function machines:quarry/break/parts
 
 function machines:quarry/volume/fill {params:"air destroy"}
 

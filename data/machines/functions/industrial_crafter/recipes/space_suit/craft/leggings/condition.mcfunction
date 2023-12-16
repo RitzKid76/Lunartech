@@ -1,4 +1,4 @@
-#from ../condition
+#> ../condition
 
 execute unless entity @e[type=item,predicate=items:count/1_exact,nbt={Item:{id:"minecraft:leather_leggings"}},distance=...7,limit=1] run return 0
 

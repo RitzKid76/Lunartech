@@ -1,4 +1,4 @@
-#from ./main
+#> ./main
 
 $execute if function objects:$(object)/place/condition align xyz positioned ~.5 ~ ~.5 run return run \
     function objects:$(object)/place/place

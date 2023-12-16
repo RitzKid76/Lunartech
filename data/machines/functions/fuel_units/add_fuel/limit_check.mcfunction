@@ -1,4 +1,4 @@
-#from ./main
+#> ./attempt
 
 scoreboard players operation temp_fuel machines.fuel = @s machines.fuel
 scoreboard players operation temp_fuel machines.fuel += fuel machines.fuel

@@ -1,6 +1,5 @@
-#from ../main
+#> ../main
 
-#bounce off walls
 function objects:rubber_ball/physics/get_motion
 execute if score x objects.motion.compare matches 0 store result entity @s Motion[0] double -0.00009 run scoreboard players get @s objects.motion.x
 execute if score z objects.motion.compare matches 0 store result entity @s Motion[2] double -0.00009 run scoreboard players get @s objects.motion.z

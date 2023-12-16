@@ -1,3 +1,21 @@
+#> ./yellow_space_boots
+#> ./white_space_boots
+#> .:modifiers/loot_spawner/loot ?
+#> ./red_space_boots
+#> ./purple_space_boots
+#> ./pink_space_boots
+#> ./orange_space_boots
+#> ./magenta_space_boots
+#> ./lime_space_boots
+#> ./light_gray_space_boots
+#> ./light_blue_space_boots
+#> ./green_space_boots
+#> ./gray_space_boots
+#> ./cyan_space_boots
+#> ./brown_space_boots
+#> ./blue_space_boots
+#> ./black_space_boots
+
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\

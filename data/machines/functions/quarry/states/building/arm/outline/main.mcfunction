@@ -1,6 +1,8 @@
-#from ../main
+#> .:quarry/states/building/outline
 
-scoreboard players reset quarry.perimeter machines.state
+execute store result score quarry.arm_length machines.state run data get entity @s data.volume.arm_length
+
+scoreboard players set quarry.outline_steps machines.state 0
 function machines:quarry/states/building/arm/as_pillar/main
 
 execute as @e[type=marker,tag=machines.quarry.state_helper,limit=1] run function machines:quarry/states/building/arm/outline/start

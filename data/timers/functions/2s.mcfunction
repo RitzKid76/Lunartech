@@ -1,4 +1,5 @@
-#from ./init -> self
+#> ./init
+#> self
 
 schedule function timers:2s 2s
 

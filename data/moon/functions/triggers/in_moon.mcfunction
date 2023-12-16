@@ -1,4 +1,4 @@
-#from adv ./triggers/in_moon
+#> unknown
 
 advancement revoke @s only moon:triggers/in_moon
 

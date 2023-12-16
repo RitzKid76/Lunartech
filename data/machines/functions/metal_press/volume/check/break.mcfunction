@@ -1,4 +1,4 @@
-#from .:projection/main
+#> .:metal_press/break/condition
 
 function machines:volume {machine:"metal_press"}
 execute unless score volume_check machines.volume matches 10 run return 1

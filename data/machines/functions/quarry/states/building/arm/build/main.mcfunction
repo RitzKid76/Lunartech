@@ -1,9 +1,8 @@
-#from .:quarry/states/building/build
+#> .:quarry/states/building/build
 
-scoreboard players reset quarry.perimeter machines.state
-function machines:quarry/states/building/arm/as_pillar/main
+execute unless data entity @s data.arm run function machines:quarry/states/building/arm/build/summon_arm/main
 
-execute as @e[type=marker,tag=machines.quarry.state_helper,limit=1] run function machines:quarry/states/building/arm/build/start
-
-tag @e[type=item_display,tag=machines.quarry.pillars.current,limit=1] remove machines.quarry.pillars.current
-kill @e[type=marker,tag=machines.quarry.state_helper,limit=1]
+function machines:as_parts {\
+    type:"arm",\
+    command:"run function machines:quarry/states/building/arm/build/start"\
+}

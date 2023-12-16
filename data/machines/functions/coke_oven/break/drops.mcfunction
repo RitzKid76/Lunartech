@@ -1,4 +1,4 @@
-#from ./main
+#> ./main
 
 function items:spawn/machine {machine:"coke_oven"}
 

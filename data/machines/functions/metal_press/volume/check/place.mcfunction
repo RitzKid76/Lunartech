@@ -1,4 +1,4 @@
-#from .:projection/main
+#> .:place/armor_stand/spawn/main ?
 
 function machines:volume {machine:"metal_press"}
 execute if score volume_check machines.volume matches 27 run return 1

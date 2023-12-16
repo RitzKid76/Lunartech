@@ -1,4 +1,4 @@
-#from ../main
+#> unknown
 
 kill @s
 setblock ~ ~ ~ air destroy

@@ -1,4 +1,4 @@
-#from ./can_place
+#> ./can_place
 
 $data merge entity @s {\
     Tags:[\

@@ -1,4 +1,4 @@
-#from .:triggers/holding/chainsaw
+#> .:triggers/holding/chainsaw
 
 execute store result score @e[type=item,nbt={Item:{tag:{chainsaw_mined:1}}},distance=0,limit=1] items.fuel run data get entity @s SelectedItem.tag.fuel 1
 

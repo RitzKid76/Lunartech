@@ -1,6 +1,9 @@
-#from ../build
+#> .:quarry/prompts/main
 
-scoreboard players reset quarry.perimeter machines.state
+scoreboard players set quarry.outline_steps machines.state 0
+scoreboard players set quarry.side_length machines.state 0
+scoreboard players set quarry.max_side machines.state 0
+
 summon marker ~ ~ ~ {Tags:["machines.quarry.search"]}
 tp @e[type=marker,tag=machines.quarry.search,limit=1] @s
 

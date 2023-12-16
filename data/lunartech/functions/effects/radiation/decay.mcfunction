@@ -1,4 +1,4 @@
-#from .:triggers/has_radiation
+#> .:triggers/has_radiation
 
 scoreboard players remove @s lunartech.radiation 1
 

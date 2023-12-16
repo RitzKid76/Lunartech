@@ -1,4 +1,4 @@
-#from ./main
+#> ../main
 
 data modify entity @s[predicate=mars:in_mars] Item.tag.dimension set value 'mars'
 data modify entity @s[predicate=moon:in_moon] Item.tag.dimension set value 'moon'

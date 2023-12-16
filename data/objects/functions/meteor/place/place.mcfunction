@@ -1,4 +1,4 @@
-#from .:place/place
+#> .:place/place ?
 
 data merge storage objects:spawn {type:"light",size:1,radius:3,name:"small meteor"}
 

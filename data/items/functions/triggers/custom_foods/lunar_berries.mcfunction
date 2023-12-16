@@ -1,4 +1,4 @@
-#from adv ./triggers/custom_foods/lunar_berries
+#> unknown
 
 advancement revoke @s only items:triggers/custom_foods/lunar_berries
 

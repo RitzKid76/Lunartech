@@ -1,9 +1,11 @@
-#from ./STATE/start -> self
+#> .:quarry/states/building/pillars/outline/start
+#> .:quarry/states/building/pillars/build/start
+#> self
 
 $$(action)
 
-scoreboard players add quarry.perimeter machines.state 1
+scoreboard players add quarry.outline_steps machines.state 1
 
 execute at @s run tp @s ~ ~1 ~
 
-$execute if score quarry.perimeter machines.state matches ..2 at @s run function machines:quarry/states/building/pillars/path {action:"$(action)"}
+$execute if score quarry.outline_steps machines.state matches ..2 at @s run function machines:quarry/states/building/pillars/path {action:"$(action)"}

@@ -1,4 +1,5 @@
-#from ./start -> self
+#> ../start ?
+#> self
 
 scoreboard players remove @s lunartech.raycast 1
 

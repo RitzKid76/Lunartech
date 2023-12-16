@@ -1,3 +1,6 @@
+#> .:modifiers/loot_spawner/loot ?
+#> .:mob_container/release/main
+
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\

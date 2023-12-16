@@ -1,4 +1,4 @@
-#from .:projection/main
+#> .:place/armor_stand/spawn/main ?
 
 function machines:volume {machine:"quarry"}
 execute if score volume_check machines.volume matches 9 run return 1

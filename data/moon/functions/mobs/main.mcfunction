@@ -1,4 +1,4 @@
-#from ../tick
+#> ../tick
 
 execute as @e[type=#moon:boss,tag=moon.boss] at @s run function moon:mobs/boss/main
 

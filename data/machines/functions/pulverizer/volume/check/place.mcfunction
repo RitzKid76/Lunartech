@@ -1,4 +1,4 @@
-#from .:projection/main
+#> .:place/armor_stand/spawn/main ?
 
 function machines:volume {machine:"pulverizer"}
 execute if score volume_check machines.volume matches 18 run return 1

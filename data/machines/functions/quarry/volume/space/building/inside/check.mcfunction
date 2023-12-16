@@ -1,4 +1,4 @@
-#from .:quarry/states/building/outline_particle/arm/area
+#> .:quarry/states/building/outline_particle/arm/area
 
 execute store result score quarry.volume_check machines.state run data get entity @s data.volume.plane 5
 

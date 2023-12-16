@@ -1,6 +1,8 @@
-#from ./main
+#> ../place ?
+#> ./main
+#> ../get_block
 
-execute if entity @e[type=marker,tag=machines.quarry.current,scores={machines.state=0},limit=1] run return run \
-    function machines:quarry/states/building/arm/build/block/lightning_rod/type/normal
-#else
-    function machines:quarry/states/building/arm/build/block/lightning_rod/type/flipped
+function machines:quarry/states/building/toggle_state
+
+function machines:quarry/states/building/arm/build/block/lightning_rod/type
+function machines:quarry/states/building/arm/build/block/place with storage machines:state quarry

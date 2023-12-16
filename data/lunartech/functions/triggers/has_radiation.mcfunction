@@ -1,4 +1,4 @@
-#from adv ./triggers/has_radiation
+#> unknown
 
 advancement revoke @s only lunartech:triggers/has_radiation
 

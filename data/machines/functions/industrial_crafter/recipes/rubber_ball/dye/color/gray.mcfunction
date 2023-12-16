@@ -1,4 +1,4 @@
-#from ../condition
+#> ../condition
 
 data modify storage machines:recipes color set value "gray"
 data modify storage machines:recipes model_data set value 10005003

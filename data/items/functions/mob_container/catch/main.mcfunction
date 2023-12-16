@@ -1,4 +1,4 @@
-#from ../main
+#> ../main
 
 tag @e[type=#items:mob_container_catchable,distance=..1.5,sort=nearest,limit=1] add items.mob_container.target
 

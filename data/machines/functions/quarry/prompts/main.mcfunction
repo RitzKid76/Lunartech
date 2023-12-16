@@ -1,4 +1,4 @@
-#from .:prompts/prompt
+#> unknown
 
 tag @s add machines.quarry.current
 tellraw @a[tag=machines.prompter,limit=1] [\
@@ -44,15 +44,12 @@ tellraw @a[tag=machines.prompter,limit=1] [\
 
 #debug
 function lunartech:tools/for_each/main {\
-    data_getter:"entity @s Tags",\
-    before_term:"tellraw @a[tag=machines.prompter,limit=1] {\\\"text\\\":\\\" - ",\
+    data_getter:"entity @s data.has",\
+    before_term:"tellraw @a[tag=machines.prompter,limit=1] {\\\"text\\\":\\\" > ",\
     after_term:"\\\"}"\
 }
 
-execute if entity @s[tag=building.arm_area_obstructed] run return run function machines:quarry/prompts/errors/building/arm
-execute if entity @s[tag=building.frame_obstructed] run return run function machines:quarry/prompts/errors/building/frame
-
-execute if entity @s[tag=building] run tag @s remove machines.quarry.current
-execute if entity @s[tag=building] run return run tag @s add building.ready
+execute if entity @s[tag=mining] run return run function machines:quarry/prompts/mining
+execute if entity @s[tag=building] run return run function machines:quarry/prompts/building
 
 function machines:quarry/states/building/bottom/marker_check/main

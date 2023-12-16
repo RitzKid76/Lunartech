@@ -1,7 +1,8 @@
-#from ../step
+#> ../start
+#> ./place ?
 
 playsound block.copper.place block @a[distance=..30]
 
-execute if entity @e[type=item_display,tag=objects.quarry_marker,distance=...5,limit=1] run return run setblock ~ ~4 ~ waxed_chiseled_copper
+execute as @e[type=marker,tag=machines.quarry.current,limit=1] run function machines:quarry/states/building/arm/build/block/get_block
 
-execute positioned ~ ~4 ~ run function machines:quarry/states/building/arm/build/block/lightning_rod/main
+function machines:quarry/states/building/arm/build/block/macro with storage machines:state quarry.block
