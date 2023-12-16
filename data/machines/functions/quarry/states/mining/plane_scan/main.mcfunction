@@ -1,4 +1,4 @@
-#> .:quarry/prompts/mining
+#> .:quarry/states/mining/mine/main
 
 function machines:as_parts {\
     type:"layer_marker",\

@@ -10,6 +10,8 @@ execute as @e[type=item_display,tag=machines.new_part,limit=2] run data modify e
 execute as @e[type=item_display,tag=machines.new_part,limit=2] run function lunartech:tools/rotation/invert_y_rotation
 
 data modify entity @s data.shaft append from entity @e[type=item_display,tag=machines.new_part,tag=machines.quarry.shaft,limit=1] UUID
+data modify entity @s data.visual_entities append from entity @e[type=item_display,tag=machines.new_part,tag=machines.quarry.shaft,limit=1] UUID
 data modify entity @s data.shaft_intersection append from entity @e[type=item_display,tag=machines.new_part,tag=machines.quarry.shaft_intersection,limit=1] UUID
+data modify entity @s data.visual_entities append from entity @e[type=item_display,tag=machines.new_part,tag=machines.quarry.shaft_intersection,limit=1] UUID
 
 tag @e[type=item_display,tag=machines.new_part,limit=2] remove machines.new_part

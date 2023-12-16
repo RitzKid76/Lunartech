@@ -9,4 +9,5 @@ data modify entity @e[type=item_display,tag=machines.new_part,limit=1] Rotation 
 execute as @e[type=item_display,tag=machines.new_part,limit=1] run function lunartech:tools/rotation/invert_y_rotation
 
 data modify entity @s data.arm append from entity @e[type=item_display,tag=machines.new_part,limit=1] UUID
+data modify entity @s data.visual_entities append from entity @e[type=item_display,tag=machines.new_part,limit=1] UUID
 tag @e[type=item_display,tag=machines.new_part,limit=1] remove machines.new_part
