@@ -1,6 +1,6 @@
 #> ./yellow_space_chestplate
 #> ./white_space_chestplate
-#> .:modifiers/loot_spawner/loot
+#> .:modifiers/loot_spawner/loot ?
 #> ./red_space_chestplate
 #> ./purple_space_chestplate
 #> ./pink_space_chestplate

@@ -1,4 +1,4 @@
-#> ../place
+#> ../place ?
 #> ./place
 
 execute if entity @s[tag=x,scores={machines.state=0}] run return run data modify storage machines:state quarry.function set value "lightning_rod/type/xp"

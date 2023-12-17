@@ -1,4 +1,4 @@
-#> ../start
+#> .:quarry/states/building/arm/outline/start
 #> self
 
 tp @s ^ ^ ^1

@@ -1,5 +1,5 @@
 #> .:place/item
-#> .:place/armor_stand/spawn/90
+#> .:place/armor_stand/spawn/90 ?
 
 setblock ~ ~ ~ brown_stained_glass
 execute align xyz positioned ~.5 ~ ~.5 run summon armor_stand ~ ~-1.05 ~ {Tags:["machines.machine","machines.cooking_station"],NoGravity:1b,Marker:1b,Invisible:1b,Invulnerable:1b,ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b}],DisabledSlots:4144959}

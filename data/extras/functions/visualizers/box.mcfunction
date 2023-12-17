@@ -1,8 +1,8 @@
-#> ../text_display
-#> ../marker
-#> ../item_display
-#> ../interaction
-#> ../block_display
+#> .:visualizers/entity/text_display
+#> .:visualizers/entity/marker
+#> .:visualizers/entity/item_display
+#> .:visualizers/entity/interaction
+#> .:visualizers/entity/block_display
 
 $particle dust $(R) $(G) $(B) 0.25 ~.5 ~ ~ 0 0 0.2 0 1 normal @a
 $particle dust $(R) $(G) $(B) 0.25 ~-.5 ~ ~ 0 0 0.2 0 1 normal @a

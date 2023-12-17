@@ -1,6 +1,6 @@
 #> ./yellow_space_helmet
 #> ./white_space_helmet
-#> .:modifiers/loot_spawner/loot
+#> .:modifiers/loot_spawner/loot ?
 #> ./red_space_helmet
 #> ./purple_space_helmet
 #> ./pink_space_helmet

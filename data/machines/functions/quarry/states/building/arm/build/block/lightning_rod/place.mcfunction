@@ -1,4 +1,4 @@
-#> .:place/armor_stand/spawn/90
+#> ../place ?
 #> ./main
 #> ../get_block
 

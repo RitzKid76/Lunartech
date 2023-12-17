@@ -1,5 +1,5 @@
 #> .:mobs/entity/types/skeleton
-#> .:mobs/entity/entity
+#> .:mobs/entity/entity ?
 
 data merge entity @s {\
     DeathLootTable:"moon:entities/mobs/shroomling/magenta",\

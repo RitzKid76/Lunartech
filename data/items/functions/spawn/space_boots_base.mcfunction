@@ -1,6 +1,6 @@
 #> ./yellow_space_boots
 #> ./white_space_boots
-#> .:modifiers/loot_spawner/loot
+#> .:modifiers/loot_spawner/loot ?
 #> ./red_space_boots
 #> ./purple_space_boots
 #> ./pink_space_boots

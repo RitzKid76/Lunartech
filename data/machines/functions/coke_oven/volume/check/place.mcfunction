@@ -1,4 +1,4 @@
-#> .:place/armor_stand/spawn/90
+#> .:place/armor_stand/spawn/main ?
 
 function machines:volume {machine:"coke_oven"}
 execute if score volume_check machines.volume matches 60 run return 1

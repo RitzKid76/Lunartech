@@ -1,4 +1,3 @@
-#> .:place/armor_stand/spawn/90
 #> ./main
 
 execute if entity @e[type=marker,tag=machines.quarry.current,scores={machines.state=0},limit=1] run return run \

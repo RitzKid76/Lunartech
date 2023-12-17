@@ -1,3 +1,6 @@
 #> ../main
 
-# particle dust 0 1 0 10 ~ ~1 ~ 0 0 0 0 1
+execute if predicate machines:machine_ready run return run \
+    function machines:quarry/states/mining/mine/main
+# else
+    scoreboard players remove @s[scores={machines.process_time=1..}] machines.process_time 1

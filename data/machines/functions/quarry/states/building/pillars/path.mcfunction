@@ -1,5 +1,5 @@
-#> ../start
-#> ../start
+#> .:quarry/states/building/pillars/outline/start
+#> .:quarry/states/building/pillars/build/start
 #> self
 
 $$(action)

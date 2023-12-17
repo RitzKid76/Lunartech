@@ -1,3 +1,4 @@
+#> machines:quarry/states/mining/plane_scan/build_path/as_block
 #> ./macro
 
 scoreboard players operation x0 lunartech.math -= x1 lunartech.math

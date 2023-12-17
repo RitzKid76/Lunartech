@@ -1,5 +1,5 @@
 #> ../snap_facing
-#> ../main
+#> .:tools/rotation/get/axis/main
 
 execute if entity @s[y_rotation=-135..-44.9] run return run tag @s add x+
 
