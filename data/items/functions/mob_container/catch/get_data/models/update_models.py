@@ -24,7 +24,7 @@ with open(entities_file) as entities:
             entity = entity[1].split("\"")[0]
 
             with open(models_path + "/" + entity + ".mcfunction", "w") as file:
-                file.write("#from ../main\n\nreturn " + str(base_model_data) + "\n")
+                file.write("return " + str(base_model_data) + "\n")
             
                 model_data += '{"predicate": {"custom_model_data": ' + str(base_model_data) + '}, "model": "custom/item/mob_container/' + entity + '"},\n'
 
