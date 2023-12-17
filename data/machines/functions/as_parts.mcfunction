@@ -1,6 +1,6 @@
 #> .:quarry/states/mining/plane_scan/main
 #> .:quarry/states/mining/move/side/handle_data/store_interpolation
-#> .:quarry/states/mining/move/side/handle_data/move_entities/main
+#> .:quarry/states/mining/move/side/handle_data/move_entities/move/as_quarry
 #> .:quarry/states/mining/mine/break/main
 #> .:quarry/states/building/shaft/build/main
 #> .:quarry/states/building/shaft/build/block/main
