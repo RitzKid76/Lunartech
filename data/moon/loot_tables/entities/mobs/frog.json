@@ -78,18 +78,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lime_dye",
+          "name": "minecraft:command_block",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Experience\",\"color\":\"#00FF00\",\"italic\":false}'},experience:1}"
+              "tag": "{item:\"experience\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         }
