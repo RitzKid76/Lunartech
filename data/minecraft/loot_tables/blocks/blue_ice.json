@@ -16,6 +16,9 @@
           ],
           "conditions": [
             {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
               "condition": "minecraft:reference",
               "name": "lunartech:on_planet"
             }
@@ -32,6 +35,9 @@
             }
           ],
           "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
             {
               "condition": "minecraft:reference",
               "name": "lunartech:on_planet"
@@ -50,6 +56,9 @@
           ],
           "conditions": [
             {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
               "condition": "minecraft:reference",
               "name": "lunartech:on_planet"
             }
@@ -66,6 +75,9 @@
             }
           ],
           "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
             {
               "condition": "minecraft:reference",
               "name": "lunartech:on_planet"
@@ -84,6 +96,9 @@
           ],
           "conditions": [
             {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
               "condition": "minecraft:reference",
               "name": "lunartech:on_planet"
             }
@@ -101,6 +116,9 @@
           ],
           "conditions": [
             {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
               "condition": "minecraft:reference",
               "name": "lunartech:on_planet"
             }
@@ -112,9 +130,12 @@
           "weight": 1,
           "conditions": [
             {
-              "condition":"minecraft:inverted",
-              "term":{
-                "condition":"minecraft:reference",
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:reference",
                 "name": "lunartech:on_planet"
               }
             },
