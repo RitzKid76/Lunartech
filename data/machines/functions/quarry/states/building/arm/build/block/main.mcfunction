@@ -1,7 +1,7 @@
 #> ../start
 #> ./place ?
 
-playsound block.copper.place block @a[distance=..30]
+function machines:quarry/sounds/building/place_block
 
 execute as @e[type=marker,tag=machines.quarry.current,limit=1] run function machines:quarry/states/building/arm/build/block/get_block
 

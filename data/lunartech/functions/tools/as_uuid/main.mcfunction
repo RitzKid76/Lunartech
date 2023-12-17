@@ -4,6 +4,7 @@
 #> objects:hitbox/check_punch
 #> objects:crops/break/entities
 #> machines:quarry/volume/space/get/main
+#> machines:quarry/states/mining/move/side/handle_data/move_entities/move/main
 #> machines:quarry/states/building/top/as_pillar/main
 #> machines:quarry/states/building/shaft/build/summon_shaft/main
 #> machines:quarry/states/building/shaft/as_pillar/main
