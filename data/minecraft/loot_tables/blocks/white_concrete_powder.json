@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{item:\"white_martian_dust\",count:1,CustomModelData:10020001,loot_spawner:1}"
+              "tag": "{item:\"white_lunar_dust\",count:1,CustomModelData:10020001,loot_spawner:1}"
             }
           ],
           "conditions": [
@@ -26,6 +26,26 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"white_martian_dust\",count:1,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "mars:in_mars"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:white_concrete_powder",
           "weight": 1,
           "conditions": [
@@ -33,10 +53,13 @@
               "condition": "minecraft:survives_explosion"
             },
             {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
               "condition": "minecraft:inverted",
               "term": {
                 "condition": "minecraft:reference",
-                "name": "moon:in_moon"
+                "name": "lunartech:on_planet"
               }
             }
           ]
