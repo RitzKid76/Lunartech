@@ -1,0 +1,14 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "score",
+        "score": "machines.fuel",
+        "target": {
+            "type": "fixed",
+            "name": "fuel_used"
+        }
+    },
+    "range": {
+        "min": 1
+    }
+}

@@ -1,3 +1,4 @@
+#> machines:pulverizer/recipes/output/minecraft
 #> machines:molten_forge/recipes/netherite_scrap/output
 #> machines:molten_forge/recipes/martian_metal_ingot/output
 #> machines:molten_forge/recipes/lunar_metal_ingot/output

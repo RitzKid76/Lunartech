@@ -4,12 +4,25 @@
         {
             "condition": "minecraft:inverted",
             "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "type": "minecraft:item",
-                    "nbt": "{Item:{id:\"minecraft:blaze_rod\"}}"
-                }
+                "condition": "minecraft:any_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:item",
+                            "nbt": "{Item:{id:\"minecraft:blaze_rod\"}}"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:item",
+                            "nbt": "{Item:{id:\"minecraft:coal\"}}"
+                        }
+                    }
+                ]
             }
         },
         {

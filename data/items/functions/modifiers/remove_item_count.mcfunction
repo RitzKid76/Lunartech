@@ -1,5 +1,6 @@
 #> machines:quarry/recipes/copper/output
-#> machines:pulverizer/recipes/diamond_dust/output
+#> machines:pulverizer/recipes/output/minecraft
+#> machines:pulverizer/recipes/output/lunartech
 #> machines:molten_forge/recipes/netherite_scrap/output
 #> machines:molten_forge/recipes/martian_metal_ingot/output
 #> machines:molten_forge/recipes/lunar_metal_ingot/output
@@ -15,8 +16,6 @@
 #> machines:industrial_crafter/recipes/space_suit/craft/boots/output
 #> machines:industrial_crafter/recipes/rubber_ball/dye/output
 #> machines:industrial_crafter/recipes/rubber_ball/craft/output
-#> machines:industrial_crafter/recipes/ice_cubes/9/output
-#> machines:industrial_crafter/recipes/ice_cubes/1/output
 #> machines:industrial_crafter/recipes/diamond/output
 #> machines:fuel_units/get_fuel/main
 #> machines:coke_oven/recipes/diamond_dust/output
