@@ -1,4 +1,3 @@
-#> machines:pulverizer/recipes/diamond_dust/output
 #> machines:metal_press/recipes/diamond_dust/output
 #> machines:coke_oven/recipes/diamond_dust/output
 #> .:modifiers/loot_spawner/loot ?

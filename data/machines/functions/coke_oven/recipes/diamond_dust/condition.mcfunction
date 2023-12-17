@@ -3,4 +3,4 @@
 execute as @e[type=item,predicate=items:count/1,nbt={Item:{id:"minecraft:diamond"}},distance=...7,limit=1] \
 run return run function machines:coke_oven/recipes/diamond_dust/output
 
-return fail
+return 0
