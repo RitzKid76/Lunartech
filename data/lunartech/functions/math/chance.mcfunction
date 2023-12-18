@@ -7,9 +7,12 @@
 #> moon:weather/meteor_shower/chance
 #> moon:mobs/entity/types/wither_skeleton
 #> moon:mobs/entity/types/spider
+#> moon:mobs/entity/types/silverfish
 #> moon:mobs/entity/types/phantom
 #> moon:mobs/entity/types/magma_cube
+#> moon:mobs/entity/types/frog
 #> moon:mobs/entity/types/creeper
+#> moon:mobs/boss/broodmother/brood_spawn/spawn
 
 $execute store result score random lunartech.math run random value 1..$(chance)
 

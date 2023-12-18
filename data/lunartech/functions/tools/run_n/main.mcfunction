@@ -1,4 +1,6 @@
 #> objects:meteor/projectile/spawn
+#> moon:mobs/boss/broodmother/web_spray/spread/main
+#> moon:mobs/boss/broodmother/brood_spawn/spawn
 #> machines:quarry/break/has/main
 
 scoreboard players set run_n.index lunartech.tools 0
