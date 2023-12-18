@@ -136,28 +136,6 @@
       ]
     },
     {
-      "rolls": 25.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:lime_dye",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Experience\",\"color\":\"#00FF00\",\"italic\":false}'},experience:1}"
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.75
-            }
-          ]
-        }
-      ]
-    },
-    {
       "rolls": 1.0,
       "entries": [
         {
@@ -172,6 +150,28 @@
                 "max": 35.0,
                 "type": "minecraft:uniform"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 25.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{item:\"experience\",count:1,CustomModelData:10020001,loot_spawner:1}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         }
