@@ -8,6 +8,8 @@
 #> .:metal_press/volume/check/break
 #> .:coke_oven/volume/check/place
 #> .:coke_oven/volume/check/break
+#> .:biosphere/volume/check/place
+#> .:biosphere/volume/check/break
 
 $execute store result score volume_check machines.volume run function machines:$(machine)/volume/fill {params:"structure_void replace air"}
 $function machines:$(machine)/volume/fill {params:"air replace structure_void"}

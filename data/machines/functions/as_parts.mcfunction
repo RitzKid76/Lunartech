@@ -17,6 +17,7 @@
 #> .:pulverizer/break/main
 #> .:molten_forge/break/main
 #> .:metal_press/break/main
+#> .:biosphere/break/main
 
 $function lunartech:tools/for_each/main {\
     data_getter:"entity @s data.$(type)",\
