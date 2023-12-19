@@ -1,4 +1,4 @@
-#> unknown
+#> ../main
 
 function machines:click_machine/click/reset
 
