@@ -8,6 +8,11 @@ scoreboard objectives add machines.fuel dummy
 scoreboard objectives add machines.state dummy
 scoreboard objectives add machines.quarry.entities_placed dummy
 scoreboard objectives add machines.speed dummy
+
+scoreboard objectives add machines.click_machine.blast_furnace custom:interact_with_blast_furnace
+scoreboard objectives add machines.click_machine.furnace custom:interact_with_furnace
+scoreboard objectives add machines.click_machine.smoker custom:interact_with_smoker
+
 function machines:constants
 
 tellraw @a [{"text":"Machines ","color":"#30F030"},{"text":"package ","color":"#A0A0A0"},{"text":"loaded","color":"#A0F0A0"}]
