@@ -7,6 +7,7 @@
 #> machines:molten_forge/recipes/gold_ingot/output
 #> machines:molten_forge/recipes/copper_ingot/output
 #> machines:industrial_crafter/recipes/diamond/output
+#> machines:fuel_units/add_fuel/conversion/types/lava_bucket
 #> machines:biosphere/recipes/diamond/output
 #> .:modifiers/loot_spawner/loot ?
 

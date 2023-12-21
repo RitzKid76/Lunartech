@@ -10,7 +10,6 @@
 #> machines:quarry/states/building/shaft/as_pillar/main
 #> machines:quarry/states/building/arm/build/summon_arm/main
 #> machines:quarry/states/building/arm/as_pillar/main
-#> machines:fuel_units/add_fuel/attempt
 #> machines:fuel_units/add_fuel/add_fuel
 
 $data modify storage lunartech:tools UUID set from $(data_getter)
