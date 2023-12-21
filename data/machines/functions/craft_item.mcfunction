@@ -2,7 +2,7 @@
 #> .:pulverizer/recipes/craft_item
 #> .:molten_forge/recipes/craft_item
 #> .:metal_press/recipes/craft_item
-#> .:fuel_units/add_fuel/attempt
+#> .:fuel_units/add_fuel/add_fuel
 #> .:coke_oven/recipes/craft_item
 #> .:biosphere/recipes/remove_item_count/remove
 

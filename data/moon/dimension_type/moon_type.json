@@ -12,7 +12,7 @@
   "ambient_light": 0.0,
   "logical_height": 384,
   "effects": "minecraft:overworld",
-  "infiniburn": "#minecraft:infiniburn_overworld",
+  "infiniburn": "#moon:generation/infiniburn",
   "min_y": -64,
   "height": 384,
   "monster_spawn_block_light_limit": 0,
