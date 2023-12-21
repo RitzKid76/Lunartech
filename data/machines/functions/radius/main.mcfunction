@@ -1,4 +1,6 @@
-#> .:biosphere/visuals/bubble
+#> .:biosphere/visuals/bubble/main
+
+$data modify storage machines:radius particle set value "$(particle)"
 
 $data modify storage machines:radius radius set value $(radius)
 execute store result storage machines:radius size double 0.15 run data get storage machines:radius radius 1

@@ -1,6 +1,6 @@
 #> ../main
 
-function machines:biosphere/visuals/bubble
+function machines:biosphere/visuals/main
 
 function machines:biosphere/input/snap_item
 
