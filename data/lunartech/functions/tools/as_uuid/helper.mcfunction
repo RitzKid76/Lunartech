@@ -1,5 +1,4 @@
 #> machines:prompts/prompt
-#> machines:fuel_units/add_fuel/add_fuel
 #> machines:as_parts
 #> ./main
 

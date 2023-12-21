@@ -6,5 +6,8 @@ function machines:fuel_units/add_fuel/limit_check with entity @s data
 execute unless score temp_fuel machines.fuel matches -1 run return 0
 #true
 function machines:fuel_units/add_fuel/add_fuel
-function machines:craft_item
+function lunartech:tools/as_uuid/main {\
+    data_getter:"storage lunartech:tools UUID",\
+    command:"at @s run function machines:craft_item"\
+}
 return 1
