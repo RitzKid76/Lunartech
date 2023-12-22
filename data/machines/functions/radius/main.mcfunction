@@ -1,4 +1,19 @@
-#> .:biosphere/visuals/bubble/main
+#> .:biosphere/visuals/bubble/particle/colors/yellow
+#> .:biosphere/visuals/bubble/particle/colors/white
+#> .:biosphere/visuals/bubble/particle/colors/red
+#> .:biosphere/visuals/bubble/particle/colors/purple
+#> .:biosphere/visuals/bubble/particle/colors/pink
+#> .:biosphere/visuals/bubble/particle/colors/orange
+#> .:biosphere/visuals/bubble/particle/colors/magenta
+#> .:biosphere/visuals/bubble/particle/colors/lime
+#> .:biosphere/visuals/bubble/particle/colors/light_gray
+#> .:biosphere/visuals/bubble/particle/colors/light_blue
+#> .:biosphere/visuals/bubble/particle/colors/green
+#> .:biosphere/visuals/bubble/particle/colors/gray
+#> .:biosphere/visuals/bubble/particle/colors/cyan
+#> .:biosphere/visuals/bubble/particle/colors/brown
+#> .:biosphere/visuals/bubble/particle/colors/blue
+#> .:biosphere/visuals/bubble/particle/colors/black
 
 $data modify storage machines:radius particle set value "$(particle)"
 
