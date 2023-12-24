@@ -1,35 +1,40 @@
+#> ./main
+
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\
-        "text":"\nTurns ","color":"#CCEFFA"\
+        "text":"\nCreates a sphere that is capable of sustaining life.\nCan be upgraded to emit ",\
+        "color":"#CCEFFA"\
     },\
     {\
-        "text":"Raw Ore","color":"#80959C"\
+        "text":"Oxygen",\
+        "color":"#80959C"\
     },\
     {\
-        "text":" into dust, which can be smelted to give\ndouble yeild. It can also turn other items like ","color":"#CCEFFA"\
+        "text":", stop ",\
+        "color":"#CCEFFA"\
     },\
     {\
-        "text":"Cobblestone","color":"#80959C"\
+        "text": "Meteors",\
+        "color":"#80959C"\
     },\
     {\
-        "text":"\ninto ","color":"#CCEFFA"\
+        "text":",\nregulate ",\
+        "color":"#CCEFFA"\
     },\
     {\
-        "text":"Gravel","color":"#80959C"\
+        "text":"Gravity",\
+        "color":"#80959C"\
     },\
     {\
-        "text":", or ","color":"#CCEFFA"\
+        "text":", and shield from ",\
+        "color":"#CCEFFA"\
     },\
     {\
-        "text":"Bones","color":"#80959C"\
+        "text":"Radiation",\
+        "color":"#80959C"\
     },\
     {\
-        "text":" into 5 ","color":"#CCEFFA"\
-    },\
-    {\
-        "text":"Bone Meal","color":"#80959C"\
-    },\
-    {\
-        "text":".","color":"#CCEFFA"\
+        "text":".",\
+        "color":"#CCEFFA"\
     }\
 ]

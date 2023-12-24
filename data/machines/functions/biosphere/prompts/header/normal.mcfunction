@@ -1,3 +1,5 @@
+#> ./main
+
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\
         "text":"[","color":"#707070"\
