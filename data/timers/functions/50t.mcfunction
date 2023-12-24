@@ -1,4 +1,4 @@
-#> ./init
+#> .:package/schedules/add
 #> self
 
 schedule function timers:50t 50t
