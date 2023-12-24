@@ -18,7 +18,7 @@
 $data modify storage machines:radius particle set value "$(particle)"
 
 $data modify storage machines:radius radius set value $(radius)
-execute store result storage machines:radius size double 0.15 run data get storage machines:radius radius 1
+execute store result storage machines:radius size double 0.2 run data get storage machines:radius radius 1
 data modify storage machines:radius size set string storage machines:radius size 0 3
 
 execute store result storage machines:radius distance int 2.5 run data get storage machines:radius radius 1

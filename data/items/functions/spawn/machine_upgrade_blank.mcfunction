@@ -22,7 +22,6 @@ $summon item ~ ~ ~ {\
             },\
             CustomModelData:10002201,\
             machine_upgrade_blank:1,\
-            LoreSlot:1,\
             BlockEntityTag:{\
                 id:"minecraft:command_block",\
                 Command:"setblock ~ ~ ~ air",\

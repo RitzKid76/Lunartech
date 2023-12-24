@@ -1,4 +1,5 @@
 #> .:modifiers/loot_spawner/loot ?
+#> ./machine_color_upgrade
 
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
@@ -14,15 +15,15 @@ $summon item ~ ~ ~ {\
                 }',\
                 Lore:[\
                     '{\
-                        "text":"Pink Color",\
-                        "color":"#FF91BA",\
+                        "text":"$(name)",\
+                        "color":"#$(name_color)",\
                         "italic":false\
                     }'\
                 ]\
             },\
-            CustomModelData:10002217,\
-            machine_upgrade_pink_color:1,\
-            LoreSlot:1,\
+            CustomModelData:$(model_data),\
+            machine_upgrade:1,\
+            $(tags),\
             BlockEntityTag:{\
                 id:"minecraft:command_block",\
                 Command:"setblock ~ ~ ~ air",\

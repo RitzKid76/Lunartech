@@ -1,3 +1,3 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$function items:spawn/space_chestplate_base {color:"brown",model_data:10000005,count:$(count)}
+$function items:spawn/base/space_chestplate {color:"brown",model_data:10000005,count:$(count)}

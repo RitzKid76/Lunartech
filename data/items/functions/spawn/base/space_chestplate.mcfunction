@@ -1,30 +1,30 @@
-#> ./yellow_space_helmet
-#> ./white_space_helmet
+#> ../yellow_space_chestplate
+#> ../white_space_chestplate
+#> ../red_space_chestplate
+#> ../purple_space_chestplate
+#> ../pink_space_chestplate
+#> ../orange_space_chestplate
+#> ../magenta_space_chestplate
+#> ../lime_space_chestplate
+#> ../light_gray_space_chestplate
+#> ../light_blue_space_chestplate
+#> ../green_space_chestplate
+#> ../gray_space_chestplate
+#> ../cyan_space_chestplate
+#> ../brown_space_chestplate
+#> ../blue_space_chestplate
+#> ../black_space_chestplate
 #> .:modifiers/loot_spawner/loot ?
-#> ./red_space_helmet
-#> ./purple_space_helmet
-#> ./pink_space_helmet
-#> ./orange_space_helmet
-#> ./magenta_space_helmet
-#> ./lime_space_helmet
-#> ./light_gray_space_helmet
-#> ./light_blue_space_helmet
-#> ./green_space_helmet
-#> ./gray_space_helmet
-#> ./cyan_space_helmet
-#> ./brown_space_helmet
-#> ./blue_space_helmet
-#> ./black_space_helmet
 
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\
-        id:"minecraft:leather_helmet",\
+        id:"minecraft:leather_chestplate",\
         Count:$(count)b,\
         tag:{\
             display:{\
                 Name:'{\
-                    "text":"Space Helmet",\
+                    "text":"Space Chestplate",\
                     "color":"#FFFFFF",\
                     "italic":false\
                 }'\
@@ -36,7 +36,7 @@ $summon item ~ ~ ~ {\
             CustomModelData:$(model_data),\
             HideFlags:128,\
             color:"$(color)",\
-            space_helmet:1,\
+            space_chestplate:1,\
             space_suit:1,\
             insulated:1\
         }\

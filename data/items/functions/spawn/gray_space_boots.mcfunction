@@ -1,3 +1,3 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$function items:spawn/space_boots_base {color:"gray",model_data:10000003,count:$(count)}
+$function items:spawn/base/space_boots {color:"gray",model_data:10000003,count:$(count)}

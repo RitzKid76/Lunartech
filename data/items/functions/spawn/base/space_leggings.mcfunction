@@ -1,30 +1,30 @@
-#> ./yellow_space_boots
-#> ./white_space_boots
+#> ../yellow_space_leggings
+#> ../white_space_leggings
+#> ../red_space_leggings
+#> ../purple_space_leggings
+#> ../pink_space_leggings
+#> ../orange_space_leggings
+#> ../magenta_space_leggings
+#> ../lime_space_leggings
+#> ../light_gray_space_leggings
+#> ../light_blue_space_leggings
+#> ../green_space_leggings
+#> ../gray_space_leggings
+#> ../cyan_space_leggings
+#> ../brown_space_leggings
+#> ../blue_space_leggings
+#> ../black_space_leggings
 #> .:modifiers/loot_spawner/loot ?
-#> ./red_space_boots
-#> ./purple_space_boots
-#> ./pink_space_boots
-#> ./orange_space_boots
-#> ./magenta_space_boots
-#> ./lime_space_boots
-#> ./light_gray_space_boots
-#> ./light_blue_space_boots
-#> ./green_space_boots
-#> ./gray_space_boots
-#> ./cyan_space_boots
-#> ./brown_space_boots
-#> ./blue_space_boots
-#> ./black_space_boots
 
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\
-        id:"minecraft:leather_boots",\
+        id:"minecraft:leather_leggings",\
         Count:$(count)b,\
         tag:{\
             display:{\
                 Name:'{\
-                    "text":"Space Boots",\
+                    "text":"Space Leggings",\
                     "color":"#FFFFFF",\
                     "italic":false\
                 }'\
@@ -36,7 +36,7 @@ $summon item ~ ~ ~ {\
             CustomModelData:$(model_data),\
             HideFlags:128,\
             color:"$(color)",\
-            space_boots:1,\
+            space_leggings:1,\
             space_suit:1,\
             insulated:1\
         }\
