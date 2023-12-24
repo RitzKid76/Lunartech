@@ -48,14 +48,6 @@
                 "type": "minecraft:item",
                 "nbt": "{Item:{id:\"minecraft:coal_block\"}}"
             }
-        },
-        {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-                "type": "minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:lava_bucket\"}}"
-            }
         }
     ]
 }
