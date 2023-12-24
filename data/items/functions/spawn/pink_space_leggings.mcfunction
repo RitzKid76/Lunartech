@@ -1,3 +1,3 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$function items:spawn/space_leggings_base {color:"pink",model_data:10000016,count:$(count)}
+$function items:spawn/base/space_leggings {color:"pink",model_data:10000016,count:$(count)}

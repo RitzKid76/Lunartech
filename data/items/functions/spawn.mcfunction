@@ -3,7 +3,7 @@
 #> objects:place/place
 #> objects:crops/break/main
 #> machines:place/armor_stand/spawn/main
-#> .:spawn/machine
+#> .:spawn/base/machine
 
 $loot spawn ~ ~ ~ loot items:spawn/$(item)
 # force resolve item
