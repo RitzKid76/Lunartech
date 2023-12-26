@@ -23,5 +23,5 @@ $function items:spawn/base/machine_upgrade {\
     additional_tags:"color:\"$(color)\",",\
     count:$(count),\
     upgrade_name:"machine_color_upgrade",\
-    upgrade_limit:1\
+    upgrade_limit:10\
 }

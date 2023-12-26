@@ -1,4 +1,4 @@
-#> .:upgrades/add/as_item
+#> .:upgrades/add/visuals/as_item
 #> .:quarry/recipes/craft_item
 #> .:pulverizer/recipes/craft_item
 #> .:molten_forge/recipes/craft_item

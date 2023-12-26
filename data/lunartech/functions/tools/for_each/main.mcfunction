@@ -1,4 +1,4 @@
-#> machines:upgrades/remove
+#> machines:upgrades/remove/main
 #> machines:quarry/prompts/main
 #> machines:quarry/break/has/main
 #> machines:as_parts
