@@ -23,7 +23,13 @@ $summon item ~ ~ ~ {\
             },\
             CustomModelData:$(model_data),\
             machine_upgrade:1,\
-            $(tags),\
+            $(upgrade_base_name):1,\
+            upgrade_info:{\
+                base_name:"$(upgrade_base_name)",\
+                name:"$(upgrade_name)",\
+                limit:$(upgrade_limit)\
+            },\
+            $(additional_tags)\
             BlockEntityTag:{\
                 id:"minecraft:command_block",\
                 Command:"setblock ~ ~ ~ air",\

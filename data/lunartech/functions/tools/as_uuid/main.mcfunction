@@ -3,7 +3,7 @@
 #> objects:quarry_marker/break/drops
 #> objects:hitbox/check_punch
 #> objects:crops/break/entities
-#> machines:upgrades/add/add
+#> machines:upgrades/add/visuals/main
 #> machines:quarry/volume/space/get/main
 #> machines:quarry/states/mining/move/side/handle_data/move_entities/move/main
 #> machines:quarry/states/building/top/as_pillar/main
