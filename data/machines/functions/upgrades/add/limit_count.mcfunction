@@ -1,5 +1,7 @@
 #> .:biosphere/upgrades/color_upgrade
 
+$tag @s add machines.upgrades.$(base_name)
+
 $execute unless data entity @s data.upgrades.$(base_name) run data modify entity @s data.upgrades.has append value "$(base_name)"
 
 scoreboard players add upgrade_count machines.state 1
