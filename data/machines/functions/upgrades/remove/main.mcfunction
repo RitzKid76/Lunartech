@@ -6,3 +6,4 @@ function lunartech:tools/for_each/main {\
         name:\\\"",after_term:"\\\"\
     }"\
 }
+data remove entity @s data.upgrades

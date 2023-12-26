@@ -1,5 +1,4 @@
 #> .:modifiers/loot_spawner/loot ?
-#> ./machine_color_upgrade
 
 $function items:spawn/base/machine_color_upgrade {\
     color_name:"White",\
