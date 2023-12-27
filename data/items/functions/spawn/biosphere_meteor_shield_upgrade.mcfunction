@@ -1,6 +1,6 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$function items:spawn/base/machine_upgrade {\
+$function items:spawn/base/machine_upgrade/base {\
     name:"Biosphere Meteor Shield",\
     name_color:"FF6E00",\
     model_data:10002244,\

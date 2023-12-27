@@ -1,6 +1,6 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$function items:spawn/base/machine_upgrade {\
+$function items:spawn/base/machine_upgrade/base {\
     name:"Automation",\
     name_color:"999999",\
     model_data:10002218,\

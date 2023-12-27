@@ -1,6 +1,6 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$function items:spawn/base/machine_upgrade {\
+$function items:spawn/base/machine_upgrade/base {\
     name:"Biosphere O2 Generator",\
     name_color:"6DD94F",\
     model_data:10002242,\

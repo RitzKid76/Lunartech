@@ -1,6 +1,6 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$function items:spawn/base/machine_color_upgrade {\
+$function items:spawn/base/machine_upgrade/color_upgrade {\
     color_name:"Black",\
     name_color:"666666",\
     model_data:10002205,\

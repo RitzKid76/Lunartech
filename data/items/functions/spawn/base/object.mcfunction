@@ -1,6 +1,7 @@
 #> ../quarry_marker
 #> ../magenta_lunar_mushroom_spore
 #> ../blue_lunar_mushroom_spore
+#> ./rubber_ball
 #> .:modifiers/loot_spawner/loot ?
 
 $function items:spawn/base/custom/placeable {\

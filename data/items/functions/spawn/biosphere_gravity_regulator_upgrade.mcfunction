@@ -1,6 +1,6 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$function items:spawn/base/machine_upgrade {\
+$function items:spawn/base/machine_upgrade/base {\
     name:"Biosphere Gravity Regulator",\
     name_color:"B372FF",\
     model_data:10002245,\

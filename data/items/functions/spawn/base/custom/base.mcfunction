@@ -27,6 +27,7 @@
 #> ./normal
 #> ./food
 #> .:modifiers/loot_spawner/loot ?
+#> ./armor
 
 $function items:spawn/base/custom/item {\
     id:"$(id)",\
