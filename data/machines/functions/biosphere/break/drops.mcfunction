@@ -1,6 +1,6 @@
 #> ./main
 
-function items:spawn/base/machine {machine:"biosphere"}
+function machines:spawn {machine:"biosphere"}
 
 kill @e[type=item,nbt={Item:{id:"minecraft:smooth_quartz",Count:1b}},sort=nearest,limit=8]
 kill @e[type=item,nbt={Item:{id:"minecraft:polished_deepslate_wall",Count:1b}},sort=nearest,limit=8]

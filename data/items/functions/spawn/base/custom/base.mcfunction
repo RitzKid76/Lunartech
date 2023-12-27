@@ -23,6 +23,7 @@
 #> .:spawn/cave_spider_skin
 #> .:spawn/brown_martian_dust
 #> .:spawn/black_lunar_dust
+#> ./placeable
 #> ./normal
 #> ./food
 #> .:modifiers/loot_spawner/loot ?

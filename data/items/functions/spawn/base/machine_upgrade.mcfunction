@@ -1,3 +1,11 @@
+#> ../machine_upgrade_automation
+#> ../blank_machine_upgrade
+#> ../biosphere_radius_upgrade
+#> ../biosphere_radiation_shield_upgrade
+#> ../biosphere_oxygenator_upgrade
+#> ../biosphere_o2_generator_upgrade
+#> ../biosphere_meteor_shield_upgrade
+#> ../biosphere_gravity_regulator_upgrade
 #> .:modifiers/loot_spawner/loot ?
 #> ./machine_color_upgrade
 

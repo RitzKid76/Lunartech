@@ -2,8 +2,8 @@
 #> objects:quarry_marker/break/drops
 #> objects:place/place
 #> objects:crops/break/main
+#> machines:spawn
 #> machines:place/armor_stand/spawn/main
-#> .:spawn/base/machine
 
 $loot spawn ~ ~ ~ loot items:spawn/$(item)
 # force resolve item

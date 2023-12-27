@@ -9,7 +9,6 @@
 #> machines:industrial_crafter/recipes/diamond/output
 #> machines:fuel_units/add_fuel/conversion/types/lava_bucket
 #> .:spawn/mob_container
-#> ./placeable
 #> .:modifiers/loot_spawner/loot ?
 #> ./base
 
