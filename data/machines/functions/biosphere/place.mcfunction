@@ -1,7 +1,7 @@
 #> .:place/armor_stand/spawn/90 ?
 
 data modify entity @s data.radius set value 10
-data modify entity @s data.color set value blue
+data modify entity @s data.color set value normal
 
 $place template machines:biosphere ^-1 ^ ^-1 $(rotation)
 execute positioned ~1 ~ ~ run function machines:prompts/add_prompt {angle:-90,machine:"biosphere"}

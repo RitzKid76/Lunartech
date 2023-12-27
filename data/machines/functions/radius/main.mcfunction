@@ -4,6 +4,7 @@
 #> .:biosphere/visuals/bubble/particle/colors/purple
 #> .:biosphere/visuals/bubble/particle/colors/pink
 #> .:biosphere/visuals/bubble/particle/colors/orange
+#> .:biosphere/visuals/bubble/particle/colors/normal
 #> .:biosphere/visuals/bubble/particle/colors/magenta
 #> .:biosphere/visuals/bubble/particle/colors/lime
 #> .:biosphere/visuals/bubble/particle/colors/light_gray
