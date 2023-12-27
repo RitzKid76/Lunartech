@@ -1,6 +1,5 @@
 #> ../main
 
-execute if entity @s[tag=machines.biosphere.upgrade.meteor_shield] run return run \
-    function machines:biosphere/prompts/header/meteor_shield
-# else 
-    function machines:biosphere/prompts/header/normal
+function machines:biosphere/prompts/header/top/main
+function machines:biosphere/prompts/header/oxygen/main
+function machines:biosphere/prompts/header/radiation/main

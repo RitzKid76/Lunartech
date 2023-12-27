@@ -1,6 +1,6 @@
 #> ../main
 
-function machines:biosphere/visuals/main
+function machines:biosphere/states/main
 
 function machines:biosphere/input/snap_item
 

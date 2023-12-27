@@ -1,4 +1,6 @@
 #> .:upgrades/color_upgrade/condition
+#> .:upgrades/biosphere_radius_upgrade/condition
+#> .:upgrades/biosphere_meteor_shield_upgrade/condition
 
 $execute as @e[type=item,tag=!items.restrict,predicate=items:count/1_exact,nbt={Item:{tag:{$(tag)}}},distance=..$(distance),limit=1] run function machines:upgrades/condition/as_upgrade
 

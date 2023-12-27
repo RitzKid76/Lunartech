@@ -1,4 +1,6 @@
 #> .:biosphere/upgrades/color_upgrade
+#> .:biosphere/upgrades/biosphere_radius_upgrade
+#> .:biosphere/upgrades/biosphere_meteor_shield_upgrade
 
 $tag @s add machines.upgrades.$(base_name)
 

@@ -27,8 +27,8 @@ $function items:spawn/base/custom/item {\
             ]\
         },\
         CustomModelData:$(model_data),\
+        id:"$(upgrade_base_name)",\
         machine_upgrade:1,\
-        $(upgrade_base_name):1,\
         upgrade_info:{\
             base_name:"$(upgrade_base_name)",\
             name:"$(upgrade_name)",\

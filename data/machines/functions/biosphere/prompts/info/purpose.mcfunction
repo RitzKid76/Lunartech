@@ -2,7 +2,7 @@
 
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\
-        "text":"\nCreates a sphere that is capable of sustaining life.\nCan be upgraded to emit ",\
+        "text":"Creates a sphere that is capable of sustaining life.\nCan be upgraded to emit ",\
         "color":"#CCEFFA"\
     },\
     {\
