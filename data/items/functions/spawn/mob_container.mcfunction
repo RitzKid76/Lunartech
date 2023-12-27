@@ -20,7 +20,7 @@ $function items:spawn/base/custom/item {\
             ]\
         },\
         CustomModelData:10010001,\
-        mob_container:1,\
+        id:"mob_container",\
         entity_type:"",\
         entity_data:{},\
         empty:1,\

@@ -30,7 +30,7 @@ $summon item ~ ~ ~ {\
                 }'\
             },\
             CustomModelData:$(model_data),\
-            rubber_ball:1,\
+            id:"rubber_ball",\
             color:"$(color)",\
             EntityTag:{\    
                 Invisible:1b,\
