@@ -1,25 +1,10 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:command_block",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Netherite Dust",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            CustomModelData:10009111,\
-            netherite_dust:1,\
-            BlockEntityTag:{\
-                id:"minecraft:command_block",\
-                Command:"setblock ~ ~ ~ air",\
-                auto:1b\
-            }\
-        }\
-    }\
+$function items:spawn/base/custom/normal {\
+    display_name:"Netherite Dust",\
+    display_color:"FFFFFF",\
+    model_data:10009111,\
+    item_id:"netherite_dust",\
+    tags:"",\
+    count:$(count)\
 }

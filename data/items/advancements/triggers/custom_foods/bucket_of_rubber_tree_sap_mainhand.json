@@ -6,12 +6,12 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "nbt": "{bucket_of_rubber_tree_sap:1}"
+              "nbt": "{id:\"bucket_of_rubber_tree_sap\"}"
             }
           }
         },
         "item": {
-          "nbt": "{bucket_of_rubber_tree_sap:1}"
+          "nbt": "{id:\"bucket_of_rubber_tree_sap\"}"
         }
       }
     }

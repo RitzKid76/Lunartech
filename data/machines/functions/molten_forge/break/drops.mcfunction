@@ -1,6 +1,6 @@
 #> ./main
 
-function items:spawn/base/machine {machine:"molten_forge"}
+function machines:spawn {machine:"molten_forge"}
 
 kill @e[type=item,nbt={Item:{id:"minecraft:cobbled_deepslate",Count:1b}},sort=nearest,limit=16]
 kill @e[type=item,nbt={Item:{id:"minecraft:cobbled_deepslate_slab",Count:1b}},sort=nearest,limit=6]

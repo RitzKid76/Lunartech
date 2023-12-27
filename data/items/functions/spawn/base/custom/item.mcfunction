@@ -8,12 +8,16 @@
 #> machines:molten_forge/recipes/copper_ingot/output
 #> machines:industrial_crafter/recipes/diamond/output
 #> machines:fuel_units/add_fuel/conversion/types/lava_bucket
+#> .:spawn/mob_container
+#> .:spawn/base/machine_upgrade/base
 #> .:modifiers/loot_spawner/loot ?
+#> ./base
 
 $summon item ~ ~ ~ {\
     Tags:["items.restrict"],\
     Item:{\
         id:"$(id)",\
-        Count:$(count)b\
+        Count:$(count)b,\
+        tag:$(tags)\
     }\
 }

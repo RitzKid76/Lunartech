@@ -1,20 +1,12 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:sand",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Lunar Sand",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            lunar_sand:1,\
-            float:1\
-        }\
-    }\
+$function items:spawn/base/custom/base {\
+    id:"minecraft:sand",\
+    display_name:"Lunar Sand",\
+    display_color:"FFFFFF",\
+    item_id:"lunar_sand",\
+    tags:"\
+        float:1,\
+    ",\
+    count:$(count)\
 }

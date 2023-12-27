@@ -4,7 +4,7 @@
         "trigger": "minecraft:consume_item",
         "conditions": {
           "item": {
-            "nbt": "{bottle_of_crude_oil:1}"
+            "nbt": "{id:\"bottle_of_crude_oil\"}"
           }
         }
       }
