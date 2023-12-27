@@ -1,20 +1,12 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:brown_concrete_powder",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Brown Martian Dust",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            brown_martian_dust:1,\
-            float:1\
-        }\
-    }\
+$function items:spawn/base/custom/base {\
+    id:"minecraft:brown_concrete_powder",\
+    display_name:"Brown Martian Dust",\
+    display_color:"FFFFFF",\
+    item_id:"brown_martian_dust",\
+    tags:"\
+        float:1,\
+    ",\
+    count:$(count)\
 }
