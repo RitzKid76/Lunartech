@@ -8,6 +8,7 @@ scoreboard objectives remove machines.fuel
 scoreboard objectives remove machines.state
 scoreboard objectives remove machines.quarry.entities_placed
 scoreboard objectives remove machines.speed
+scoreboard objectives remove machines.biosphere.oxygen
 
 scoreboard objectives remove machines.click_machine.blast_furnace
 scoreboard objectives remove machines.click_machine.furnace

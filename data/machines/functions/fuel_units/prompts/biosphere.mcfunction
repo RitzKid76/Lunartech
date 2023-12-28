@@ -18,15 +18,19 @@ tellraw @a[tag=machines.prompter,limit=1] [\
         "color":"#7A7A7A"\
     },\
     {\
+        "text":", \n",\
+        "color":"#B0B0B0"\
+    },\
+    {\
+        "text":"Blaze Rods",\
+        "color":"#7A7A7A"\
+    },\
+    {\
         "text":", or ",\
         "color":"#B0B0B0"\
     },\
     {\
-        "text":"Blaze Powder",\
+        "text":"Lava Buckets",\
         "color":"#7A7A7A"\
-    },\
-    {\
-        "text":" as fuel.",\
-        "color":"#B0B0B0"\
     }\
 ]
