@@ -8,5 +8,5 @@ $function items:spawn/base/machine_upgrade/base {\
     count:$(count),\
     upgrade_base_name:"biosphere_o2_generator_upgrade",\
     upgrade_name:"biosphere_o2_generator_upgrade",\
-    upgrade_limit:512\
+    upgrade_limit:2147483647\
 }
