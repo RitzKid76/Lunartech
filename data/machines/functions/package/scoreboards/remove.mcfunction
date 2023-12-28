@@ -11,6 +11,7 @@ scoreboard objectives remove machines.speed
 scoreboard objectives remove machines.biosphere.oxygen
 scoreboard objectives remove machines.biosphere.radiation_shield
 
+
 scoreboard objectives remove machines.click_machine.blast_furnace
 scoreboard objectives remove machines.click_machine.furnace
 scoreboard objectives remove machines.click_machine.smoker
