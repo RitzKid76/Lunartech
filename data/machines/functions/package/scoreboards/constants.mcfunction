@@ -2,6 +2,7 @@
 
 scoreboard players set #biosphere machines.fuel 1024
 scoreboard players set #limit machines.biosphere.oxygen 4096
+scoreboard players set #limit machines.biosphere.radiation_shield 8192
 
 scoreboard players set #coke_oven machines.process_time 200
 scoreboard players set #coke_oven machines.fuel 512

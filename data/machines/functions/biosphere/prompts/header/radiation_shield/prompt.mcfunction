@@ -7,7 +7,7 @@ tellraw @a[tag=machines.prompter,limit=1] [\
     {\
         "score":{\
             "name":"@s",\
-            "objective":"machines.biosphere.oxygen"\
+            "objective":"machines.biosphere.radiation_shield"\
         },\
         "color":"#80959C"\
     },\
@@ -17,12 +17,12 @@ tellraw @a[tag=machines.prompter,limit=1] [\
     {\
         "score":{\
             "name":"#limit",\
-            "objective":"machines.biosphere.oxygen"\
+            "objective":"machines.biosphere.radiation_shield"\
         },\
         "color":"#80959C"\
     },\
     {\
-        "text":" Oxygen","color":"#CCEFFA"\
+        "text":" Radiation Shield","color":"#CCEFFA"\
     },\
     {\
         "text":"]","color":"#707070"\
