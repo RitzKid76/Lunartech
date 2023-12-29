@@ -18,7 +18,7 @@ tellraw @a[tag=machines.prompter,limit=1] [\
         "color":"#7A7A7A"\
     },\
     {\
-        "text":", \n",\
+        "text":", ",\
         "color":"#B0B0B0"\
     },\
     {\
@@ -26,11 +26,15 @@ tellraw @a[tag=machines.prompter,limit=1] [\
         "color":"#7A7A7A"\
     },\
     {\
-        "text":", or ",\
+        "text":",\nor ",\
         "color":"#B0B0B0"\
     },\
     {\
         "text":"Lava Buckets",\
         "color":"#7A7A7A"\
+    },\
+    {\
+        "text":" as fuel.",\
+        "color":"#B0B0B0"\
     }\
 ]
