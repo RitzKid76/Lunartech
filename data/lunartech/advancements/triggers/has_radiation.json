@@ -7,7 +7,7 @@
         "player": [
           {
             "condition": "minecraft:reference",
-            "name": "lunartech:player/has_radiation"
+            "name": "lunartech:entity/has_radiation"
           }
         ]
       }
