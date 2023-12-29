@@ -1,4 +1,4 @@
-#> ./macro
+#> ./main
 
 function objects:meteor_deflection/spawn
 

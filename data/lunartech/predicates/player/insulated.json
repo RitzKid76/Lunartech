@@ -25,7 +25,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Tags:[\"machines.in_biosphere\"]}"
+        "nbt": "{Tags:[\"machines.biosphere.insulated\"]}"
       }
     }
   ]
