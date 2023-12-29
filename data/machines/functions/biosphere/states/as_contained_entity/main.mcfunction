@@ -1,5 +1,6 @@
 #> .:biosphere/states/meteor_deflection/main
 #> ../insulation
+#> ../gravity_regulator
 
 $data modify storage machines:state biosphere.type set value "$(type)"
 $data modify storage machines:state biosphere.selector set value "$(selector)"

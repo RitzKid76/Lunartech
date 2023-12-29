@@ -4,6 +4,7 @@
 #> ./biosphere_oxygenator_upgrade
 #> ./biosphere_o2_generator_upgrade
 #> ./biosphere_meteor_shield_upgrade
+#> ./biosphere_gravity_regulator_upgrade
 
 $execute as @e[type=item,tag=!items.restrict,predicate=items:count/1_exact,nbt={Item:{tag:{$(tag)}}},distance=..$(distance),limit=1] run function machines:upgrades/condition/as_upgrade
 
