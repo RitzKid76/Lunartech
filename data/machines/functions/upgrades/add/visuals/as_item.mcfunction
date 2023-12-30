@@ -1,4 +1,4 @@
 #> ./main
 
 execute at @s run function machines:craft_item
-kill @s
+function items:modifiers/remove_item_count {count:1}
