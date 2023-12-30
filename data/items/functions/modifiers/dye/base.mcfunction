@@ -1,5 +1,6 @@
 #> ./space_suit
 #> ./rubber_ball
+#> ./machine_color_upgrade
 
 $data merge entity @s {\
     Item:{\
