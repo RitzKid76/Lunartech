@@ -1,7 +1,7 @@
 #> ./add
 
-scoreboard players set #biosphere machines.process_time 20
-scoreboard players set #biosphere machines.speed 20
+scoreboard players set #biosphere machines.process_time 300
+scoreboard players set #biosphere machines.speed 0
 scoreboard players set #biosphere machines.fuel 1024
 scoreboard players set #limit machines.biosphere.oxygen 4096
 scoreboard players set #limit machines.biosphere.radiation_shield 8192
