@@ -9,6 +9,7 @@ scoreboard objectives add machines.state dummy
 scoreboard objectives add machines.quarry.entities_placed dummy
 scoreboard objectives add machines.speed dummy
 scoreboard objectives add machines.biosphere.oxygen dummy
+scoreboard objectives add machines.biosphere.contained_entities dummy
 scoreboard objectives add machines.biosphere.radiation_shield dummy
 
 scoreboard objectives add machines.click_machine.blast_furnace custom:interact_with_blast_furnace

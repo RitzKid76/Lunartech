@@ -6,7 +6,7 @@ tellraw @a[tag=machines.prompter,limit=1] [\
     },\
     {\
         "text":"X",\
-        "color":"#BA7570",\
+        "color":"#F07070",\
         "clickEvent":{\
             "action":"run_command",\
             "value":"/trigger machines.prompts.hide_info"\

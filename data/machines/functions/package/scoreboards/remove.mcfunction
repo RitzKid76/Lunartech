@@ -9,6 +9,7 @@ scoreboard objectives remove machines.state
 scoreboard objectives remove machines.quarry.entities_placed
 scoreboard objectives remove machines.speed
 scoreboard objectives remove machines.biosphere.oxygen
+scoreboard objectives remove machines.biosphere.contained_entities
 scoreboard objectives remove machines.biosphere.radiation_shield
 
 

@@ -1,3 +1,4 @@
 #> ../main
 
-execute if entity @s[tag=machines.upgrades.biosphere_oxygenator_upgrade] run function machines:biosphere/prompts/header/oxygen/prompt
+function machines:biosphere/prompts/header/oxygen/calculate_rate
+function machines:biosphere/prompts/header/oxygen/prompt/main
