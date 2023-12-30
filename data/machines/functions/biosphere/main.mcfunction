@@ -2,8 +2,7 @@
 
 tag @s add machines.biosphere.current
 
-function machines:biosphere/states/main
-
+execute positioned ~ ~2 ~ run function machines:biosphere/states/main
 execute positioned ~ ~2 ~ run function machines:biosphere/input/main
 
 tag @s remove machines.biosphere.current
