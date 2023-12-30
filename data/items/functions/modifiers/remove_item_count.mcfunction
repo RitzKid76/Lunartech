@@ -1,3 +1,4 @@
+#> machines:upgrades/add/visuals/as_item
 #> machines:quarry/recipes/copper/output
 #> machines:pulverizer/recipes/output/minecraft
 #> machines:pulverizer/recipes/output/lunartech
@@ -17,8 +18,9 @@
 #> machines:industrial_crafter/recipes/rubber_ball/dye/output
 #> machines:industrial_crafter/recipes/rubber_ball/craft/output
 #> machines:industrial_crafter/recipes/diamond/output
-#> machines:fuel_units/get_fuel/main
+#> machines:fuel_units/add_fuel/add_fuel
 #> machines:coke_oven/recipes/diamond_dust/output
+#> machines:biosphere/recipes/remove_item_count/remove
 
 $scoreboard players remove @s machines.item_count $(count)
 execute store result entity @s Item.Count int 1 run scoreboard players get @s machines.item_count

@@ -1,7 +1,9 @@
-#> ./init
+#> .:package/schedules/add
 #> self
 
 schedule function timers:20s 20s
 
 execute at @a[predicate=moon:in_moon,sort=random,limit=1] run function objects:meteor/spawn/chance
 execute at @a[predicate=mars:in_mars,sort=random,limit=1] run function objects:radiated_meteor/spawn_chance
+
+function machines:biosphere/states/oxygenator/make_oxygen/main

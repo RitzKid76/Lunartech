@@ -9,6 +9,10 @@ data merge entity @s {\
         {\
             Name:"generic.knockback_resistance",\
             Base:0.7\
+        },\
+        {\
+            Name:"generic.scale",\
+            Base:2\
         }\
     ],\
     Silent:1b\

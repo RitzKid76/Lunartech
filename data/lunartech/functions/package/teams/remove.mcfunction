@@ -1,0 +1,3 @@
+#> ../remove
+
+team remove NoNames

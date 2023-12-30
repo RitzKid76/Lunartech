@@ -1,20 +1,12 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:gravel",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Martian Gravel",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            light_martian_gravel:1,\
-            float:1\
-        }\
-    }\
+$function items:spawn/base/custom/base {\
+    id:"minecraft:gravel",\
+    display_name:"Martian Gravel",\
+    display_color:"FFFFFF",\
+    item_id:"martian_gravel",\
+    tags:"\
+        float:1,\
+    ",\
+    count:$(count)\
 }

@@ -1,20 +1,12 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:bone",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Withered Bone",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            CustomModelData:10000001,\
-            withered_bone:1\
-        }\
-    }\
+$function items:spawn/base/custom/base {\
+    id:"minecraft:bone",\
+    display_name:"Withered Bone",\
+    display_color:"FFFFFF",\
+    item_id:"withered_bone",\
+    tags:"\
+        CustomModelData:10000001,\
+    ",\
+    count:$(count)\
 }

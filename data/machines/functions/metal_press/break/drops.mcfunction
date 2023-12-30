@@ -1,6 +1,6 @@
 #> ./main
 
-function items:spawn/machine {machine:"metal_press"}
+function machines:spawn {machine:"metal_press"}
 
 kill @e[type=item,nbt={Item:{id:"minecraft:andesite_wall",Count:1b}},sort=nearest,limit=4]
 kill @e[type=item,nbt={Item:{id:"minecraft:iron_trapdoor",Count:1b}},sort=nearest,limit=4]

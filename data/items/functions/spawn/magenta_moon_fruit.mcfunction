@@ -1,21 +1,12 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:tropical_fish",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Moon Fruit",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            CustomModelData:10000004,\
-            moon_fruit:1,\
-            float:1\
-        }\
-    }\
+$function items:spawn/base/custom/food {\
+    display_name:"Moon Fruit",\
+    display_color:"FFFFFF",\
+    model_data:10000004,\
+    item_id:"moon_fruit",\
+    tags:"\
+        float:1,\
+    ",\
+    count:$(count)\
 }

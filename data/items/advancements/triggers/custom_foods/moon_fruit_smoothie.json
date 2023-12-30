@@ -4,7 +4,7 @@
         "trigger": "minecraft:consume_item",
         "conditions": {
           "item": {
-            "nbt": "{moon_fruit_smoothie:1}"
+            "nbt": "{id:\"moon_fruit_smoothie\"}"
           }
         }
       }

@@ -1,14 +1,6 @@
 {
     "replace": false,
     "values": [
-        "extras:init",
-        "items:init",
-        "moon:init",
-        "mars:init",
-        "rocket:init",
-        "machines:init",
-        "objects:init",
-        "timers:init",
-        "lunartech:init"
+        "lunartech:package/add"
     ]
 }

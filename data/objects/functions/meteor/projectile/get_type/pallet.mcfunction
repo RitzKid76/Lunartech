@@ -1,4 +1,4 @@
-#> .:constants
+#> .:package/scoreboards/constants
 
 data modify storage objects:meteor types set value {\
     light:{\

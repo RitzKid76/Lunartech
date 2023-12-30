@@ -15,7 +15,7 @@
 #> .:pulverizer/recipes/coal_dust/conditions/withered_bone
 
 $execute if predicate machines:fuel/count/$(fuel) \
-as @e[type=item,predicate=items:count/$(in_count),nbt={Item:{tag:{$(in_id):1}}},distance=...7,limit=1] \
+as @e[type=item,predicate=items:count/$(in_count),nbt={Item:{tag:{id:"$(in_id)"}}},distance=...7,limit=1] \
 run return run function machines:pulverizer/recipes/output/$(out_type) {\
     in_count:$(in_count),\
     out_count:$(out_count),\
