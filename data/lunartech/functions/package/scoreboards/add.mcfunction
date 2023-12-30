@@ -1,4 +1,3 @@
-#> machines:package/add
 #> ../add
 
 scoreboard objectives add lunartech.gravity.jump custom:jump

@@ -1,26 +1,10 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:command_block",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Enriched Uranium Ingot",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            CustomModelData:10009173,\
-            enriched_uranium_ingot:1,\
-            radioactive:1,\
-            BlockEntityTag:{\
-                id:"minecraft:command_block",\
-                Command:"setblock ~ ~ ~ air",\
-                auto:1b\
-            }\
-        }\
-    }\
+$function items:spawn/base/custom/normal {\
+    display_name:"Enriched Uranium Ingot,\
+    display_color:"FFFFFF",\
+    model_data:10009173,\
+    item_id:"enriched_uranium_ingot",\
+    tags:"radioactive:1,",\
+    count:$(count)\
 }

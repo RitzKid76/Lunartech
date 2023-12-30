@@ -1,25 +1,10 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:command_block",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Steel Ingot",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            CustomModelData:10009103,\
-            steel_ingot:1,\
-            BlockEntityTag:{\
-                id:"minecraft:command_block",\
-                Command:"setblock ~ ~ ~ air",\
-                auto:1b\
-            }\
-        }\
-    }\
+$function items:spawn/base/custom/normal {\
+    display_name:"Steel Ingot",\
+    display_color:"FFFFFF",\
+    model_data:10009103,\
+    item_id:"steel_ingot",\
+    tags:"",\
+    count:$(count)\
 }

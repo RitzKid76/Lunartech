@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Bottle of LPG\",\"color\":\"#859C9B\",\"italic\":false}'},HideFlags:127,bottle_of_lpg:1,CustomPotionColor:13426911}"
+              "tag": "{display:{Name:'{\"text\":\"Bottle of LPG\",\"color\":\"#859C9B\",\"italic\":false}'},HideFlags:127,id:\"bottle_of_lpg\",CustomPotionColor:13426911}"
             }
           ]
         },
@@ -22,7 +22,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Bottle of Gasoline\",\"color\":\"#9C9277\",\"italic\":false}'},HideFlags:127,bottle_of_gasoline:1,CustomPotionColor:14734648}"
+              "tag": "{display:{Name:'{\"text\":\"Bottle of Gasoline\",\"color\":\"#9C9277\",\"italic\":false}'},HideFlags:127,id:\"bottle_of_gasoline\",CustomPotionColor:14734648}"
             }
           ]
         },
@@ -33,7 +33,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Bottle of Kerosene\",\"color\":\"#7073B3\",\"italic\":false}'},HideFlags:127,bottle_of_kerosene:1,CustomPotionColor:8563967}"
+              "tag": "{display:{Name:'{\"text\":\"Bottle of Kerosene\",\"color\":\"#7073B3\",\"italic\":false}'},HideFlags:127,id:\"bottle_of_kerosene\",CustomPotionColor:8563967}"
             }
           ]
         }

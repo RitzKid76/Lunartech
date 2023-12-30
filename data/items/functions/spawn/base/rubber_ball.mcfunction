@@ -16,42 +16,13 @@
 #> ../black_rubber_ball
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:armor_stand",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Rubber Ball",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            CustomModelData:$(model_data),\
-            rubber_ball:1,\
-            color:"$(color)",\
-            EntityTag:{\    
-                Invisible:1b,\
-                Tags:[\
-                    "objects.spawn_object"\
-                ],\
-                ArmorItems:[\
-                    {},\
-                    {},\
-                    {},\
-                    {\
-                        id: "minecraft:command_block",\
-                        Count:1b,\
-                        tag: {\
-                            object:"rubber_ball",\
-                            color:"$(color)",\
-                            CustomModelData:10020001\
-                        }\
-                    }\
-                ]\
-            }\
-        }\
-    }\
+$function items:spawn/base/object {\
+    display_name:"Rubber Ball",\
+    display_color:"FFFFFF",\
+    model_data:$(model_data),\
+    item_id:"rubber_ball",\
+    tags:"\
+        color:"$(color)",\
+    ",\
+    count:$(count)\
 }

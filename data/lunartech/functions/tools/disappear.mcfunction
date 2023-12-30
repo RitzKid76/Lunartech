@@ -1,5 +1,6 @@
 #> objects:rubber_ball/break/main
 #> moon:mobs/entity/types/convert/frog/main
+#> machines:biosphere/states/meteor_deflection/deflect
 #> items:mob_container/catch/main
 
 data merge entity @s {\

@@ -1,20 +1,12 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:rabbit_hide",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Frog Skin",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            CustomModelData:10000002,\
-            frog_skin:1\
-        }\
-    }\
+$function items:spawn/base/custom/base {\
+    id:"minecraft:rabbit_hide",\
+    display_name:"Frog Skin",\
+    display_color:"FFFFFF",\
+    item_id:"frog_skin",\
+    tags:"\
+        CustomModelData:10000002,\
+    ",\
+    count:$(count)\
 }

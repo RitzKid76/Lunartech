@@ -1,0 +1,32 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "nbt": "{insulated:1}"
+          },
+          "chest": {
+            "nbt": "{insulated:1}"
+          },
+          "legs": {
+            "nbt": "{insulated:1}"
+          },
+          "feet": {
+            "nbt": "{insulated:1}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"machines.biosphere.insulated\"]}"
+      }
+    }
+  ]
+}

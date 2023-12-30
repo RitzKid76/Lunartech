@@ -1,3 +1,7 @@
 #> ../macro ?
 
-function items:spawn/machine_output {id:"minecraft:bucket",count:1}
+function items:spawn/base/custom/item {\
+    id:"minecraft:bucket",\
+    count:1,\
+    tags:{}\
+}

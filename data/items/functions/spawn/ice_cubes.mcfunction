@@ -1,25 +1,10 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:command_block",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Ice Cubes",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            CustomModelData:10001001,\
-            ice_cubes:1,\
-            BlockEntityTag:{\
-                id:"minecraft:command_block",\
-                Command:"setblock ~ ~ ~ air",\
-                auto:1b\
-            }\
-        }\
-    }\
+$function items:spawn/base/custom/normal {\
+    display_name:"Ice Cubes",\
+    display_color:"FFFFFF",\
+    model_data:10001001,\
+    item_id:"ice_cubes",\
+    tags:"",\
+    count:$(count)\
 }

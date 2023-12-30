@@ -1,5 +1,7 @@
 #> unknown
 
+function machines:triggers/main
+
 execute if entity @e[type=#machines:machine,tag=machines.machine] run function machines:click_machine/main
 
 execute as @e[type=item_display,tag=machines.projection] run function machines:projection/clean

@@ -1,3 +1,4 @@
+#> machines:upgrades/add/visuals/as_item
 #> machines:quarry/recipes/copper/output
 #> machines:pulverizer/recipes/output/minecraft
 #> machines:pulverizer/recipes/output/lunartech

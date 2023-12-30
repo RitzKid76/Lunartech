@@ -1,20 +1,12 @@
 #> .:modifiers/loot_spawner/loot ?
 
-$summon item ~ ~ ~ {\
-    Tags:["items.restrict"],\
-    Item:{\
-        id:"minecraft:feather",\
-        Count:$(count)b,\
-        tag:{\
-            display:{\
-                Name:'{\
-                    "text":"Phantom Feather",\
-                    "color":"#FFFFFF",\
-                    "italic":false\
-                }'\
-            },\
-            CustomModelData:10000001,\
-            phantom_feather:1\
-        }\
-    }\
+$function items:spawn/base/custom/base {\
+    id:"minecraft:feather",\
+    display_name:"Phantom Feather",\
+    display_color:"FFFFFF",\
+    item_id:"phantom_feather",\
+    tags:"\
+        CustomModelData:10000001,\
+    ",\
+    count:$(count)\
 }
