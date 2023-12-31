@@ -1,7 +1,7 @@
 #> ./each
 
 data merge entity @s {\
-    Tags:["moon.boss.spawn","moon.boss.broodmother.spawn","lunartech.no_planet_transformation"],\
+    Tags:["moon.boss.spawn","moon.boss.broodmother.spawn","lunartech.planet.no_transformation"],\
     DeathLootTable:"moon:entities/boss_spawns/brood_spawn",\
     CustomName:'{"text":"Broodmother Spawn"}',\
     Attributes:[\

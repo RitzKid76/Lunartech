@@ -4,7 +4,7 @@ $data merge entity @s {\
     Tags:[\
         "objects.object",\
         "objects.meteor",\
-        "lunartech.no_planet_transformation"\
+        "lunartech.planet.no_transformation"\
     ],\
     CustomName:'{"text":"a $(name)"}',\
     Invulnerable:1b,\
