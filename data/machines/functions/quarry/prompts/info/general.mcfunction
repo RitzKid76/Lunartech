@@ -2,6 +2,7 @@
 
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\
-        "text":"\nTODO GENERAL","color":"#CCEFFA"\
+        "text":"\nTODO GENERAL",\
+        "color":"#CCEFFA"\
     }\
 ]

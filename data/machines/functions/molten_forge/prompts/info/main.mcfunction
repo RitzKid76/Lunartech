@@ -1,4 +1,5 @@
 #> ../main
+#> .:metal_press/prompts/main copy
 
 function machines:prompts/hide_button
 function machines:molten_forge/prompts/info/purpose
