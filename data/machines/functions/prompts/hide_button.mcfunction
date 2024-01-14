@@ -1,4 +1,5 @@
 #> .:quarry/prompts/info/main
+#> .:pulverizer/prompts/info/main
 #> .:biosphere/prompts/info/main
 
 tellraw @a[tag=machines.prompter,limit=1] [\
