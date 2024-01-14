@@ -1,5 +1,4 @@
 #> ../main
-#> .:metal_press/prompts/main copy
 
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\
