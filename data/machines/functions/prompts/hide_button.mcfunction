@@ -1,5 +1,6 @@
 #> .:quarry/prompts/info/main
 #> .:pulverizer/prompts/info/main
+#> .:molten_forge/prompts/info/main
 #> .:biosphere/prompts/info/main
 
 tellraw @a[tag=machines.prompter,limit=1] [\
