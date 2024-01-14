@@ -16,5 +16,5 @@ tellraw @a[tag=machines.prompter,limit=1] [\
     {\
         "text":"Metal Sheets",\
         "color":"#80959C"\
-    },\
+    }\
 ]
