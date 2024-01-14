@@ -2,15 +2,19 @@
 
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\
-        "text":"\nThrow items above the ",\
+        "text":"Compresses ",\
         "color":"#CCEFFA"\
     },\
     {\
-        "text":"Blast Furnace",\
+        "text":"Metal Ingots",\
         "color":"#80959C"\
     },\
     {\
-        "text":" to use them in recipes.",\
+        "text":" into ",\
         "color":"#CCEFFA"\
-    }\
+    },\
+    {\
+        "text":"Metal Sheets",\
+        "color":"#80959C"\
+    },\
 ]
