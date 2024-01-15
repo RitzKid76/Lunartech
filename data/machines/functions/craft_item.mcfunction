@@ -5,6 +5,7 @@
 #> .:metal_press/recipes/craft_item
 #> .:fuel_units/add_fuel/as_fuel
 #> .:coke_oven/recipes/craft_item
+#> .:coal_generator/recipes/craft_item
 #> .:biosphere/recipes/remove_item_count/remove
 
 particle smoke ~ ~ ~ .1 .1 .1 0 50 normal @a

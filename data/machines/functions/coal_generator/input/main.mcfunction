@@ -8,6 +8,5 @@ execute if entity @e[type=item,predicate=items:tag/craftable_with,predicate=mach
         fuel_type:"coal_generator",\
         distance:.7\
     }
-    
-# execute if entity @e[type=item,predicate=items:tag/craftable_with,predicate=!machines:fuel/coal_generator,distance=...7,limit=1] run return run function machines:coal_generator/input/has_item
-# scoreboard players operation @s machines.process_time = #coal_generator machines.process_time
+
+execute if predicate machines:machine_ready if function machines:coal_generator/recipes/main run function machines:coal_generator/recipes/craft_item
