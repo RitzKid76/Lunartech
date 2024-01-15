@@ -9,6 +9,9 @@ scoreboard players set #limit machines.biosphere.radiation_shield 8192
 scoreboard players set #coke_oven machines.process_time 200
 scoreboard players set #coke_oven machines.fuel 512
 
+scoreboard players set #coal_generator machines.process_time 200
+scoreboard players set #coal_generator machines.fuel 512
+
 scoreboard players set #metal_press machines.process_time 200
 scoreboard players set #metal_press machines.fuel 256
 
