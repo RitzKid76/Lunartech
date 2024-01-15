@@ -8,6 +8,8 @@
 #> .:metal_press/volume/check/break
 #> .:coke_oven/volume/check/place
 #> .:coke_oven/volume/check/break
+#> .:coal_generator/volume/check/place
+#> .:coal_generator/volume/check/break
 #> .:biosphere/volume/check/place
 #> .:biosphere/volume/check/break
 
