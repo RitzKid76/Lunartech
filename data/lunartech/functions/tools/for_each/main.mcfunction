@@ -2,7 +2,7 @@
 #> machines:quarry/prompts/main
 #> machines:quarry/break/has/main
 #> machines:as_parts
-#> extras:print_data
+#> extras:print/array
 
 $data modify storage lunartech:tools for_each.data_getter set value "$(data_getter)"
 $data modify storage lunartech:tools for_each.command_a set value "$(before_term)"

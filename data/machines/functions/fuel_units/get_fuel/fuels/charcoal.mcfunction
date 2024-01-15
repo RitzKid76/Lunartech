@@ -1,3 +1,3 @@
 #> .:fuel_units/add_fuel/main ?
 
-return 80
+return run function machines:fuel_units/get_fuel/fuels/base/coal

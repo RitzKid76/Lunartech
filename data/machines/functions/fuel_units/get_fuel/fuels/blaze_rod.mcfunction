@@ -1,3 +1,3 @@
 #> .:fuel_units/add_fuel/main ?
 
-return 120
+return 1200

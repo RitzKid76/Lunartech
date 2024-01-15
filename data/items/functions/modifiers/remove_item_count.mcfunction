@@ -18,7 +18,7 @@
 #> machines:industrial_crafter/recipes/rubber_ball/dye/output
 #> machines:industrial_crafter/recipes/rubber_ball/craft/output
 #> machines:industrial_crafter/recipes/diamond/output
-#> machines:fuel_units/add_fuel/add_fuel
+#> machines:fuel_units/add_fuel/as_fuel
 #> machines:coke_oven/recipes/diamond_dust/output
 #> machines:biosphere/recipes/remove_item_count/remove
 
