@@ -9,3 +9,4 @@ execute if entity @s[tag=machines.metal_press] if entity @a[distance=..30] run r
 execute if entity @s[tag=machines.molten_forge] if entity @a[distance=..30] run return run function machines:molten_forge/main
 execute if entity @s[tag=machines.pulverizer] if entity @a[distance=..30] run return run function machines:pulverizer/main
 execute if entity @s[tag=machines.quarry] if entity @a[distance=..30] run return run function machines:quarry/main
+execute if entity @s[tag=machines.coal_generator] if entity @a[distance=..30] run return run function machines:coal_generator/main

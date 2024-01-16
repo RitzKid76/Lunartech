@@ -1,3 +1,3 @@
-#> ../get_fuel ?
+#> .:fuel_units/add_fuel/main ?
 
-return 72
+return 8000

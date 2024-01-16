@@ -1,8 +1,14 @@
+#> .:quarry/prompts/info/main
+#> .:pulverizer/prompts/info/main
+#> .:molten_forge/prompts/info/main
+#> .:metal_press/prompts/info/main
+#> .:coal_generator/prompts/info/main
 #> .:biosphere/prompts/info/main
 
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\
-        "text":"[","color":"#707070"\
+        "text":"[",\
+        "color":"#707070"\
     },\
     {\
         "text":"X",\
@@ -22,6 +28,7 @@ tellraw @a[tag=machines.prompter,limit=1] [\
         }\
     },\
     {\
-        "text":"]","color":"#707070"\
+        "text":"]",\
+        "color":"#707070"\
     }\
 ]
