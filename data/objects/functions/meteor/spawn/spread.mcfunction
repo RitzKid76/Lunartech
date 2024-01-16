@@ -1,3 +1,4 @@
+#> ./chance
 #> moon:weather/meteor_shower/tick
 
 summon marker ~ ~ ~ {Tags:["objects.meteor.spread"]}

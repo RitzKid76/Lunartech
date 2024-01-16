@@ -1,4 +1,4 @@
-#> unknown
+#> ../events
 
 function moon:mobs/boss/broodmother/sounds/attack/brood_spawn/spit
 function objects:web/spawn

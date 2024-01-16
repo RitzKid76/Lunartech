@@ -1,4 +1,4 @@
-#> unknown
+#> ./spawn
 
 $data modify storage objects:meteor direction set value $(direction)
 

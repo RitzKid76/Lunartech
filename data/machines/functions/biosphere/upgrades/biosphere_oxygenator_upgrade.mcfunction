@@ -1,4 +1,4 @@
-#> unknown
+#> ./condition
 
 scoreboard players set @s machines.biosphere.oxygen 0
 

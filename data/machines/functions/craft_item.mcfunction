@@ -3,7 +3,9 @@
 #> .:pulverizer/recipes/craft_item
 #> .:molten_forge/recipes/craft_item
 #> .:metal_press/recipes/craft_item
+#> .:industrial_crafter/main
 #> .:fuel_units/add_fuel/add_fuel
+#> .:cooking_station/main
 #> .:coke_oven/recipes/craft_item
 #> .:biosphere/recipes/remove_item_count/remove
 

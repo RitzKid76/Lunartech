@@ -1,4 +1,4 @@
-#> unknown
+#> ../main
 
 function lunartech:tools/as_uuid/main {\
     data_getter:"storage machines:upgrades UUID",\

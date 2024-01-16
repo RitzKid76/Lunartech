@@ -1,4 +1,4 @@
-#> unknown
+#> ../main
 
 function machines:as_parts {\
     type:"prompt",\

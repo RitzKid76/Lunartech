@@ -1,4 +1,4 @@
-#> unknown
+#> .:pulverizer/input/has_item
 
 function machines:pulverizer/sounds/finish
 
