@@ -1,4 +1,4 @@
-#> unknown
+#> server minecraft:load
 
 function lunartech:package/scoreboards/add
 function lunartech:package/teams/add

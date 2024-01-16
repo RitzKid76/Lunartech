@@ -1,4 +1,4 @@
-#> unknown
+#> server minecraft:tick
 
 function machines:triggers/main
 

@@ -1,1 +1,1 @@
-#> unknown
+#> server minecraft:tick
