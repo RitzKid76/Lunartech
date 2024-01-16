@@ -1,3 +1,3 @@
-#> unknown
+#> ../main
 
 kill @s

@@ -1,4 +1,4 @@
-#> unknown
+#> server minecraft:tick
 
 execute as @e[type=armor_stand,tag=objects.spawn_object] at @s run function objects:place/main
 

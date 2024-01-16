@@ -1,4 +1,4 @@
-#> unknown
+#> ./condition
 
 data modify entity @s data.color set from storage machines:upgrades item.tag.color
 

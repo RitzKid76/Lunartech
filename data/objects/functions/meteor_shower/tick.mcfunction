@@ -1,4 +1,4 @@
-#> unknown
+#> ./main
 
 function objects:meteor/spawn/spread
 

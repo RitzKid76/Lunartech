@@ -1,4 +1,4 @@
-#> unknown
+#> ./condition
 
 execute store result score biosphere.radius machines.state run data get entity @s data.radius 1
 execute store result entity @s data.radius int 1 run scoreboard players add biosphere.radius machines.state 5

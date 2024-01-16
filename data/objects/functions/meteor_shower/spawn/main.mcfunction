@@ -1,4 +1,4 @@
-#> unknown
+#> ./chance
 
 summon armor_stand ~ ~ ~ {\    
     Invisible:1b,\

@@ -1,4 +1,4 @@
-#> unknown
+#> .:biosphere/input/has_item
 
 scoreboard players operation @s machines.fuel -= fuel_used machines.fuel
 

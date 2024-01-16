@@ -1,3 +1,4 @@
+#> .:mobs/entity/types/phantom
 #> .:mobs/entity/entity ?
 
 data merge entity @s {\
