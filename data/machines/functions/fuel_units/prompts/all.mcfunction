@@ -1,4 +1,5 @@
-#> unknown
+#> .:quarry/prompts/info/main
+#> .:metal_press/prompts/info/main
 
 tellraw @a[tag=machines.prompter,limit=1] [\
     {\

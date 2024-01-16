@@ -2,6 +2,7 @@
 #> .:pulverizer/place
 #> .:molten_forge/place
 #> .:metal_press/place
+#> .:coal_generator/place
 #> .:biosphere/place
 
 $summon marker ^ ^ ^ {\

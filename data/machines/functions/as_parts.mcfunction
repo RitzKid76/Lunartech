@@ -17,6 +17,7 @@
 #> .:pulverizer/break/main
 #> .:molten_forge/break/main
 #> .:metal_press/break/main
+#> .:coal_generator/break/main
 #> .:biosphere/break/parts
 
 $function lunartech:tools/for_each/main {\

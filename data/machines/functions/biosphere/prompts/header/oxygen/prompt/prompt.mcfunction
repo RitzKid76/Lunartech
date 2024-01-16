@@ -2,7 +2,8 @@
 
 $tellraw @a[tag=machines.prompter,limit=1] [\
     {\
-        "text":"[","color":"#707070"\
+        "text":"[",\
+        "color":"#707070"\
     },\
     {\
         "score":{\
@@ -12,7 +13,8 @@ $tellraw @a[tag=machines.prompter,limit=1] [\
         "color":"#80959C"\
     },\
     {\
-        "text":" / ","color":"#CCEFFA"\
+        "text":" / ",\
+        "color":"#CCEFFA"\
     },\
     {\
         "score":{\
@@ -22,13 +24,16 @@ $tellraw @a[tag=machines.prompter,limit=1] [\
         "color":"#80959C"\
     },\
     {\
-        "text":" Oxygen","color":"#CCEFFA"\
+        "text":" Oxygen",\
+        "color":"#CCEFFA"\
     },\
     {\
-        "text":"]","color":"#707070"\
+        "text":"]",\
+        "color":"#707070"\
     },\
     {\
-        "text":" (","color":"#707070"\
+        "text":" (",\
+        "color":"#707070"\
     },\
     $(symbol),\
     {\
@@ -39,7 +44,8 @@ $tellraw @a[tag=machines.prompter,limit=1] [\
         "color":"#80959C"\
     },\
     {\
-        "text":".$(decimal)","color":"#80959C"\
+        "text":".$(decimal)",\
+        "color":"#80959C"\
     },\
     {\
         "score":{\
@@ -49,9 +55,11 @@ $tellraw @a[tag=machines.prompter,limit=1] [\
         "color":"#80959C"\
     },\
     {\
-        "text":" / sec","color":"#CCEFFA"\
+        "text":" / sec",\
+        "color":"#CCEFFA"\
     },\
     {\
-        "text":")","color":"#707070"\
+        "text":")",\
+        "color":"#707070"\
     }\
 ]

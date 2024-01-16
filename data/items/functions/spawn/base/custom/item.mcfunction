@@ -1,4 +1,3 @@
-#> machines:pulverizer/recipes/output/minecraft
 #> machines:molten_forge/recipes/netherite_scrap/output
 #> machines:molten_forge/recipes/martian_metal_ingot/output
 #> machines:molten_forge/recipes/lunar_metal_ingot/output
@@ -9,6 +8,7 @@
 #> machines:industrial_crafter/recipes/diamond/output
 #> machines:fuel_units/add_fuel/conversion/types/lava_bucket
 #> .:spawn/mob_container
+#> ../minecraft
 #> .:spawn/base/machine_upgrade/base
 #> .:modifiers/loot_spawner/loot ?
 #> ./base

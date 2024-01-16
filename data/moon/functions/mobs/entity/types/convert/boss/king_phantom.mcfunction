@@ -2,7 +2,7 @@
 #> .:mobs/entity/entity ?
 
 data merge entity @s {\
-    Tags:["moon.boss","moon.boss.king_phantom","lunartech.no_planet_transformation"],\
+    Tags:["moon.boss","moon.boss.king_phantom","lunartech.planet.no_transformation"],\
     PersistenceRequired:1b,\
     DeathLootTable:"moon:entities/bosses/king_phantom",\
     Size:100,\

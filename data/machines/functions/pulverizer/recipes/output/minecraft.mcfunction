@@ -2,10 +2,9 @@
 
 $function items:modifiers/remove_item_count {count:$(in_count)}
 
-$execute positioned ^2 ^ ^ run function items:spawn/base/custom/item {\
-    id:"minecraft:$(id)",\
-    count:$(out_count),\
-    tags:{}\
+$execute positioned ^2 ^ ^ run function items:spawn/base/minecraft {\
+    id:"$(id)",\
+    count:$(out_count)\
 }
 
 $function machines:fuel_units/use {count:$(fuel)}

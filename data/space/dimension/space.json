@@ -1,0 +1,24 @@
+{
+  "type": "space:space_type",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+        {
+          "parameters": {
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
+          },
+          "biome": "space:void"
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "settings": "space:space_terrain",
+    "type": "minecraft:noise"
+  }
+}
