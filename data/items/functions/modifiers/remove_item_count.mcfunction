@@ -17,6 +17,9 @@
 #> machines:industrial_crafter/recipes/space_suit/craft/boots/output
 #> machines:industrial_crafter/recipes/rubber_ball/dye/output
 #> machines:industrial_crafter/recipes/rubber_ball/craft/output
+#> machines:industrial_crafter/recipes/machine_upgrade/upgrades/color_upgrade/output
+#> machines:industrial_crafter/recipes/machine_upgrade/remove_blank_upgrade
+#> machines:industrial_crafter/recipes/machine_upgrade/color_upgrade_dying/output
 #> machines:industrial_crafter/recipes/diamond/output
 #> machines:fuel_units/add_fuel/as_fuel
 #> machines:coke_oven/recipes/diamond_dust/output

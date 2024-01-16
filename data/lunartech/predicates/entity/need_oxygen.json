@@ -1,0 +1,35 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"lunartech.planet.entity\"]}"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "lunartech:entity/has_oxygen"
+                    }
+                ]
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "#lunartech:need_oxygen"
+            }
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "lunartech:on_planet"
+        }
+    ]
+}

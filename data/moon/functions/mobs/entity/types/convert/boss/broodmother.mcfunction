@@ -1,7 +1,7 @@
 #> .:mobs/entity/entity ?
 
 data merge entity @s {\
-    Tags:["moon.boss","moon.boss.broodmother","lunartech.no_planet_transformation"],\
+    Tags:["moon.boss","moon.boss.broodmother","lunartech.planet.no_transformation"],\
     PersistenceRequired:1b,\
     DeathLootTable:"moon:entities/bosses/broodmother",\
     CustomName:'{"text":"Broodmother"}',\
