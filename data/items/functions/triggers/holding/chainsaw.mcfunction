@@ -1,4 +1,4 @@
-#> advancement items:triggers/holding/chainsaw
+#> advancement .:triggers/holding/chainsaw
 
 advancement revoke @s only items:triggers/holding/chainsaw
 

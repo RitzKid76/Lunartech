@@ -1,4 +1,4 @@
-#> advancement items:triggers/custom_foods/lunar_berries
+#> advancement .:triggers/custom_foods/lunar_berries
 
 advancement revoke @s only items:triggers/custom_foods/lunar_berries
 

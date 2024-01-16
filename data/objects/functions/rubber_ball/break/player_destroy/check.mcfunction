@@ -1,4 +1,4 @@
-#> advancement objects:trigger/click_rubber_ball
+#> advancement .:trigger/click_rubber_ball
 
 advancement revoke @s only objects:trigger/click_rubber_ball
 

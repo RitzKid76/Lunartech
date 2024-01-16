@@ -1,4 +1,4 @@
-#> advancement items:triggers/holding/machine
+#> advancement .:triggers/holding/machine
 
 advancement revoke @s only items:triggers/holding/machine
 

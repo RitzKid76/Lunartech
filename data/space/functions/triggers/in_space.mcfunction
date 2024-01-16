@@ -1,4 +1,4 @@
-#> advancement space:triggers/in_space
+#> advancement .:triggers/in_.
 
 advancement revoke @s only space:triggers/in_space
 

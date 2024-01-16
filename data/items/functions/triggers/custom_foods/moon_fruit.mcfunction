@@ -1,4 +1,4 @@
-#> advancement items:triggers/custom_foods/moon_fruit
+#> advancement .:triggers/custom_foods/moon_fruit
 
 advancement revoke @s only items:triggers/custom_foods/moon_fruit
 
