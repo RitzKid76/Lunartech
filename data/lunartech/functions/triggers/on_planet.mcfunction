@@ -1,4 +1,4 @@
-#> unknown
+#> advancement lunartech:triggers/on_planet
 
 advancement revoke @s only lunartech:triggers/on_planet
 
