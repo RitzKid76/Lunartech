@@ -1,6 +1,4 @@
-#> .:coal_generator/input/main
+#> .:coal_generator/input/has_fuel
 
-execute if predicate machines:fuel/count/800 run return run \
-    function machines:coal_generator/recipes/coal
-# else
-    return 0
+# no condition since condition is built into function call
+return run function machines:coal_generator/recipes/coal
