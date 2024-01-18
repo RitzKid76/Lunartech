@@ -28,6 +28,7 @@
 #> .:spawn/lunar_metal_sheet
 #> .:spawn/lunar_metal_ingot
 #> .:spawn/lunar_metal_dust
+#> .:spawn/loot_spawner_error
 #> .:spawn/lead_sheet
 #> .:spawn/lead_ingot
 #> .:spawn/lead_dust

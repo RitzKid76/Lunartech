@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{item:\"magenta_lunar_mushroom_spore\",count:1,CustomModelData:10020001,loot_spawner:1}"
+                            "tag": "{item:\"loot_spawner_error\",CustomModelData:10020001,loot_spawner:1}"
                         }
                     ],
                     "conditions": []
