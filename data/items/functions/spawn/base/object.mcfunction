@@ -1,3 +1,4 @@
+#> ../rubber_tree_sapling
 #> ../quarry_marker
 #> ../magenta_lunar_mushroom_spore
 #> ../blue_lunar_mushroom_spore

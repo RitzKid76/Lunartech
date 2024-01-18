@@ -1,3 +1,4 @@
+#> .:rubber_tree_sapling/place/place
 #> .:magenta_lunar_mushroom_spore/place/place
 #> .:blue_lunar_mushroom_spore/place/place
 

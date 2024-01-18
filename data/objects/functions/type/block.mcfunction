@@ -1,3 +1,4 @@
+#> .:rubber_tree_sapling/place/condition
 #> .:quarry_marker/place/condition
 #> .:magenta_lunar_mushroom_spore/place/condition
 #> .:blue_lunar_mushroom_spore/place/condition

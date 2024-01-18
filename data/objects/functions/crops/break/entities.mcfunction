@@ -1,3 +1,4 @@
+#> .:rubber_tree_sapling/growth/stage
 #> .:magenta_lunar_mushroom_spore/growth/stage
 #> ./main
 #> .:blue_lunar_mushroom_spore/growth/stage
