@@ -1,3 +1,4 @@
+#> .:spawn/rubber_tree_tap
 #> ../object
 #> ../machine
 #> .:modifiers/loot_spawner/loot ?
