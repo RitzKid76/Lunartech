@@ -5,6 +5,6 @@
 #> machines:spawn
 #> machines:place/armor_stand/spawn/main
 
-$loot spawn ~ ~ ~ loot items:spawn/$(item)
+loot spawn ~ ~ ~ loot items:spawn/loot_spawner
 # force resolve item
-execute as @e[type=item,nbt={Item:{tag:{loot_spawner:1}}}] at @s run function items:modifiers/loot_spawner/main
+$execute as @e[type=item,nbt={Item:{tag:{loot_spawner:1}}}] at @s run function items:modifiers/loot_spawner/main {item:"$(item)",count:$(count)}

@@ -5,4 +5,7 @@ function lunartech:tools/as_uuid/main {\
     command:"run kill @s"\
 }
 
-$function items:spawn {item:"$(color)_rubber_ball"}
+$function items:spawn {\
+    item:"$(color)_rubber_ball",\
+    count:1\
+}
