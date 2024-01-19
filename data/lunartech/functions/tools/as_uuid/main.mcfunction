@@ -1,3 +1,4 @@
+#> objects:rubber_tree/break/main
 #> objects:rubber_ball/display_part/update_position
 #> objects:rubber_ball/break/drops
 #> objects:quarry_marker/break/drops
