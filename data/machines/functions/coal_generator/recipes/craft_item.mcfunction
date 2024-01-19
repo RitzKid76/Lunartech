@@ -1,4 +1,4 @@
-#> unknown
+#> .:coal_generator/input/has_fuel
 
 function machines:coal_generator/sounds/finish
 

@@ -1,3 +1,4 @@
+#> .:mobs/entity/types/spider
 #> .:mobs/entity/entity ?
 
 data merge entity @s {\

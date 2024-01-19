@@ -1,4 +1,4 @@
-#> unknown
+#> advancement .:triggers/wearing/has_oxygen
 
 advancement revoke @s only items:triggers/wearing/has_oxygen
 

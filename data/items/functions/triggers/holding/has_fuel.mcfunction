@@ -1,4 +1,4 @@
-#> unknown
+#> advancement .:triggers/holding/has_fuel
 
 advancement revoke @s only items:triggers/holding/has_fuel
 

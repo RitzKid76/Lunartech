@@ -1,4 +1,4 @@
-#> unknown
+#> advancement .:triggers/custom_foods/lunar_carrot
 
 advancement revoke @s only items:triggers/custom_foods/lunar_carrot
 

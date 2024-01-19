@@ -1,3 +1,4 @@
+#> ../creeper
 #> .:mobs/entity/entity ?
 
 data merge entity @s {\

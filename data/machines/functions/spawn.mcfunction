@@ -1,3 +1,4 @@
+#> .:rubber_tree_tap/break/drops
 #> .:quarry/break/drops
 #> .:pulverizer/break/drops
 #> .:molten_forge/break/drops

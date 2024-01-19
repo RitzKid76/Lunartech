@@ -1,3 +1,4 @@
+#> .:mobs/entity/types/wither_skeleton
 #> .:mobs/entity/entity ?
 
 data merge entity @s {\

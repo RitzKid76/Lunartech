@@ -1,3 +1,4 @@
+#> .:mobs/entity/types/magma_cube
 #> .:mobs/entity/entity ?
 
 data merge entity @s {\
