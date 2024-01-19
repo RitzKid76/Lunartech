@@ -1,7 +1,7 @@
-#> .:rubber_tree_sapling/growth/stage
-#> .:magenta_lunar_mushroom_spore/growth/stage
+#> .:rubber_tree_sapling/growth/finish
+#> .:magenta_lunar_mushroom_spore/growth/finish
 #> ./main
-#> .:blue_lunar_mushroom_spore/growth/stage
+#> .:blue_lunar_mushroom_spore/growth/finish
 
 function lunartech:tools/as_uuid/main {\
     data_getter:"entity @s item.tag.hitbox",\

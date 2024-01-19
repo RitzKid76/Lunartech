@@ -8,3 +8,4 @@ execute as @e[type=marker,tag=objects.meteor_deflection] at @s run function obje
 execute as @e[type=slime,tag=objects.rubber_ball] at @s run function objects:rubber_ball/main
 execute as @e[type=item_display,tag=objects.quarry_marker] at @s run function objects:quarry_marker/main
 execute as @e[type=marker,tag=objects.web] at @s run function objects:web/main
+execute as @e[type=marker,tag=objects.rubber_tree] at @s run function objects:rubber_tree/main
