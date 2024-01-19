@@ -13,7 +13,7 @@ $function items:spawn/base/custom/placeable {\
             false:10020017,\
             x:0,\
             y:1,\
-            z:0,\
+            z:1,\
             scale:1,\
             name:\\\"rubber_tree_tap\\\"\
         },\

@@ -1,4 +1,4 @@
-#> unknown
+#> server minecraft:tick
 
 execute as @e[type=item,nbt={Item:{tag:{}}}] at @s run function items:modifiers/main
 

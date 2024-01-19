@@ -1,3 +1,7 @@
 #> ./machine_properties ?
 
-$function machines:$(machine)/place {rotation:"clockwise_90",angle:90}
+$function machines:$(machine)/place {\
+    rotation:"clockwise_90",\
+    angle:90,\
+    facing:"west"\
+}
