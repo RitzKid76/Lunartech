@@ -11,6 +11,12 @@ $data merge entity @s {\
     }\
 }
 
-$function machines:place/armor_stand/spawn/$(rotation) {machine:$(machine)}
+
+$function machines:place/armor_stand/spawn/rotations/$(rotation)
+$data modify storage machines:properties placement.machine set value "$(machine)"
+data modify entity @s data.state set from storage machines:properties placement
+
+$function machines:$(machine)/place with storage machines:properties placement
+
 $scoreboard players set @s machines.fuel $(fuel)
 tag @e[type=marker,tag=machines.new_part,limit=1] remove machines.new_part

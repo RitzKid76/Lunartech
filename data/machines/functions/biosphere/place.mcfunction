@@ -1,4 +1,4 @@
-#> .:place/armor_stand/spawn/90 ?
+#> .:place/armor_stand/spawn/machine_properties ?
 
 data modify entity @s data.radius set value 10
 data modify entity @s data.color set value normal

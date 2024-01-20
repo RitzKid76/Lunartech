@@ -1,4 +1,4 @@
-#> .:place/armor_stand/spawn/90 ?
+#> .:place/armor_stand/spawn/machine_properties ?
 
 $place template machines:quarry ^-1 ^ ^ $(rotation)
 $function machines:prompts/add_prompt {angle:$(angle),machine:"quarry"}
