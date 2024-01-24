@@ -1,5 +1,4 @@
 #> objects:web/main
-#> objects:rubber_tree/decorate_trunk/step
 #> objects:quarry_marker/main
 #> objects:meteor_shower/spawn/chance
 #> objects:meteor_shower/main
