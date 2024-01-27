@@ -4,6 +4,7 @@
 #> ../pulverizer
 #> ../molten_forge
 #> ../metal_press
+#> ../dark_enchanter
 #> ../coke_oven
 #> ../coal_generator
 #> ../biosphere
