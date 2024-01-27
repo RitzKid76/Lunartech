@@ -1,3 +1,4 @@
+#> machines:industrial_crafter/recipes/machines/coal_generator/output
 #> .:modifiers/loot_spawner/loot ?
 
 $function items:spawn/base/machine {\

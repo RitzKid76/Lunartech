@@ -20,6 +20,7 @@
 #> machines:industrial_crafter/recipes/machine_upgrade/upgrades/color_upgrade/output
 #> machines:industrial_crafter/recipes/machine_upgrade/remove_blank_upgrade
 #> machines:industrial_crafter/recipes/machine_upgrade/color_upgrade_dying/output
+#> machines:industrial_crafter/recipes/machines/coal_generator/output
 #> machines:industrial_crafter/recipes/diamond/output
 #> machines:fuel_units/add_fuel/as_fuel
 #> machines:coke_oven/recipes/diamond_dust/output
