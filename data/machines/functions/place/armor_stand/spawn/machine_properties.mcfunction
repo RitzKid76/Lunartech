@@ -11,6 +11,7 @@ $data merge entity @s {\
     }\
 }
 
+$scoreboard players operation @s machines.process_time = #$(machine) machines.process_time
 
 $function machines:place/armor_stand/spawn/rotations/$(rotation)
 $data modify storage machines:properties placement.machine set value "$(machine)"
