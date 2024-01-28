@@ -1,3 +1,4 @@
+#> machines:industrial_crafter/recipes/machines/coke_oven/output
 #> .:modifiers/loot_spawner/loot ?
 
 $function items:spawn/base/machine {\
