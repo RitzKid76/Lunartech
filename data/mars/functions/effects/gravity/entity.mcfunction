@@ -1,7 +1,8 @@
 #> ../main
 
 tag @s add mars.gravity
-effect give @s slow_falling infinite 0 true
-effect give @s jump_boost infinite 0 true
 
-data modify entity @s[type=#lunartech:float_gravity] NoGravity set value 1
+execute if entity @s[type=!#lunartech:float_gravity,predicate=!mars:ignore_gravity] run return run \
+    function mars:effects/gravity/player
+# else
+    data modify entity @s[type=#lunartech:float_gravity] NoGravity set value 1
