@@ -1,4 +1,4 @@
-#> .:triggers/in_.
+#> .:triggers/in_moon
 #> ./entity
 
 tag @s add moon.gravity

@@ -1,4 +1,4 @@
-#> advancement .:triggers/in_.
+#> advancement .:triggers/in_mars
 
 advancement revoke @s only mars:triggers/in_mars
 

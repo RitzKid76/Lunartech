@@ -1,4 +1,4 @@
-#> .:triggers/in_.
+#> .:triggers/in_mars
 #> ./entity
 
 tag @s add mars.gravity
